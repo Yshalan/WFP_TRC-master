@@ -1,0 +1,26 @@
+﻿<%@ Control Language="VB" AutoEventWireup="false" CodeFile="LeftMenu.ascx.vb" Inherits="UserControls_LeftMenu" %>
+<%@ Import Namespace="SmartV.UTILITIES" %>
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<!-- Sidebar -->
+<div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <li class="Title_block">
+            <i class="fa fa-user"></i>
+            <asp:Label ID="lblHead" CssClass="SVlabel" runat="server" Text="Head"></asp:Label>
+        </li>
+        <li class="clear"></li>
+        <asp:Repeater ID="Repeater1" runat="server">
+            <ItemTemplate>
+                <li>
+                    <a href='<%#Eval("FormPath").ToString().Replace("//", "/")%>'>
+                        <span class="menu-text"><%# Eval(IIf(SessionVariables.CultureInfo = "en-US", "Desc_En", "Desc_Ar"))%></span>
+                        <span class="menu-icon">
+                            <%--   <asp:Image ID="Image3" ImageU rl="../assets/img/icn-dashbord1.png" runat="server" />--%>
+                            <i class="fa fa-angle-right"></i>
+                        </span>
+                    </a>
+                </li>
+            </ItemTemplate>
+        </asp:Repeater>
+    </ul>
+</div>

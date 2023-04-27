@@ -1,0 +1,2719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GridBoundColumnResource1.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource10.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource11.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource12.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource13.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource14.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource15.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource16.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource2.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource3.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource4.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource5.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource6.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource7.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource8.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource9.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnClearResource1.Text" xml:space="preserve">
+    <value>مسح</value>
+  </data>
+  <data name="btnClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteMaximumAllowedResource1.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="btnDeleteMaximumAllowedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteResource1.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="btnDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRemoveAllowedDurationResource1.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="btnRemoveAllowedDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveAllowedDurationResource1.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="btnSaveAllowedDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveAllowedOccuranceResource1.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="btnSaveAllowedOccuranceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveResource1.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="btnSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chckApprovalRequiredResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chckApprovalRequiredResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chckIsConsiderInWorkResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chckIsConsiderInWorkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkResource3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbBxRadLeaveTypesResource1.EmptyMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbBxRadLeaveTypesResource1.LoadingMessage" xml:space="preserve">
+    <value>تحميل...</value>
+  </data>
+  <data name="cmbBxRadLeaveTypesResource1.Localization.NoMatches" xml:space="preserve">
+    <value>لايوجد تطابق</value>
+  </data>
+  <data name="cmbBxRadLeaveTypesResource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="cmbBxRadLeaveTypesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbBxTaReasonResource1.EmptyMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbBxTaReasonResource1.LoadingMessage" xml:space="preserve">
+    <value>تحميل...</value>
+  </data>
+  <data name="cmbBxTaReasonResource1.Localization.NoMatches" xml:space="preserve">
+    <value>لايوجد تطابق</value>
+  </data>
+  <data name="cmbBxTaReasonResource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="cmbBxTaReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.BackImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.ClientSettings.ClientMessages.ColumnResizeTooltipFormatString" xml:space="preserve">
+    <value>Width: &lt;strong&gt;{0}&lt;/strong&gt; &lt;em&gt;pixels&lt;/em&gt;</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.ClientSettings.ClientMessages.DragToGroupOrReorder" xml:space="preserve">
+    <value>Drag to group or reorder</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.ClientSettings.ClientMessages.DragToResize" xml:space="preserve">
+    <value>Drag to resize</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.ClientSettings.ClientMessages.DropHereToReorder" xml:space="preserve">
+    <value>Drop here to reorder</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.ClientSettings.ClientMessages.PagerTooltipFormatString" xml:space="preserve">
+    <value>Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.FilterMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.GroupingSettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse group</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.GroupingSettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand group</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.GroupingSettings.GroupByFieldsSeparator" xml:space="preserve">
+    <value>; </value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.GroupingSettings.GroupContinuedFormatString" xml:space="preserve">
+    <value>... group continued from the previous page. </value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.GroupingSettings.GroupContinuesFormatString" xml:space="preserve">
+    <value> Group continues on the next page.</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.GroupingSettings.GroupSplitDisplayFormat" xml:space="preserve">
+    <value>Showing {0} of {1} items.</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.GroupingSettings.GroupSplitFormat" xml:space="preserve">
+    <value> ({0})</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.GroupingSettings.UnGroupButtonTooltip" xml:space="preserve">
+    <value>Click here to ungroup</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.GroupingSettings.UnGroupTooltip" xml:space="preserve">
+    <value>Drag out of the bar to ungroup</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.GroupPanel.Text" xml:space="preserve">
+    <value>Drag a column header and drop it here to group by that column</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.GroupPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.HeaderContextMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.HierarchySettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.HierarchySettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.HierarchySettings.SelfCollapseTooltip" xml:space="preserve">
+    <value>Self reference collapse</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.HierarchySettings.SelfExpandTooltip" xml:space="preserve">
+    <value>Self reference expand</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.CommandItemSettings.AddNewRecordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.CommandItemSettings.AddNewRecordText" xml:space="preserve">
+    <value>اضافة سجل جديد</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.CommandItemSettings.ExportToCsvImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.CommandItemSettings.ExportToCsvText" xml:space="preserve">
+    <value>Export to CSV</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.CommandItemSettings.ExportToExcelImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.CommandItemSettings.ExportToExcelText" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.CommandItemSettings.ExportToPdfImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.CommandItemSettings.ExportToPdfText" xml:space="preserve">
+    <value>Export to Pdf</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.CommandItemSettings.ExportToWordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.CommandItemSettings.ExportToWordText" xml:space="preserve">
+    <value>Export to Word</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.CommandItemSettings.RefreshImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.CommandItemSettings.RefreshText" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.EditFormSettings.CaptionFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.EditFormSettings.InsertCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.ExpandCollapseColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.ExpandCollapseColumn.CollapseImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.ExpandCollapseColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.ExpandCollapseColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.ExpandCollapseColumn.ExpandImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.ExpandCollapseColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.ExpandCollapseColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.ExpandCollapseColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.ExpandCollapseColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.ExpandCollapseColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.ExpandCollapseColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.ExpandCollapseColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.ExpandCollapseColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.FilterExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.NoDetailRecordsText" xml:space="preserve">
+    <value>لايوجد سجلات للعرض</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.NoMasterRecordsText" xml:space="preserve">
+    <value>لايوجد سجلات للعرض</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>الصفحة الاولى</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>الصفحة الاخيرة</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.RowIndicatorColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.RowIndicatorColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.RowIndicatorColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.RowIndicatorColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.RowIndicatorColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.RowIndicatorColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.RowIndicatorColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.RowIndicatorColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.RowIndicatorColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.RowIndicatorColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.RowIndicatorColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.Summary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.MasterTableView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>الصفحة الاولى</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>الصفحة الاخيرة</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdAllowedDurationResource1.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.SortingSettings.SortedAscToolTip" xml:space="preserve">
+    <value>ترتيب تصاعدي</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.SortingSettings.SortedDescToolTip" xml:space="preserve">
+    <value>ترتيب تنازلي</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.SortingSettings.SortToolTip" xml:space="preserve">
+    <value>اضغط هنا للترتيب</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.StatusBarSettings.LoadingText" xml:space="preserve">
+    <value>تحميل...</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.StatusBarSettings.ReadyText" xml:space="preserve">
+    <value>جاهز</value>
+  </data>
+  <data name="dgrdAllowedDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.BackImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.ClientSettings.ClientMessages.ColumnResizeTooltipFormatString" xml:space="preserve">
+    <value>Width: &lt;strong&gt;{0}&lt;/strong&gt; &lt;em&gt;pixels&lt;/em&gt;</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.ClientSettings.ClientMessages.DragToGroupOrReorder" xml:space="preserve">
+    <value>Drag to group or reorder</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.ClientSettings.ClientMessages.DragToResize" xml:space="preserve">
+    <value>Drag to resize</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.ClientSettings.ClientMessages.DropHereToReorder" xml:space="preserve">
+    <value>Drop here to reorder</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.ClientSettings.ClientMessages.PagerTooltipFormatString" xml:space="preserve">
+    <value>Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.FilterMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.GroupingSettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse group</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.GroupingSettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand group</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.GroupingSettings.GroupByFieldsSeparator" xml:space="preserve">
+    <value>; </value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.GroupingSettings.GroupContinuedFormatString" xml:space="preserve">
+    <value>... group continued from the previous page. </value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.GroupingSettings.GroupContinuesFormatString" xml:space="preserve">
+    <value> Group continues on the next page.</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.GroupingSettings.GroupSplitDisplayFormat" xml:space="preserve">
+    <value>Showing {0} of {1} items.</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.GroupingSettings.GroupSplitFormat" xml:space="preserve">
+    <value> ({0})</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.GroupingSettings.UnGroupButtonTooltip" xml:space="preserve">
+    <value>Click here to ungroup</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.GroupingSettings.UnGroupTooltip" xml:space="preserve">
+    <value>Drag out of the bar to ungroup</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.GroupPanel.Text" xml:space="preserve">
+    <value>Drag a column header and drop it here to group by that column</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.GroupPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.HeaderContextMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.HierarchySettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.HierarchySettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.HierarchySettings.SelfCollapseTooltip" xml:space="preserve">
+    <value>Self reference collapse</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.HierarchySettings.SelfExpandTooltip" xml:space="preserve">
+    <value>Self reference expand</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.CommandItemSettings.AddNewRecordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.CommandItemSettings.AddNewRecordText" xml:space="preserve">
+    <value>اضافة سجل جديد</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.CommandItemSettings.ExportToCsvImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.CommandItemSettings.ExportToCsvText" xml:space="preserve">
+    <value>Export to CSV</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.CommandItemSettings.ExportToExcelImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.CommandItemSettings.ExportToExcelText" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.CommandItemSettings.ExportToPdfImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.CommandItemSettings.ExportToPdfText" xml:space="preserve">
+    <value>Export to Pdf</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.CommandItemSettings.ExportToWordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.CommandItemSettings.ExportToWordText" xml:space="preserve">
+    <value>Export to Word</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.CommandItemSettings.RefreshImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.CommandItemSettings.RefreshText" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.EditFormSettings.CaptionFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.EditFormSettings.InsertCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.ExpandCollapseColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.ExpandCollapseColumn.CollapseImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.ExpandCollapseColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.ExpandCollapseColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.ExpandCollapseColumn.ExpandImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.ExpandCollapseColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.ExpandCollapseColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.ExpandCollapseColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.ExpandCollapseColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.ExpandCollapseColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.ExpandCollapseColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.ExpandCollapseColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.ExpandCollapseColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.FilterExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.NoDetailRecordsText" xml:space="preserve">
+    <value>لايوجد سجلات للعرض</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.NoMasterRecordsText" xml:space="preserve">
+    <value>لايوجد سجلات للعرض</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>الصفحة الاولى</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>الصفحة الاخيرة</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.RowIndicatorColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.RowIndicatorColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.RowIndicatorColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.RowIndicatorColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.RowIndicatorColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.RowIndicatorColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.RowIndicatorColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.RowIndicatorColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.RowIndicatorColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.RowIndicatorColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.RowIndicatorColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.Summary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.MasterTableView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>الصفحة الاولى</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>الصفحة الاخيرة</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdMaximumAllowedResource1.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.SortingSettings.SortedAscToolTip" xml:space="preserve">
+    <value>ترتيب تصاعدي</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.SortingSettings.SortedDescToolTip" xml:space="preserve">
+    <value>ترتيب تنازلي</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.SortingSettings.SortToolTip" xml:space="preserve">
+    <value>اضغط هنا للترتيب</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.StatusBarSettings.LoadingText" xml:space="preserve">
+    <value>تحميل...</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.StatusBarSettings.ReadyText" xml:space="preserve">
+    <value>جاهز</value>
+  </data>
+  <data name="dgrdMaximumAllowedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.BackImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.ClientSettings.ClientMessages.ColumnResizeTooltipFormatString" xml:space="preserve">
+    <value>Width: &lt;strong&gt;{0}&lt;/strong&gt; &lt;em&gt;pixels&lt;/em&gt;</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.ClientSettings.ClientMessages.DragToGroupOrReorder" xml:space="preserve">
+    <value>Drag to group or reorder</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.ClientSettings.ClientMessages.DragToResize" xml:space="preserve">
+    <value>Drag to resize</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.ClientSettings.ClientMessages.DropHereToReorder" xml:space="preserve">
+    <value>Drop here to reorder</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.ClientSettings.ClientMessages.PagerTooltipFormatString" xml:space="preserve">
+    <value>Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.FilterMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.GroupingSettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse group</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.GroupingSettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand group</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.GroupingSettings.GroupByFieldsSeparator" xml:space="preserve">
+    <value>; </value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.GroupingSettings.GroupContinuedFormatString" xml:space="preserve">
+    <value>... group continued from the previous page. </value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.GroupingSettings.GroupContinuesFormatString" xml:space="preserve">
+    <value> Group continues on the next page.</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.GroupingSettings.GroupSplitDisplayFormat" xml:space="preserve">
+    <value>Showing {0} of {1} items.</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.GroupingSettings.GroupSplitFormat" xml:space="preserve">
+    <value> ({0})</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.GroupingSettings.UnGroupButtonTooltip" xml:space="preserve">
+    <value>Click here to ungroup</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.GroupingSettings.UnGroupTooltip" xml:space="preserve">
+    <value>Drag out of the bar to ungroup</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.GroupPanel.Text" xml:space="preserve">
+    <value>Drag a column header and drop it here to group by that column</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.GroupPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.HeaderContextMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.HierarchySettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.HierarchySettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.HierarchySettings.SelfCollapseTooltip" xml:space="preserve">
+    <value>Self reference collapse</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.HierarchySettings.SelfExpandTooltip" xml:space="preserve">
+    <value>Self reference expand</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.CommandItemSettings.AddNewRecordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.CommandItemSettings.AddNewRecordText" xml:space="preserve">
+    <value>اضافة سجل جديد</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.CommandItemSettings.ExportToCsvImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.CommandItemSettings.ExportToCsvText" xml:space="preserve">
+    <value>Export to CSV</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.CommandItemSettings.ExportToExcelImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.CommandItemSettings.ExportToExcelText" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.CommandItemSettings.ExportToPdfImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.CommandItemSettings.ExportToPdfText" xml:space="preserve">
+    <value>Export to Pdf</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.CommandItemSettings.ExportToWordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.CommandItemSettings.ExportToWordText" xml:space="preserve">
+    <value>Export to Word</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.CommandItemSettings.RefreshImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.CommandItemSettings.RefreshText" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.EditFormSettings.CaptionFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.EditFormSettings.InsertCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.ExpandCollapseColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.ExpandCollapseColumn.CollapseImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.ExpandCollapseColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.ExpandCollapseColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.ExpandCollapseColumn.ExpandImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.ExpandCollapseColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.ExpandCollapseColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.ExpandCollapseColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.ExpandCollapseColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.ExpandCollapseColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.ExpandCollapseColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.ExpandCollapseColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.ExpandCollapseColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.FilterExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.NoDetailRecordsText" xml:space="preserve">
+    <value>لايوجد سجلات للعرض</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.NoMasterRecordsText" xml:space="preserve">
+    <value>لايوجد سجلات للعرض</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>الصفحة الاولى</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>الصفحة الاخيرة</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.RowIndicatorColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.RowIndicatorColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.RowIndicatorColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.RowIndicatorColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.RowIndicatorColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.RowIndicatorColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.RowIndicatorColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.RowIndicatorColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.RowIndicatorColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.RowIndicatorColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.RowIndicatorColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.Summary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.MasterTableView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>الصفحة الاولى</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>الصفحة الاخيرة</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.SortingSettings.SortedAscToolTip" xml:space="preserve">
+    <value>ترتيب تصاعدي</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.SortingSettings.SortedDescToolTip" xml:space="preserve">
+    <value>ترتيب تنازلي</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.SortingSettings.SortToolTip" xml:space="preserve">
+    <value>اضغط هنا للترتيب</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.StatusBarSettings.LoadingText" xml:space="preserve">
+    <value>تحميل...</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.StatusBarSettings.ReadyText" xml:space="preserve">
+    <value>جاهز</value>
+  </data>
+  <data name="dgrdVwPermissionTypesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.HeaderText" xml:space="preserve">
+    <value>اقصى وقت للسماح</value>
+  </data>
+  <data name="GridBoundColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.SortExpression" xml:space="preserve">
+    <value>اقصى مرات السماح</value>
+  </data>
+  <data name="GridBoundColumnResource10.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource10.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource10.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.HeaderText" xml:space="preserve">
+    <value>نوع المدة</value>
+  </data>
+  <data name="GridBoundColumnResource10.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.SortExpression" xml:space="preserve">
+    <value>DurationTypeName</value>
+  </data>
+  <data name="GridBoundColumnResource11.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource11.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource11.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.HeaderText" xml:space="preserve">
+    <value>اسم نوع المدة باللغة الانجليزية</value>
+  </data>
+  <data name="GridBoundColumnResource11.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource11.SortExpression" xml:space="preserve">
+    <value>PermName</value>
+  </data>
+  <data name="GridBoundColumnResource12.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource12.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource12.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.HeaderText" xml:space="preserve">
+    <value>اسم نوع المدة باللغة العربية</value>
+  </data>
+  <data name="GridBoundColumnResource12.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource12.SortExpression" xml:space="preserve">
+    <value>PermArabicName</value>
+  </data>
+  <data name="GridBoundColumnResource13.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource13.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource13.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.HeaderText" xml:space="preserve">
+    <value>اقل مدة</value>
+  </data>
+  <data name="GridBoundColumnResource13.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource13.SortExpression" xml:space="preserve">
+    <value>MinDuration</value>
+  </data>
+  <data name="GridBoundColumnResource14.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource14.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource14.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.HeaderText" xml:space="preserve">
+    <value>اقصى مدة</value>
+  </data>
+  <data name="GridBoundColumnResource14.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource14.SortExpression" xml:space="preserve">
+    <value>MaxDuration</value>
+  </data>
+  <data name="GridBoundColumnResource15.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource15.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource15.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.HeaderText" xml:space="preserve">
+    <value>الرصيد الشهري</value>
+  </data>
+  <data name="GridBoundColumnResource15.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource15.SortExpression" xml:space="preserve">
+    <value>MonthlyBalance</value>
+  </data>
+  <data name="GridBoundColumnResource16.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource16.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource16.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource16.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource16.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource16.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource16.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource16.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource16.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource16.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource16.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource16.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource16.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource16.SortExpression" xml:space="preserve">
+    <value>PermId</value>
+  </data>
+  <data name="GridBoundColumnResource2.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource2.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource2.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.SortExpression" xml:space="preserve">
+    <value>MaximumAllowedId</value>
+  </data>
+  <data name="GridBoundColumnResource3.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource3.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource3.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.SortExpression" xml:space="preserve">
+    <value>FK_PermId</value>
+  </data>
+  <data name="GridBoundColumnResource4.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource4.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource4.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.SortExpression" xml:space="preserve">
+    <value>FK_DurationId</value>
+  </data>
+  <data name="GridBoundColumnResource5.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource5.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource5.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.HeaderText" xml:space="preserve">
+    <value>نوع المدة</value>
+  </data>
+  <data name="GridBoundColumnResource5.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.SortExpression" xml:space="preserve">
+    <value>DurationTypeName</value>
+  </data>
+  <data name="GridBoundColumnResource6.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource6.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource6.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.HeaderText" xml:space="preserve">
+    <value>اقصى مدة</value>
+  </data>
+  <data name="GridBoundColumnResource6.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.SortExpression" xml:space="preserve">
+    <value>MaximumDuration</value>
+  </data>
+  <data name="GridBoundColumnResource7.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource7.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource7.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.SortExpression" xml:space="preserve">
+    <value>MaximumDurationId</value>
+  </data>
+  <data name="GridBoundColumnResource8.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource8.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource8.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.SortExpression" xml:space="preserve">
+    <value>FK_PermId</value>
+  </data>
+  <data name="GridBoundColumnResource9.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource9.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource9.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.SortExpression" xml:space="preserve">
+    <value>FK_DurationId</value>
+  </data>
+  <data name="GridTemplateColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridTemplateColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridTemplateColumnResource2.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource2.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridTemplateColumnResource3.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource3.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowedDurationResource1.Text" xml:space="preserve">
+    <value>المدة</value>
+  </data>
+  <data name="lblAllowedDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblApprovalRequiredResource1.Text" xml:space="preserve">
+    <value>الموافقة مطلوبة</value>
+  </data>
+  <data name="lblApprovalRequiredResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblArabicnameResource1.Text" xml:space="preserve">
+    <value>الاسم باللغة العربية</value>
+  </data>
+  <data name="lblArabicnameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDurationResource1.Text" xml:space="preserve">
+    <value>المدة</value>
+  </data>
+  <data name="lblDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInMinsResource1.Text" xml:space="preserve">
+    <value>د</value>
+  </data>
+  <data name="lblInMinsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsConsiderInWorkResource1.Text" xml:space="preserve">
+    <value>اعتبار في العمل</value>
+  </data>
+  <data name="lblIsConsiderInWorkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLeaveTypesResource1.Text" xml:space="preserve">
+    <value>خصم من الرصيد</value>
+  </data>
+  <data name="lblLeaveTypesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMaxDurationResource1.Text" xml:space="preserve">
+    <value>اقصى مدة</value>
+  </data>
+  <data name="lblMaxDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMaximumDurationResource1.Text" xml:space="preserve">
+    <value>اقصى مدة</value>
+  </data>
+  <data name="lblMaximumDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMaximumOccurResource1.Text" xml:space="preserve">
+    <value>اقصى وقت للسماح</value>
+  </data>
+  <data name="lblMaximumOccurResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMinDurationResource1.Text" xml:space="preserve">
+    <value>ادنى مدة</value>
+  </data>
+  <data name="lblMinDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMonthlyBalanceResource1.Text" xml:space="preserve">
+    <value>الرصيد الشهري</value>
+  </data>
+  <data name="lblMonthlyBalanceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.Text" xml:space="preserve">
+    <value>الاسم باللغة الانجليزية</value>
+  </data>
+  <data name="lblNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTaReasonResource1.Text" xml:space="preserve">
+    <value>سبب الحضور</value>
+  </data>
+  <data name="lblTaReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Work Force Pro : : تعريف نوع المغادرة</value>
+  </data>
+  <data name="RadAjaxLoadingPanel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadAjaxLoadingPanel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadAjaxLoadingPanel2Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadAjaxLoadingPanel2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadCmbBxAllowedDurationResource1.EmptyMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadCmbBxAllowedDurationResource1.LoadingMessage" xml:space="preserve">
+    <value>تحميل...</value>
+  </data>
+  <data name="RadCmbBxAllowedDurationResource1.Localization.NoMatches" xml:space="preserve">
+    <value>لايوجد تطابق</value>
+  </data>
+  <data name="RadCmbBxAllowedDurationResource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="RadCmbBxAllowedDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadCmbBxDurationResource1.EmptyMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadCmbBxDurationResource1.LoadingMessage" xml:space="preserve">
+    <value>تحميل...</value>
+  </data>
+  <data name="RadCmbBxDurationResource1.Localization.NoMatches" xml:space="preserve">
+    <value>لايوجد تطابق</value>
+  </data>
+  <data name="RadCmbBxDurationResource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="RadCmbBxDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadFilter1Resource1.AddExpressionToolTip" xml:space="preserve">
+    <value>اضافة مصطلح</value>
+  </data>
+  <data name="RadFilter1Resource1.AddGroupToolTip" xml:space="preserve">
+    <value>اضافة مجموعة</value>
+  </data>
+  <data name="RadFilter1Resource1.ApplyButtonText" xml:space="preserve">
+    <value>تطبيق</value>
+  </data>
+  <data name="RadFilter1Resource1.BetweenDelimeterText" xml:space="preserve">
+    <value>و</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionBetween" xml:space="preserve">
+    <value>بين</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionContains" xml:space="preserve">
+    <value>يحتوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionDoesNotContain" xml:space="preserve">
+    <value>لايحتوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionEndsWith" xml:space="preserve">
+    <value>ينتهي ب</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionEqual" xml:space="preserve">
+    <value>يساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionGreaterThan" xml:space="preserve">
+    <value>اكبر من</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionGreaterThanOrEqualTo" xml:space="preserve">
+    <value>اكبر من او يساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionIsEmpty" xml:space="preserve">
+    <value>فارغ</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionIsNull" xml:space="preserve">
+    <value>لايوجد قيمة</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionLessThan" xml:space="preserve">
+    <value>اصغر من</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionLessThanOrEqualTo" xml:space="preserve">
+    <value>اصغر من او يساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotBetween" xml:space="preserve">
+    <value>ليس بين</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotEqualTo" xml:space="preserve">
+    <value>لايساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotIsEmpty" xml:space="preserve">
+    <value>ليس فارغ</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotIsNull" xml:space="preserve">
+    <value>يوجد قيمة</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionStartsWith" xml:space="preserve">
+    <value>يبدأ ب</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationAnd" xml:space="preserve">
+    <value>و</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationNotAnd" xml:space="preserve">
+    <value>وليس</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationNotOr" xml:space="preserve">
+    <value>او ليس</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationOr" xml:space="preserve">
+    <value>او</value>
+  </data>
+  <data name="RadFilter1Resource1.RemoveToolTip" xml:space="preserve">
+    <value>ازالة بند</value>
+  </data>
+  <data name="RadFilter1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>تطبيق البحث</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqArabicNameResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء ادخال اسم المغادرة باللغة العربية</value>
+  </data>
+  <data name="reqArabicNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqArabicNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqcmbBxTaReasonResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء اختيار سبب الحضور</value>
+  </data>
+  <data name="reqcmbBxTaReasonResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqcmbBxTaReasonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqMonthlyBalanceResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء اختيار دقائق الرصيد الشهري</value>
+  </data>
+  <data name="reqMonthlyBalanceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqMonthlyBalanceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqPermissionNameResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء ادخال اسم المغادرة باللغة الانجليزية</value>
+  </data>
+  <data name="reqPermissionNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqPermissionNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqRadLeaveTypesResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء اختيار نوع الاجازة</value>
+  </data>
+  <data name="reqRadLeaveTypesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqRadLeaveTypesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqRadMaxDurationResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء ادخال اقصى مدة</value>
+  </data>
+  <data name="reqRadMaxDurationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqRadMaxDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqRadMinDurationResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء ادخال اقل مدة</value>
+  </data>
+  <data name="reqRadMinDurationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqRadMinDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvAllowedDurationResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء اختيار المدة</value>
+  </data>
+  <data name="rfvAllowedDurationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvAllowedDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvDurationResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء اختيار المدة</value>
+  </data>
+  <data name="rfvDurationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvMaximumDurationResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء ادخال قيمة اقصى مدة</value>
+  </data>
+  <data name="rfvMaximumDurationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvMaximumDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvMaximumOccurResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء ادخال قيمة اقصى مدة للسماح</value>
+  </data>
+  <data name="rfvMaximumOccurResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvMaximumOccurResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Tab1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Tab2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Tab3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabContainer1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtArabicNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtArabicNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMaximimOccurResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMaximimOccurResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMaximumDurationResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtMaximumDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRadMaxDurationResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRadMaxDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRadMinDurationResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRadMinDurationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRadMonthlyBalanceResource1.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRadMonthlyBalanceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionEqualto" xml:space="preserve">
+    <value>يساوي</value>
+  </data>
+  <data name="Tab1Resource1.HeaderText" xml:space="preserve">
+    <value>المغادرة</value>
+  </data>
+  <data name="Tab2Resource1.HeaderText" xml:space="preserve">
+    <value>عدد المرات المسموح بها</value>
+  </data>
+  <data name="Tab3Resource1.HeaderText" xml:space="preserve">
+    <value>المدة المسموح بها</value>
+  </data>
+  <data name="lblMinutes2Resource1.Text" xml:space="preserve">
+    <value>دقائق</value>
+  </data>
+  <data name="lblMinutes2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMinutesResource1.Text" xml:space="preserve">
+    <value>دقائق</value>
+  </data>
+  <data name="lblMinutesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInHoursResource1.Text" xml:space="preserve">
+    <value>س</value>
+  </data>
+  <data name="lblResource1.Text" xml:space="preserve">
+    <value>:</value>
+  </data>
+  <data name="reqHoursMonthlyBalanceResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء اختيار ساعات الرصيد الشهري</value>
+  </data>
+  <data name="lblGeneralGuideResource1.Text" xml:space="preserve">
+    <value>تعليمات عامة</value>
+  </data>
+  <data name="lblGeneralGuideArResource1.Text" xml:space="preserve">
+    <value>تعليمات عامة باللغة العربية</value>
+  </data>
+  <data name="lblLeaveTypeDurationResource1.Text" xml:space="preserve">
+    <value>مدة الفتره المسموح بها لهذه الاجازه</value>
+  </data>
+  <data name="lblLeaveTypeResource1.Text" xml:space="preserve">
+    <value>نوع الاجازه للفتره المسموح بها</value>
+  </data>
+  <data name="reqLeaveTypeDurationResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء ادخال قيمة للفترة المسموح بها</value>
+  </data>
+  <data name="lblPermissionTypeResource1.Text" xml:space="preserve">
+    <value>نوع المغادرة للفتره المسموح بها</value>
+  </data>
+  <data name="lblPermissionTypeDuration.Text" xml:space="preserve">
+    <value>مدة الفتره المسموح اذا كان له ساعات دراسه خلال الشهر</value>
+  </data>
+  <data name="lblAllowedAfterResource1.Text" xml:space="preserve">
+    <value>مسموح بعد وقت محدد</value>
+  </data>
+  <data name="lblAllowedAfterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowedAfterTimeResource1.Text" xml:space="preserve">
+    <value>مسموح بعد</value>
+  </data>
+  <data name="lblAllowedAfterTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblhintResource1.Text" xml:space="preserve">
+    <value>دقائق : ساعات</value>
+  </data>
+  <data name="lblhintResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hlViewEmployeeResource1.Text" xml:space="preserve">
+    <value>View Org Level Employees</value>
+  </data>
+  <data name="hlViewEntityResource1.Text" xml:space="preserve">
+    <value>عرض وحدات العمل</value>
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>قائمة الموظفين</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowedAfterDaysResource1.Text" xml:space="preserve">
+    <value>مسموح بعد</value>
+  </data>
+  <data name="lblAllowedAfterDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowedBeforeDaysResource1.Text" xml:space="preserve">
+    <value>مسموح قبل</value>
+  </data>
+  <data name="lblAllowedBeforeDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowedForSpecificEntityResource1.Text" xml:space="preserve">
+    <value>مسموح لوحدات عمل محددة</value>
+  </data>
+  <data name="lblAllowedForSpecificEntityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowedManagersResource1.Text" xml:space="preserve">
+    <value>مسموح للمدراء فقط</value>
+  </data>
+  <data name="lblAllowedManagersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCompanyResource1.Text" xml:space="preserve">
+    <value>الشركة</value>
+  </data>
+  <data name="lblCompanyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCompleteWHRSResource1.Text" xml:space="preserve">
+    <value>يجب اتمام 50% من الدوام الرسمي</value>
+  </data>
+  <data name="lblCompleteWHRSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDaysResource1.Text" xml:space="preserve">
+    <value>ايام</value>
+  </data>
+  <data name="lblDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEntitiesResource1.Text" xml:space="preserve">
+    <value>قائمة وحدات العمل</value>
+  </data>
+  <data name="lblEntitiesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExcludeManagersResource1.Text" xml:space="preserve">
+    <value>استثناء المدراء من (قبل و بعد)</value>
+  </data>
+  <data name="lblExcludeManagersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Literal1Resource1.Text" xml:space="preserve">
+    <value>اختيار الكل</value>
+  </data>
+  <data name="Literal2Resource1.Text" xml:space="preserve">
+    <value>الغاء اختيار الكل</value>
+  </data>
+  <data name="rfvCompaniesResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء اختيار شركة</value>
+  </data>
+  <data name="lblAllowedForSelfServiceResource1.Text" xml:space="preserve">
+    <value>مسموح للخدمات الذاتية</value>
+  </data>
+  <data name="lblAllowedForSelfServiceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblentityResource1.Text" xml:space="preserve">
+    <value>وحدة العمل</value>
+  </data>
+  <data name="lblentityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPermissionApprovalResource1.Text" xml:space="preserve">
+    <value>الموافقة على المغادرات</value>
+  </data>
+  <data name="lblPermissionApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnBothResource1.Text" xml:space="preserve">
+    <value>كلاهما</value>
+  </data>
+  <data name="rdbtnBothResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnDirectmgrResource1.Text" xml:space="preserve">
+    <value>المدير المباشر فقط</value>
+  </data>
+  <data name="rdbtnDirectmgrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnDMHRGMResource1.Text" xml:space="preserve">
+    <value>المدير المباشر, الموارد البشرية, المدير العام</value>
+  </data>
+  <data name="rdbtnDMHRGMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnHROnlyResource1.Text" xml:space="preserve">
+    <value>شؤون الموظفين فقط</value>
+  </data>
+  <data name="rdbtnHROnlyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNotAllowedWhenHasStudyorNursingResource1.Text" xml:space="preserve">
+    <value>عدم السماح في حال وجود مغادرة دراسية او رضاعة</value>
+  </data>
+  <data name="lblShowRemainingBalanceResource1.Text" xml:space="preserve">
+    <value>اظهار الرصيد المتبقي</value>
+  </data>
+  <data name="lblHasFlexiblePermissionResource1.Text" xml:space="preserve">
+    <value>تفعيل المغادرة المرنه</value>
+  </data>
+  <data name="lblHasFullDayPermissionResource1.Text" xml:space="preserve">
+    <value>تفعيل المغادره ليوم كامل</value>
+  </data>
+  <data name="lblHasPermissionForPeriodResource1.Text" xml:space="preserve">
+    <value>تفعيل المغادرة لفترة وقت</value>
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="ListItemResource18.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblConsiderRequestWithinBalanceResource1.Text" xml:space="preserve">
+    <value>حساب الرصيد المتبقي قبل الموافقة</value>
+  </data>
+  <data name="lblAllowedBeforeResource1.Text" xml:space="preserve">
+    <value>مسموح قبل وقت محدد</value>
+  </data>
+  <data name="lblAllowedBeforeTimeResource1.Text" xml:space="preserve">
+    <value>مسموح قبل</value>
+  </data>
+  <data name="lblAllowForSpecificEmployeeTypeResource1.Text" xml:space="preserve">
+    <value>مسموح لمجموعة معينة من الموظفين</value>
+  </data>
+  <data name="lblAttachmentIsMandatoryResource1.Text" xml:space="preserve">
+    <value>المرفق إجباري</value>
+  </data>
+  <data name="lblEmployeeTypeResource1.Text" xml:space="preserve">
+    <value>مجموعة الموظفين</value>
+  </data>
+  <data name="lblRemarksIsMandatoryResource1.Text" xml:space="preserve">
+    <value>الملاحظات إجباري</value>
+  </data>
+  <data name="lbllblCompaniesResource1.Text" xml:space="preserve">
+    <value>قائمة الشركات</value>
+  </data>
+  <data name="ListItem1Resource1.Text" xml:space="preserve">
+    <value>الكل</value>
+  </data>
+  <data name="ListItem2Resource1.Text" xml:space="preserve">
+    <value>شركة محددة</value>
+  </data>
+  <data name="ListItem3Resource1.Text" xml:space="preserve">
+    <value>وحدة عمل محددة</value>
+  </data>
+  <data name="Literal1Resource1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Tab4Resource1.HeaderText" xml:space="preserve">
+    <value>الوحدات المسموحة</value>
+  </data>
+  <data name="lblMinDurationSelfServiceResource1.Text" xml:space="preserve">
+    <value>اقل مدة مسموحة في الخدمات الذاتية</value>
+  </data>
+  <data name="lblMinDurationSelfServiceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItem1Resource1.Text" xml:space="preserve">
+    <value>--الرجاء الاختيار--</value>
+  </data>
+  <data name="RadComboBoxItem2Resource1.Text" xml:space="preserve">
+    <value>10 دقيقة</value>
+  </data>
+  <data name="RadComboBoxItem3Resource1.Text" xml:space="preserve">
+    <value>15 دقيقة</value>
+  </data>
+  <data name="RadComboBoxItem4Resource1.Text" xml:space="preserve">
+    <value>20 دقيقة</value>
+  </data>
+  <data name="RadComboBoxItem5Resource1.Text" xml:space="preserve">
+    <value>30 دقيقة</value>
+  </data>
+  <data name="RadComboBoxItem6Resource1.Text" xml:space="preserve">
+    <value>1 ساعة</value>
+  </data>
+  <data name="chkAutoApproveResource1.Text" xml:space="preserve">
+    <value>موافقة تلقائية</value>
+  </data>
+  <data name="chkAutoApproveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAutoApproveAfterResource1.Text" xml:space="preserve">
+    <value>موافقة تلقائية بعد</value>
+  </data>
+  <data name="lblAutoApproveAfterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvAutoApproveAfterResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء ادخال عدد ايام الموافقة التلقائية</value>
+  </data>
+  <data name="chkPerm_NotificationExceptionResource1.Text" xml:space="preserve">
+    <value>استثناء الاشعارات</value>
+  </data>
+  <data name="chkPerm_NotificationExceptionResource1.ToolTip" xml:space="preserve">
+    <value>من خلال اختيارك هذه الخاصية سيتم تعطيل اشعارات البريد الالكتروني و الرسائل النصية</value>
+  </data>
+  <data name="lblAutoApprovePolicyResource1.Text" xml:space="preserve">
+    <value>سياسة الموافقة التلقائية</value>
+  </data>
+  <data name="ListItemDMResource1.Text" xml:space="preserve">
+    <value>المدير المباشر</value>
+  </data>
+  <data name="ListItemGMResource1.Text" xml:space="preserve">
+    <value>المدير العام</value>
+  </data>
+  <data name="ListItemHRResource1.Text" xml:space="preserve">
+    <value>الموارد البشرية</value>
+  </data>
+  <data name="chkConvertToLeave_ExceedDurationResource1.Text" xml:space="preserve">
+    <value>تحويل المغادرة الى اجازة في حال تجاوز اقصى مدة</value>
+  </data>
+  <data name="lblAnnualLeaveId_ToDeductPermissionResource1.Text" xml:space="preserve">
+    <value>نوع الاجازة</value>
+  </data>
+  <data name="chkMustHaveTransactionResource1.Text" xml:space="preserve">
+    <value>يجب ان يكون للموظف حركة دخول حتى يتمكن من طلب هذا النوع من المغادرة</value>
+  </data>
+  <data name="chkDeductFromOvertimeResource1.Text" xml:space="preserve">
+    <value>خصم الرصيد من الوقت الاضافي</value>
+  </data>
+  <data name="lblOvertimeBalanceDaysResource1.Text" xml:space="preserve">
+    <value>رصيد الوقت الاضافي قبل</value>
+  </data>
+  <data name="lblOvertimeBalanceDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOvertimeDaysResource1.Text" xml:space="preserve">
+    <value>يوم</value>
+  </data>
+  <data name="lblOvertimeDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvOvertimeBalanceDays.ErrorMessage" xml:space="preserve">
+    <value>الرجاء ادخال رصيد الوقت الاضافي قبل عدد من الايام</value>
+  </data>
+  <data name="chkValidateDelayPermissionsResource1.Text" xml:space="preserve">
+    <value>تحديد تصاريح التأخير</value>
+  </data>
+  <data name="lblDelayPermissionValidationResource1.Text" xml:space="preserve">
+    <value>عدد المرات المسموح بها لتصاريح التأخير شهرياً</value>
+  </data>
+  <data name="lblDelayPermissionValidationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource17.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource17.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource17.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource17.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource17.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource17.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource17.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource17.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource17.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource17.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource17.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource17.HeaderText" xml:space="preserve">
+    <value>اقصى مدة في رمضان</value>
+  </data>
+  <data name="GridBoundColumnResource17.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource17.SortExpression" xml:space="preserve">
+    <value>MaximumRamadanDuration</value>
+  </data>
+  <data name="lblMaximumRamadanDurationResource1.Text" xml:space="preserve">
+    <value>اقصى مدة في رمضان</value>
+  </data>
+  <data name="rfvMaximumRamadanDurationResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء ادخال اقصى مدة في رمضان</value>
+  </data>
+  <data name="lblMaximumDuration_WithStudyNursingResource1.Text" xml:space="preserve">
+    <value>اقصى مدة في وجود مغادرة رضاعة او دراسة</value>
+  </data>
+  <data name="lblMaximumDuration_WithStudyNursingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAllowWhenInSufficientResource1.Text" xml:space="preserve">
+    <value>السماح اذا كان الرصيد غير كافي</value>
+  </data>
+  <data name="lblAllowWhenInSufficientResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHasPermissionTimeControlsResource1.Text" xml:space="preserve">
+    <value>تفعيل وقت المغادرة</value>
+  </data>
+  <data name="lblHasPermissionTimeControlsResource1.ToolTip" xml:space="preserve">
+    <value>عند تفعيل هذا الاختيار، سيمكن للمستخدم طلب المغادرة من وقت الى وقت</value>
+  </data>
+  <data name="lblPermissionRequestManagerLevelRequiredResource1.Text" xml:space="preserve">
+    <value>المستوى الاداري المطلوب للموافقة على طلب المغادرة</value>
+  </data>
+  <data name="lblPermissionRequestManagerLevelRequiredResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

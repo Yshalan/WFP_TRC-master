@@ -1,0 +1,2257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnApproveResource1.Text" xml:space="preserve">
+    <value>Approve Violation(s)</value>
+  </data>
+  <data name="btnApproveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExportToExcelResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExportToExcelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExportToPDFResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExportToPDFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGoBackListResource.Text" xml:space="preserve">
+    <value>Go to Violation Lists</value>
+  </data>
+  <data name="btnGoBackListResource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRetriveResource1.Text" xml:space="preserve">
+    <value>Retrieve Violation(s)</value>
+  </data>
+  <data name="btnRetriveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSubmitResource.Text" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="btnSubmitResource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAbsentResource1.Text" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="chkAbsentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAllResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAllResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkDelayResource1.Text" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="chkDelayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEarlyOutResource1.Text" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="chkEarlyOutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkMissingInResource1.Text" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="chkMissingInResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkMissingOutResource1.Text" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="chkMissingOutResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlMonthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlYearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.BackImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.ClientSettings.ClientMessages.ColumnResizeTooltipFormatString" xml:space="preserve">
+    <value>Width: &lt;strong&gt;{0}&lt;/strong&gt; &lt;em&gt;pixels&lt;/em&gt;</value>
+  </data>
+  <data name="dgEmpAttResource1.ClientSettings.ClientMessages.DragToGroupOrReorder" xml:space="preserve">
+    <value>Drag to group or reorder</value>
+  </data>
+  <data name="dgEmpAttResource1.ClientSettings.ClientMessages.DragToResize" xml:space="preserve">
+    <value>Drag to resize</value>
+  </data>
+  <data name="dgEmpAttResource1.ClientSettings.ClientMessages.DropHereToReorder" xml:space="preserve">
+    <value>Drop here to reorder</value>
+  </data>
+  <data name="dgEmpAttResource1.ClientSettings.ClientMessages.PagerTooltipFormatString" xml:space="preserve">
+    <value>Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;</value>
+  </data>
+  <data name="dgEmpAttResource1.FilterMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.GroupingSettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse group</value>
+  </data>
+  <data name="dgEmpAttResource1.GroupingSettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand group</value>
+  </data>
+  <data name="dgEmpAttResource1.GroupingSettings.GroupByFieldsSeparator" xml:space="preserve">
+    <value>; </value>
+  </data>
+  <data name="dgEmpAttResource1.GroupingSettings.GroupContinuedFormatString" xml:space="preserve">
+    <value>... group continued from the previous page. </value>
+  </data>
+  <data name="dgEmpAttResource1.GroupingSettings.GroupContinuesFormatString" xml:space="preserve">
+    <value> Group continues on the next page.</value>
+  </data>
+  <data name="dgEmpAttResource1.GroupingSettings.GroupSplitDisplayFormat" xml:space="preserve">
+    <value>Showing {0} of {1} items.</value>
+  </data>
+  <data name="dgEmpAttResource1.GroupingSettings.GroupSplitFormat" xml:space="preserve">
+    <value> ({0})</value>
+  </data>
+  <data name="dgEmpAttResource1.GroupingSettings.UnGroupButtonTooltip" xml:space="preserve">
+    <value>Click here to ungroup</value>
+  </data>
+  <data name="dgEmpAttResource1.GroupingSettings.UnGroupTooltip" xml:space="preserve">
+    <value>Drag out of the bar to ungroup</value>
+  </data>
+  <data name="dgEmpAttResource1.GroupPanel.Text" xml:space="preserve">
+    <value>Drag a column header and drop it here to group by that column</value>
+  </data>
+  <data name="dgEmpAttResource1.GroupPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.HeaderContextMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.HierarchySettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="dgEmpAttResource1.HierarchySettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="dgEmpAttResource1.HierarchySettings.SelfCollapseTooltip" xml:space="preserve">
+    <value>Self reference collapse</value>
+  </data>
+  <data name="dgEmpAttResource1.HierarchySettings.SelfExpandTooltip" xml:space="preserve">
+    <value>Self reference expand</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.CommandItemSettings.AddNewRecordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.CommandItemSettings.AddNewRecordText" xml:space="preserve">
+    <value>Add new record</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.CommandItemSettings.CancelChangesText" xml:space="preserve">
+    <value>Cancel changes</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.CommandItemSettings.ExportToCsvImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.CommandItemSettings.ExportToCsvText" xml:space="preserve">
+    <value>Export to CSV</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.CommandItemSettings.ExportToExcelImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.CommandItemSettings.ExportToExcelText" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.CommandItemSettings.ExportToPdfImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.CommandItemSettings.ExportToPdfText" xml:space="preserve">
+    <value>Export to Pdf</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.CommandItemSettings.ExportToWordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.CommandItemSettings.ExportToWordText" xml:space="preserve">
+    <value>Export to Word</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.CommandItemSettings.RefreshImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.CommandItemSettings.RefreshText" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.CommandItemSettings.SaveChangesText" xml:space="preserve">
+    <value>Save changes</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.EditFormSettings.CaptionFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.EditFormSettings.InsertCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.ExpandCollapseColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.ExpandCollapseColumn.CollapseImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.ExpandCollapseColumn.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.ExpandCollapseColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.ExpandCollapseColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.ExpandCollapseColumn.ExpandImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.ExpandCollapseColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.ExpandCollapseColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.ExpandCollapseColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.ExpandCollapseColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.ExpandCollapseColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.ExpandCollapseColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.ExpandCollapseColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.ExpandCollapseColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.NoDetailRecordsText" xml:space="preserve">
+    <value>No child records to display.</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.NoMasterRecordsText" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.ChangePageSizeButtonToolTip" xml:space="preserve">
+    <value>Change Page Size</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.ChangePageSizeComboBoxTableSummary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.ChangePageSizeComboBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.ChangePageSizeTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.GoToPageButtonToolTip" xml:space="preserve">
+    <value>Go to Page</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.GoToPageTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>Next Pages</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>Previous Pages</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.RowIndicatorColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.RowIndicatorColumn.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.RowIndicatorColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.RowIndicatorColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.RowIndicatorColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.RowIndicatorColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.RowIndicatorColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.RowIndicatorColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.RowIndicatorColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.RowIndicatorColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.RowIndicatorColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.RowIndicatorColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.Summary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.MasterTableView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.ChangePageSizeButtonToolTip" xml:space="preserve">
+    <value>Change Page Size</value>
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.ChangePageSizeComboBoxTableSummary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.ChangePageSizeComboBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.ChangePageSizeTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.GoToPageButtonToolTip" xml:space="preserve">
+    <value>Go to Page</value>
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.GoToPageTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>Next Pages</value>
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>Previous Pages</value>
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgEmpAttResource1.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="dgEmpAttResource1.SortingSettings.SortedAscToolTip" xml:space="preserve">
+    <value>Sorted asc</value>
+  </data>
+  <data name="dgEmpAttResource1.SortingSettings.SortedDescToolTip" xml:space="preserve">
+    <value>Sorted desc</value>
+  </data>
+  <data name="dgEmpAttResource1.SortingSettings.SortToolTip" xml:space="preserve">
+    <value>Click here to sort</value>
+  </data>
+  <data name="dgEmpAttResource1.StatusBarSettings.LoadingText" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="dgEmpAttResource1.StatusBarSettings.ReadyText" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="dgEmpAttResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.BackImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.ClientSettings.ClientMessages.ColumnResizeTooltipFormatString" xml:space="preserve">
+    <value>Width: &lt;strong&gt;{0}&lt;/strong&gt; &lt;em&gt;pixels&lt;/em&gt;</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.ClientSettings.ClientMessages.DragToGroupOrReorder" xml:space="preserve">
+    <value>Drag to group or reorder</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.ClientSettings.ClientMessages.DragToResize" xml:space="preserve">
+    <value>Drag to resize</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.ClientSettings.ClientMessages.DropHereToReorder" xml:space="preserve">
+    <value>Drop here to reorder</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.ClientSettings.ClientMessages.PagerTooltipFormatString" xml:space="preserve">
+    <value>Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.FilterMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.GroupingSettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse group</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.GroupingSettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand group</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.GroupingSettings.GroupByFieldsSeparator" xml:space="preserve">
+    <value>; </value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.GroupingSettings.GroupContinuedFormatString" xml:space="preserve">
+    <value>... group continued from the previous page. </value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.GroupingSettings.GroupContinuesFormatString" xml:space="preserve">
+    <value> Group continues on the next page.</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.GroupingSettings.GroupSplitDisplayFormat" xml:space="preserve">
+    <value>Showing {0} of {1} items.</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.GroupingSettings.GroupSplitFormat" xml:space="preserve">
+    <value> ({0})</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.GroupingSettings.UnGroupButtonTooltip" xml:space="preserve">
+    <value>Click here to ungroup</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.GroupingSettings.UnGroupTooltip" xml:space="preserve">
+    <value>Drag out of the bar to ungroup</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.GroupPanel.Text" xml:space="preserve">
+    <value>Drag a column header and drop it here to group by that column</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.GroupPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.HeaderContextMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.HierarchySettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.HierarchySettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.HierarchySettings.SelfCollapseTooltip" xml:space="preserve">
+    <value>Self reference collapse</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.HierarchySettings.SelfExpandTooltip" xml:space="preserve">
+    <value>Self reference expand</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.CommandItemSettings.AddNewRecordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.CommandItemSettings.AddNewRecordText" xml:space="preserve">
+    <value>Add new record</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.CommandItemSettings.CancelChangesText" xml:space="preserve">
+    <value>Cancel changes</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.CommandItemSettings.ExportToCsvImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.CommandItemSettings.ExportToCsvText" xml:space="preserve">
+    <value>Export to CSV</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.CommandItemSettings.ExportToExcelImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.CommandItemSettings.ExportToExcelText" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.CommandItemSettings.ExportToPdfImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.CommandItemSettings.ExportToPdfText" xml:space="preserve">
+    <value>Export to Pdf</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.CommandItemSettings.ExportToWordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.CommandItemSettings.ExportToWordText" xml:space="preserve">
+    <value>Export to Word</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.CommandItemSettings.RefreshImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.CommandItemSettings.RefreshText" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.CommandItemSettings.SaveChangesText" xml:space="preserve">
+    <value>Save changes</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.EditFormSettings.CaptionFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.EditFormSettings.InsertCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.ExpandCollapseColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.ExpandCollapseColumn.CollapseImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.ExpandCollapseColumn.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.ExpandCollapseColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.ExpandCollapseColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.ExpandCollapseColumn.ExpandImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.ExpandCollapseColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.ExpandCollapseColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.ExpandCollapseColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.ExpandCollapseColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.ExpandCollapseColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.ExpandCollapseColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.ExpandCollapseColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.ExpandCollapseColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.NoDetailRecordsText" xml:space="preserve">
+    <value>No child records to display.</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.NoMasterRecordsText" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.ChangePageSizeButtonToolTip" xml:space="preserve">
+    <value>Change Page Size</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.ChangePageSizeComboBoxTableSummary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.ChangePageSizeComboBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.ChangePageSizeTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.GoToPageButtonToolTip" xml:space="preserve">
+    <value>Go to Page</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.GoToPageTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>Next Pages</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>Previous Pages</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.RowIndicatorColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.RowIndicatorColumn.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.RowIndicatorColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.RowIndicatorColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.RowIndicatorColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.RowIndicatorColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.RowIndicatorColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.RowIndicatorColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.RowIndicatorColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.RowIndicatorColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.RowIndicatorColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.RowIndicatorColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.Summary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.MasterTableView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.ChangePageSizeButtonToolTip" xml:space="preserve">
+    <value>Change Page Size</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.ChangePageSizeComboBoxTableSummary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.ChangePageSizeComboBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.ChangePageSizeTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.GoToPageButtonToolTip" xml:space="preserve">
+    <value>Go to Page</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.GoToPageTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>Next Pages</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>Previous Pages</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdViewApproveViolationResource1.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.SortingSettings.SortedAscToolTip" xml:space="preserve">
+    <value>Sorted asc</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.SortingSettings.SortedDescToolTip" xml:space="preserve">
+    <value>Sorted desc</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.SortingSettings.SortToolTip" xml:space="preserve">
+    <value>Click here to sort</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.StatusBarSettings.LoadingText" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.StatusBarSettings.ReadyText" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="dgrdViewApproveViolationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnEmployeeId.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnEmployeeId.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnEmployeeId.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnEmployeeId.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnEmployeeId.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnEmployeeId.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnEmployeeId.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnEmployeeId.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnEmployeeId.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnEmployeeId.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnEmployeeId.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnEmployeeId.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnEmployeeId.HeaderText" xml:space="preserve">
+    <value>FK_EmployeeId</value>
+  </data>
+  <data name="GridBoundColumnEmployeeId.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GridBoundColumnEmployeeId.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnEmployeeId.SortExpression" xml:space="preserve">
+    <value>FK_EmployeeId</value>
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.HeaderText" xml:space="preserve">
+    <value>Absent Count / Days</value>
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResourceAbsentCount.SortExpression" xml:space="preserve">
+    <value>AbsentCount</value>
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.HeaderText" xml:space="preserve">
+    <value>Delay Count / Days</value>
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResourceDelayCount.SortExpression" xml:space="preserve">
+    <value>DelayCount</value>
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.HeaderText" xml:space="preserve">
+    <value>Delay Duration / Mins</value>
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResourceDelayDuration.SortExpression" xml:space="preserve">
+    <value>DelayDuration</value>
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.HeaderText" xml:space="preserve">
+    <value>Early Out Count / Days</value>
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutCount.SortExpression" xml:space="preserve">
+    <value>EarlyOutCount</value>
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.HeaderText" xml:space="preserve">
+    <value>Early Out Duration / Mins</value>
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResourceEarlyOutDuration.SortExpression" xml:space="preserve">
+    <value>EarlyOutDuration</value>
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.HeaderText" xml:space="preserve">
+    <value>Employee Arabic Name</value>
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResourceEmployeeArabicName.SortExpression" xml:space="preserve">
+    <value>EmployeeArabicName</value>
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.HeaderText" xml:space="preserve">
+    <value>Employee Name</value>
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResourceEmployeeName.SortExpression" xml:space="preserve">
+    <value>EmployeeName</value>
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.HeaderText" xml:space="preserve">
+    <value>Employee No</value>
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResourceEmployeeNo.SortExpression" xml:space="preserve">
+    <value>EmployeeNo</value>
+  </data>
+  <data name="GridBoundColumnResourceFromDate.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceFromDate.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceFromDate.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceFromDate.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceFromDate.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResourceFromDate.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceFromDate.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceFromDate.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceFromDate.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceFromDate.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceFromDate.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceFromDate.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceFromDate.HeaderText" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="GridBoundColumnResourceFromDate.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceFromDate.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResourceFromDate.SortExpression" xml:space="preserve">
+    <value>StrFromDate</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.HeaderText" xml:space="preserve">
+    <value>Missing In Count / Days</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingInCount.SortExpression" xml:space="preserve">
+    <value>MissingInCount</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.HeaderText" xml:space="preserve">
+    <value>MissingIn Duration / Mins</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingInDuration.SortExpression" xml:space="preserve">
+    <value>MissingInDuration</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.HeaderText" xml:space="preserve">
+    <value>Missing Out Count / Days</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingOutCount.SortExpression" xml:space="preserve">
+    <value>MissingOutCount</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.HeaderText" xml:space="preserve">
+    <value>MissingOut Duration / Mins</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResourceMissingOutDuration.SortExpression" xml:space="preserve">
+    <value>MissingOutDuration</value>
+  </data>
+  <data name="GridBoundColumnResourceRecordId.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceRecordId.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceRecordId.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceRecordId.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceRecordId.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResourceRecordId.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceRecordId.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceRecordId.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceRecordId.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceRecordId.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceRecordId.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceRecordId.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceRecordId.HeaderText" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="GridBoundColumnResourceRecordId.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceRecordId.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResourceRecordId.SortExpression" xml:space="preserve">
+    <value>RecordId</value>
+  </data>
+  <data name="GridBoundColumnResourceTodate.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceTodate.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceTodate.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceTodate.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceTodate.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResourceTodate.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceTodate.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceTodate.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceTodate.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceTodate.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceTodate.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceTodate.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceTodate.HeaderText" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="GridBoundColumnResourceTodate.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceTodate.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResourceTodate.SortExpression" xml:space="preserve">
+    <value>StrTodate</value>
+  </data>
+  <data name="GridBoundDate_FromResource.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_FromResource.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_FromResource.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_FromResource.DataFormatString" xml:space="preserve">
+    <value>{0:dd/MM/yyyy}</value>
+  </data>
+  <data name="GridBoundDate_FromResource.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundDate_FromResource.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundDate_FromResource.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_FromResource.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_FromResource.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_FromResource.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_FromResource.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_FromResource.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_FromResource.HeaderText" xml:space="preserve">
+    <value>Date From</value>
+  </data>
+  <data name="GridBoundDate_FromResource.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_FromResource.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundDate_FromResource.SortExpression" xml:space="preserve">
+    <value>Date_From</value>
+  </data>
+  <data name="GridBoundDate_ToResource.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_ToResource.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_ToResource.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_ToResource.DataFormatString" xml:space="preserve">
+    <value>{0:dd/MM/yyyy}</value>
+  </data>
+  <data name="GridBoundDate_ToResource.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundDate_ToResource.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundDate_ToResource.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_ToResource.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_ToResource.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_ToResource.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_ToResource.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_ToResource.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_ToResource.HeaderText" xml:space="preserve">
+    <value>Date To</value>
+  </data>
+  <data name="GridBoundDate_ToResource.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDate_ToResource.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundDate_ToResource.SortExpression" xml:space="preserve">
+    <value>Date_To</value>
+  </data>
+  <data name="GridBoundDeduction_DaysResource.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_DaysResource.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_DaysResource.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_DaysResource.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_DaysResource.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundDeduction_DaysResource.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundDeduction_DaysResource.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_DaysResource.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_DaysResource.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_DaysResource.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_DaysResource.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_DaysResource.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_DaysResource.HeaderText" xml:space="preserve">
+    <value>Deduction Days</value>
+  </data>
+  <data name="GridBoundDeduction_DaysResource.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_DaysResource.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundDeduction_DaysResource.SortExpression" xml:space="preserve">
+    <value>Deduction_Days</value>
+  </data>
+  <data name="GridBoundDeduction_HoursResource.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_HoursResource.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_HoursResource.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_HoursResource.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_HoursResource.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundDeduction_HoursResource.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundDeduction_HoursResource.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_HoursResource.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_HoursResource.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_HoursResource.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_HoursResource.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_HoursResource.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_HoursResource.HeaderText" xml:space="preserve">
+    <value>Deduction Hours</value>
+  </data>
+  <data name="GridBoundDeduction_HoursResource.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_HoursResource.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundDeduction_HoursResource.SortExpression" xml:space="preserve">
+    <value>Deduction_Hours</value>
+  </data>
+  <data name="GridBoundDeduction_MinsResource.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_MinsResource.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_MinsResource.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_MinsResource.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_MinsResource.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundDeduction_MinsResource.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundDeduction_MinsResource.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_MinsResource.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_MinsResource.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_MinsResource.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_MinsResource.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_MinsResource.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_MinsResource.HeaderText" xml:space="preserve">
+    <value>Deduction Mins</value>
+  </data>
+  <data name="GridBoundDeduction_MinsResource.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundDeduction_MinsResource.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundDeduction_MinsResource.SortExpression" xml:space="preserve">
+    <value>Deduction_Mins</value>
+  </data>
+  <data name="GridBoundEmployee_NumberResource.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundEmployee_NumberResource.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundEmployee_NumberResource.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundEmployee_NumberResource.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundEmployee_NumberResource.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundEmployee_NumberResource.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundEmployee_NumberResource.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundEmployee_NumberResource.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundEmployee_NumberResource.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundEmployee_NumberResource.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundEmployee_NumberResource.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundEmployee_NumberResource.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundEmployee_NumberResource.HeaderText" xml:space="preserve">
+    <value>Employee Number</value>
+  </data>
+  <data name="GridBoundEmployee_NumberResource.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundEmployee_NumberResource.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundEmployee_NumberResource.SortExpression" xml:space="preserve">
+    <value>Employee_Number</value>
+  </data>
+  <data name="GridBoundReferenceIdResource.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundReferenceIdResource.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundReferenceIdResource.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundReferenceIdResource.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundReferenceIdResource.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundReferenceIdResource.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundReferenceIdResource.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundReferenceIdResource.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundReferenceIdResource.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundReferenceIdResource.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundReferenceIdResource.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundReferenceIdResource.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundReferenceIdResource.HeaderText" xml:space="preserve">
+    <value>Reference Id</value>
+  </data>
+  <data name="GridBoundReferenceIdResource.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundReferenceIdResource.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundReferenceIdResource.SortExpression" xml:space="preserve">
+    <value>ReferenceId</value>
+  </data>
+  <data name="GridTableViewResource1.CommandItemSettings.ExportToExcelText" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="GridTableViewResource1.CommandItemSettings.ExportToPdfText" xml:space="preserve">
+    <value>Export to Pdf</value>
+  </data>
+  <data name="GridTableViewResource1.EditFormSettings.CaptionFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.EditFormSettings.InsertCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.ExpandCollapseColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.ExpandCollapseColumn.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.ExpandCollapseColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.ExpandCollapseColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridTableViewResource1.ExpandCollapseColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.ExpandCollapseColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.ExpandCollapseColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.ExpandCollapseColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.ExpandCollapseColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.ExpandCollapseColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.ExpandCollapseColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.ExpandCollapseColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.ChangePageSizeButtonToolTip" xml:space="preserve">
+    <value>Change Page Size</value>
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.ChangePageSizeComboBoxTableSummary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.ChangePageSizeComboBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.ChangePageSizeTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.GoToPageButtonToolTip" xml:space="preserve">
+    <value>Go to Page</value>
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.GoToPageTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>Next Pages</value>
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>Previous Pages</value>
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="GridTableViewResource1.RowIndicatorColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.RowIndicatorColumn.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.RowIndicatorColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.RowIndicatorColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridTableViewResource1.RowIndicatorColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.RowIndicatorColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.RowIndicatorColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.RowIndicatorColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.RowIndicatorColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.RowIndicatorColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.RowIndicatorColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.RowIndicatorColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTableViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridTemplateColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbsentResource.Text" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="lblAbsentResource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDelayResource.Text" xml:space="preserve">
+    <value>Delay</value>
+  </data>
+  <data name="lblDelayResource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEarlyOutResource.Text" xml:space="preserve">
+    <value>Early Out</value>
+  </data>
+  <data name="lblEarlyOutResource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMissingInResource.Text" xml:space="preserve">
+    <value>Missing In</value>
+  </data>
+  <data name="lblMissingInResource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMissingOutResource.Text" xml:space="preserve">
+    <value>Missing Out</value>
+  </data>
+  <data name="lblMissingOutResource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMonthResource1.Text" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="lblMonthResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblYearResource1.Text" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="lblYearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolApplyFilterResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolApplyFilterResource1.Text" xml:space="preserve">
+    <value>Apply filter</value>
+  </data>
+  <data name="RadToolApplyFilterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolApplyFilterResource1.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>Apply filter</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResourceDesignationArabicName.HeaderText" xml:space="preserve">
+    <value>Designation Arabic Name</value>
+  </data>
+  <data name="GridBoundColumnResourceDesignationName.HeaderText" xml:space="preserve">
+    <value>Designation</value>
+  </data>
+  <data name="GridBoundDeduction_btnRemoveResource.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="chkOutDurationResource1.Text" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResourceOutDuration.HeaderText" xml:space="preserve">
+    <value>Out Duration Duration / Mins</value>
+  </data>
+  <data name="GridBoundColumnResourceOutDurationCount.HeaderText" xml:space="preserve">
+    <value>Out Duration Count / Days</value>
+  </data>
+  <data name="lblOutDurationResource.Text" xml:space="preserve">
+    <value>Out Durtion</value>
+  </data>
+  <data name="lblOutDurationResource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

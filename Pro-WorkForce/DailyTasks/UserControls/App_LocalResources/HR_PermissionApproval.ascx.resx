@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAcceptResource1.Text" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="btnAcceptResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnCancelResource1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRejectResource1.Text" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="btnRejectResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chckIsDividableResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chckIsDividableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chckIsFlexibleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chckIsFlexibleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chckSpecifiedDaysResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chckSpecifiedDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CVDateResource1.ErrorMessage" xml:space="preserve">
+    <value>To Date should be greater than or equal to From Date</value>
+  </data>
+  <data name="CVDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CVDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpEndDatePermResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="dtpEndDatePermResource1.DateInput.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpEndDatePermResource1.DateInput.ToolTip" xml:space="preserve">
+    <value>View end date permission</value>
+  </data>
+  <data name="dtpEndDatePermResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="dtpEndDatePermResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpPermissionDateResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="dtpPermissionDateResource1.DateInput.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpPermissionDateResource1.DateInput.ToolTip" xml:space="preserve">
+    <value>View permission date</value>
+  </data>
+  <data name="dtpPermissionDateResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="dtpPermissionDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpStartDatePermResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="dtpStartDatePermResource1.DateInput.Label" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpStartDatePermResource1.DateInput.ToolTip" xml:space="preserve">
+    <value>View start date permission</value>
+  </data>
+  <data name="dtpStartDatePermResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="dtpStartDatePermResource1.ToolTip" xml:space="preserve">
+    <value>Click</value>
+  </data>
+  <data name="fuAttachFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAtDateResource1.Text" xml:space="preserve">
+    <value>At</value>
+  </data>
+  <data name="lblAtDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAttachFileResource1.Text" xml:space="preserve">
+    <value>Attched File</value>
+  </data>
+  <data name="lblAttachFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDateFromResource1.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="lblDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDaysResource1.Text" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="lblDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndDateResource1.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="lblEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFromDateResource1.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="lblFromDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsDividableResource1.Text" xml:space="preserve">
+    <value>Dividable</value>
+  </data>
+  <data name="lblIsDividableResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsFlexibleResource1.Text" xml:space="preserve">
+    <value>Flexible</value>
+  </data>
+  <data name="lblIsFlexibleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsSpecifiedDaysResource1.Text" xml:space="preserve">
+    <value>Specified days</value>
+  </data>
+  <data name="lblIsSpecifiedDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoAttachedFileResource1.Text" xml:space="preserve">
+    <value>No Attached File</value>
+  </data>
+  <data name="lblNoAttachedFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPermissionDateResource1.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="lblPermissionDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemarksResource1.Text" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="lblRemarksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblViewResource1.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="lblViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnbRemoveResource1.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="lnbRemoveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PnlOneDayLeaveResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PnlOneDayLeaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPeriodLeaveResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPeriodLeaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlTempHidRowsResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlTempHidRowsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqEndDateResource1.ErrorMessage" xml:space="preserve">
+    <value>Please select end date</value>
+  </data>
+  <data name="reqEndDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqPermissionDateResource1.ErrorMessage" xml:space="preserve">
+    <value>Please select permission date</value>
+  </data>
+  <data name="reqPermissionDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqPermissionDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqStartDateResource1.ErrorMessage" xml:space="preserve">
+    <value>Please select start date</value>
+  </data>
+  <data name="reqStartDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqStartDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDaysResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDaysResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRemarksResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRemarksResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFromResource1.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="lblIsFullyDayResource1.Text" xml:space="preserve">
+    <value>Full Day</value>
+  </data>
+  <data name="lblPeriodIntervalResource1.Text" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="lblPermissionResource1.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="lblTimeFromResource1.Text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="lblToResource1.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Specific Time</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Flexible Time</value>
+  </data>
+  <data name="radBtnOneDayResource1.Text" xml:space="preserve">
+    <value>One Time Permission</value>
+  </data>
+  <data name="radBtnPeriodResource1.Text" xml:space="preserve">
+    <value>Permission For Period</value>
+  </data>
+  <data name="radBtnSpecificDaysResource1.Text" xml:space="preserve">
+    <value>Specific Days for Duration</value>
+  </data>
+</root>

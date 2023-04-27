@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button1Resource1.Text" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="Button1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbldateResource1.Text" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="lbldateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>View Active Schedule</value>
+  </data>
+  <data name="RFVviewActiveResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء اختيار تاريخ</value>
+  </data>
+  <data name="RFVviewActiveResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RFVviewActiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound1ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound1ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.HeaderText" xml:space="preserve">
+    <value>رقم الموظف</value>
+  </data>
+  <data name="GridBound1ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.SortExpression" xml:space="preserve">
+    <value>EmployeeNo</value>
+  </data>
+  <data name="GridBound2ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound2ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound2ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.HeaderText" xml:space="preserve">
+    <value>اسم الموظف</value>
+  </data>
+  <data name="GridBound2ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.SortExpression" xml:space="preserve">
+    <value>EmployeeName</value>
+  </data>
+  <data name="GridBound3ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound3ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound3ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.HeaderText" xml:space="preserve">
+    <value>اسم الجدول</value>
+  </data>
+  <data name="GridBound3ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.SortExpression" xml:space="preserve">
+    <value>ScheduleName</value>
+  </data>
+  <data name="GridBound4ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound4ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound4ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.HeaderText" xml:space="preserve">
+    <value>من تاريخ</value>
+  </data>
+  <data name="GridBound4ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.SortExpression" xml:space="preserve">
+    <value>FromDate</value>
+  </data>
+  <data name="GridBound5ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound5ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound5ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.HeaderText" xml:space="preserve">
+    <value>الى تاريخ</value>
+  </data>
+  <data name="GridBound5ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.SortExpression" xml:space="preserve">
+    <value>ToDate</value>
+  </data>
+  <data name="GridBound6ColumnResource1.HeaderText" xml:space="preserve">
+    <value>مؤقت</value>
+  </data>
+  <data name="GridBound6ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound6ColumnResource1.SortExpression" xml:space="preserve">
+    <value>IsTemporary</value>
+  </data>
+  <data name="chkFullListResource1.Text" xml:space="preserve">
+    <value>عرض قائمة الموظفين</value>
+  </data>
+  <data name="RadFilter1Resource1.AddExpressionToolTip" xml:space="preserve">
+    <value>اضافة مصطلح</value>
+  </data>
+  <data name="RadFilter1Resource1.AddGroupToolTip" xml:space="preserve">
+    <value>اضافة مجموعة</value>
+  </data>
+  <data name="RadFilter1Resource1.ApplyButtonText" xml:space="preserve">
+    <value>تطبيق</value>
+  </data>
+  <data name="RadFilter1Resource1.BetweenDelimeterText" xml:space="preserve">
+    <value>و</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionBetween" xml:space="preserve">
+    <value>بين</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionContains" xml:space="preserve">
+    <value>يحتوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionDoesNotContain" xml:space="preserve">
+    <value>لايحتوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionEndsWith" xml:space="preserve">
+    <value>ينتهي ب</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionEqualto" xml:space="preserve">
+    <value>يساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionGreaterThan" xml:space="preserve">
+    <value>اكبر من</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionGreaterThanOrEqualTo" xml:space="preserve">
+    <value>اكبر من او يساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionIsEmpty" xml:space="preserve">
+    <value>فارغ</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionIsNull" xml:space="preserve">
+    <value>لايوجد قيمة</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionLessThan" xml:space="preserve">
+    <value>اصغر من</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionLessThanOrEqualTo" xml:space="preserve">
+    <value>اصغر من او يساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotBetween" xml:space="preserve">
+    <value>ليس بين</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotEqualTo" xml:space="preserve">
+    <value>لايساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotIsEmpty" xml:space="preserve">
+    <value>ليس فارغ</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotIsNull" xml:space="preserve">
+    <value>يوجد قيمة</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionStartsWith" xml:space="preserve">
+    <value>يبدأ ب</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationAnd" xml:space="preserve">
+    <value>و</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationNotAnd" xml:space="preserve">
+    <value>وليس</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationNotOr" xml:space="preserve">
+    <value>او ليس</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationOr" xml:space="preserve">
+    <value>او</value>
+  </data>
+  <data name="RadFilter1Resource1.RemoveToolTip" xml:space="preserve">
+    <value>ازالة بند</value>
+  </data>
+  <data name="RadFilter1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>تطبيق البحث</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Button2Resource1.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="GridBound7ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound7ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound7ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.HeaderText" xml:space="preserve">
+    <value>انشىء من قبل</value>
+  </data>
+  <data name="GridBound7ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.SortExpression" xml:space="preserve">
+    <value>UserID</value>
+  </data>
+  <data name="GridBound8ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.DataFormatString" xml:space="preserve">
+    <value>{0:dd/MM/yyyy}</value>
+  </data>
+  <data name="GridBound8ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound8ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound8ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.HeaderText" xml:space="preserve">
+    <value>تاريخ الانشاء</value>
+  </data>
+  <data name="GridBound8ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.SortExpression" xml:space="preserve">
+    <value>CREATED_DATE</value>
+  </data>
+</root>

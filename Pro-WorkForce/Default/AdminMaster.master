@@ -1,0 +1,168 @@
+﻿<%@ Master Language="VB" CodeFile="AdminMaster.master.vb" Inherits="Default_AdminMaster" %>
+
+<%--<%@ Register Src="../UserControls/AdminLeft.ascx" tagname="Left" tagprefix="uc1" %>--%>
+
+<%@ Register Src="../UserControls/LeftNav.ascx" tagname="Left" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+       <link href="../CSS/css.css" rel="stylesheet" type="text/css" />       
+       <link href="../CSS/AjaxExtender.css" rel="stylesheet" type="text/css" />       
+       <link href="../CSS/AISstyle1.css" rel="stylesheet" type="text/css" />
+       <script type="text/javascript">
+
+
+    function DisplayAlert()
+    {
+        window.ShowMessage("Could you select an item please");
+
+    }
+    
+function confirmDelete(gvName) {
+        var Lang = '<%= Lang %>'
+            var TargetBaseControl = null;
+            try {
+                //get target base control.
+                TargetBaseControl = document.getElementById(gvName);
+
+            }
+            catch (err) {
+                TargetBaseControl = null;
+            }
+
+            if (TargetBaseControl == null) {
+                ShowMessage('No Data')
+                return false;
+            }
+            //get all the control of the type INPUT in the base control.
+            var Inputs = TargetBaseControl.getElementsByTagName("input");
+            var TargetChildControl = "chk";
+            for (var n = 0; n < Inputs.length; ++n) {
+                if (Inputs[n].type == 'checkbox' && Inputs[n].checked && Inputs[n].id.indexOf(TargetChildControl, 0) >= 0) {
+                    return confirm('Are you sure you want to delete?');
+                }
+
+            }
+            if (Lang == "en") {
+                ShowMessage('Please select from the list');
+            } else {
+                ShowMessage('الرجاء الاختيار من القائمة')
+            }
+            return false;
+        }
+        </script>
+       
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+   
+</head>
+<body dir="<%=dir %>">
+
+
+    <form id="form1" runat="server">
+     <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
+    </asp:ScriptManager>
+      <center>
+        
+                <table style=" width:1024px ; border-width:0px;background-color :#FFFFFF;" cellpadding="0" cellspacing="0">
+                <tr>
+                <td>
+                    <table id="Table_01" dir="ltr" width="1024" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<img src="../images/inner-page_01.jpg" width="295" height="102" alt="image did not loaded"/></td>
+		<td colspan="2">
+			<img src="../images/inner-page_02.jpg" width="524" height="102" alt="image did not loaded"/></td>
+		<td colspan="2">
+			<img src="../images/inner-page_03.jpg" width="205" height="102" alt="image did not loaded"/></td>
+	</tr>
+	<tr>
+		<td dir="<%=dir %>" align="left" style="background-image:url(../images/inner-page_04.jpg); width="295"; height="33"">
+		
+			<asp:LinkButton ID="lnken" runat="server" Font-Bold="true" 
+                CausesValidation="False">English</asp:LinkButton>&nbsp;
+		&nbsp;<asp:LinkButton ID="lnklogoutar" runat="server" Font-Bold="true" 
+                CausesValidation="False">خروج</asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp;
+	
+		</td>
+		 
+			 
+			
+		<td style="background-image:url(../images/inner-page_05.jpg)" width="188px" height="33">
+		</td>
+		<td align="right" dir="<%=dir %>" colspan="2" style= "background-image:url(../images/inner-page_06.jpg); width="518"; height="33"">
+		
+			&nbsp;&nbsp;<asp:LinkButton ID="lnkar" runat="server" Font-Bold="true" 
+                CausesValidation="False">عربي</asp:LinkButton>
+		&nbsp;<asp:LinkButton ID="lnklogouten" runat="server" Font-Bold="true" 
+                CausesValidation="False">logout</asp:LinkButton>
+			</td>
+		<td style="background-image:url(../images/inner-page_07.jpg); width="23"; height="33"">
+			</td>
+	</tr>
+ 
+ 
+ 
+	<tr>
+		<td colspan="5"></td>
+	</tr>
+ 
+ 
+ 
+	<tr>
+		<td>
+			<img src="../images/spacer.gif" width="295" height="1" alt="image did not loaded"/></td>
+		<td >
+			<img src="../images/spacer.gif" width="188" height="1" alt="image did not loaded"/></td>
+		<td>
+			<img src="../images/spacer.gif" width="336" height="1" alt="image did not loaded"/></td>
+		<td>
+			<img src="../images/spacer.gif" width="182" height="1" alt="image did not loaded"/></td>
+		<td>
+			<img src="../images/spacer.gif" width="23" height="1" alt="image did not loaded"/></td>
+	</tr>
+</table>
+                 
+                <table border="0"  cellpadding="0" cellspacing="0" width="1024">
+                <tr valign="top">
+                <td>
+                   <div style =" float:left  ;width:250px; min-height:450px" >
+               
+                   <uc1:Left ID="Left1" runat="server" />
+               
+               </div>
+                </td>
+                <td>
+                 <div style =" float:right ;width:762px; min-height:450px; text-align:<%=textalign%>; padding:5px">
+              
+                   <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                   
+                      
+                   
+                   </asp:ContentPlaceHolder>
+                 
+                </div>
+                </td>
+                </tr>
+                </table>
+            
+               
+               
+              
+               
+               <div style =" width:1024px; height:44px;">
+                 
+               </div>
+           
+      </td>
+                </tr>
+                </table>
+                  
+      </center> 
+  
+    </form>
+</body>
+</html>

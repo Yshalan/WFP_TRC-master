@@ -1,0 +1,143 @@
+﻿Imports System.Data
+Imports TA.DashBoard
+Imports SmartV.UTILITIES
+Imports TA.Security
+Imports TA.DailyTasks
+
+Partial Class DailyTasks_RecalculateTransactions
+    Inherits System.Web.UI.Page
+
+#Region "Class Variables"
+
+    Private Lang As CtlCommon.Lang
+    Private ResourceManager As System.Resources.ResourceManager = New System.Resources.ResourceManager("Resources.Strings", System.Reflection.Assembly.Load("App_GlobalResources"))
+    Dim CultureInfo As System.Globalization.CultureInfo
+    Private objRECALC_REQUEST As RECALC_REQUEST
+
+#End Region
+
+#Region "Propereties"
+
+    Public Property CompanyId() As Integer
+        Get
+            Return ViewState("CompanyID")
+        End Get
+        Set(ByVal value As Integer)
+            ViewState("CompanyID") = value
+        End Set
+    End Property
+
+    Public Property EntityId() As Integer
+        Get
+            Return ViewState("EntityID")
+        End Get
+        Set(ByVal value As Integer)
+            ViewState("EntityID") = value
+        End Set
+    End Property
+
+    Public Property EmployeeId() As Integer
+        Get
+            Return ViewState("EmployeeId")
+        End Get
+        Set(ByVal value As Integer)
+            ViewState("EmployeeId") = value
+        End Set
+    End Property
+
+#End Region
+
+#Region "Page Events"
+
+    Protected Sub Page_PreInit(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.PreInit
+        If (SessionVariables.CultureInfo Is Nothing) Then
+            Response.Redirect("~/default/Login.aspx")
+        Else
+
+            If SessionVariables.CultureInfo = "ar-JO" Then
+                Lang = CtlCommon.Lang.AR
+                Page.MasterPageFile = "~/default/ArabicMaster.master"
+            Else
+                Lang = CtlCommon.Lang.EN
+                Page.MasterPageFile = "~/default/NewMaster.master"
+            End If
+            Page.UICulture = SessionVariables.CultureInfo
+
+        End If
+    End Sub
+    Protected Sub Page_PreRenderComplete(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.PreRenderComplete
+        CType(pnlFilter.FindControl("lblCaption"), Label).Text = "Process Could take a few minutes."
+    End Sub
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+        If Not IsPostBack Then
+            Emp_Filter.CompanyRequiredValidationGroup = btnRecalculate.ValidationGroup
+            Emp_Filter.IsLevelRequired = False
+            Emp_Filter.ValidationGroup = btnRecalculate.ValidationGroup
+
+            PageHeader1.HeaderText = ResourceManager.GetString("RecalculateTransactions", CultureInfo)
+            dteFromDate.SelectedDate = Date.Today
+            dteToDate.SelectedDate = Date.Today
+        End If
+
+    End Sub
+
+    Protected Sub btnRecalculate_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnRecalculate.Click
+
+        If Not dteToDate.SelectedDate > Date.Now Then
+            Dim errNo As Integer
+            objRECALC_REQUEST = New RECALC_REQUEST()
+            Dim strFromDate As String = DateToString(dteFromDate.SelectedDate)
+            Dim strToDate As String = DateToString(dteToDate.SelectedDate)
+            CompanyId = Emp_Filter.CompanyId
+            EntityId = Emp_Filter.EntityId
+            EmployeeId = Emp_Filter.EmployeeId
+            With objRECALC_REQUEST
+                .FromDate = Integer.Parse(strFromDate)
+                .ToDate = Integer.Parse(strToDate)
+                .CompanyID = CompanyId
+                .EntityID = EntityId
+                .EmployeeId = EmployeeId
+                .UserId = SessionVariables.LoginUser.ID
+                errNo = .RecalculateTransactions_REQ()
+
+
+                CtlCommon.ShowMessage(Me.Page, ResourceManager.GetString("RecalculateDone", CultureInfo))
+
+                'If errNo = 0 Then
+                '    CtlCommon.ShowMessage(Me.Page, ResourceManager.GetString("RecalculateDone", CultureInfo))
+                'Else
+                '    CtlCommon.ShowMessage(Me.Page, ResourceManager.GetString("ErrorInRecalculate", CultureInfo))
+                'End If
+
+            End With
+        Else
+            CtlCommon.ShowMessage(Me.Page, ResourceManager.GetString("DateGreaterThanToday", CultureInfo))
+        End If
+
+    End Sub
+
+#End Region
+
+#Region "Page Method"
+
+    Private Function DateToString(ByVal TempDate As Date) As String
+        Dim tempDay As String
+        Dim tempMonth As String
+
+        If TempDate.Month.ToString.Length = 1 Then
+            tempMonth = "0" + TempDate.Month.ToString
+        Else
+            tempMonth = TempDate.Month.ToString
+        End If
+        If TempDate.Day.ToString.Length = 1 Then
+            tempDay = "0" + TempDate.Day.ToString
+        Else
+            tempDay = TempDate.Day.ToString
+        End If
+        Return TempDate.Year.ToString() + tempMonth + tempDay
+    End Function
+
+#End Region
+
+End Class

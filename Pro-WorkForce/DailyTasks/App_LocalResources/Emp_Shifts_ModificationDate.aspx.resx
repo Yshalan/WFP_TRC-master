@@ -1,0 +1,2056 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnClearResource1.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btnClearResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnDeleteResource1.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkResource1.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="chkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbxFromDayResource1.EmptyMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbxFromDayResource1.LoadingMessage" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="cmbxFromDayResource1.Localization.AllItemsCheckedString" xml:space="preserve">
+    <value>All items checked</value>
+  </data>
+  <data name="cmbxFromDayResource1.Localization.CheckAllString" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="cmbxFromDayResource1.Localization.ItemsCheckedString" xml:space="preserve">
+    <value>items checked</value>
+  </data>
+  <data name="cmbxFromDayResource1.Localization.NoMatches" xml:space="preserve">
+    <value>No matches</value>
+  </data>
+  <data name="cmbxFromDayResource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="cmbxFromDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbxToDayResource1.EmptyMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmbxToDayResource1.LoadingMessage" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="cmbxToDayResource1.Localization.AllItemsCheckedString" xml:space="preserve">
+    <value>All items checked</value>
+  </data>
+  <data name="cmbxToDayResource1.Localization.CheckAllString" xml:space="preserve">
+    <value>Check All</value>
+  </data>
+  <data name="cmbxToDayResource1.Localization.ItemsCheckedString" xml:space="preserve">
+    <value>items checked</value>
+  </data>
+  <data name="cmbxToDayResource1.Localization.NoMatches" xml:space="preserve">
+    <value>No matches</value>
+  </data>
+  <data name="cmbxToDayResource1.Localization.ShowMoreFormatString" xml:space="preserve">
+    <value>Items &lt;b&gt;1&lt;/b&gt;-&lt;b&gt;{0}&lt;/b&gt; out of &lt;b&gt;{1}&lt;/b&gt;</value>
+  </data>
+  <data name="cmbxToDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cvDateResource1.ErrorMessage" xml:space="preserve">
+    <value>To Date must be greater than or Equal From Date!</value>
+  </data>
+  <data name="dgrdModificationDateResource1.BackImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.ClientSettings.ClientMessages.ColumnResizeTooltipFormatString" xml:space="preserve">
+    <value>Width: &lt;strong&gt;{0}&lt;/strong&gt; &lt;em&gt;pixels&lt;/em&gt;</value>
+  </data>
+  <data name="dgrdModificationDateResource1.ClientSettings.ClientMessages.DragToGroupOrReorder" xml:space="preserve">
+    <value>Drag to group or reorder</value>
+  </data>
+  <data name="dgrdModificationDateResource1.ClientSettings.ClientMessages.DragToResize" xml:space="preserve">
+    <value>Drag to resize</value>
+  </data>
+  <data name="dgrdModificationDateResource1.ClientSettings.ClientMessages.DropHereToReorder" xml:space="preserve">
+    <value>Drop here to reorder</value>
+  </data>
+  <data name="dgrdModificationDateResource1.ClientSettings.ClientMessages.PagerTooltipFormatString" xml:space="preserve">
+    <value>Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;</value>
+  </data>
+  <data name="dgrdModificationDateResource1.FilterMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.GroupingSettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse group</value>
+  </data>
+  <data name="dgrdModificationDateResource1.GroupingSettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand group</value>
+  </data>
+  <data name="dgrdModificationDateResource1.GroupingSettings.GroupByFieldsSeparator" xml:space="preserve">
+    <value>; </value>
+  </data>
+  <data name="dgrdModificationDateResource1.GroupingSettings.GroupContinuedFormatString" xml:space="preserve">
+    <value>... group continued from the previous page. </value>
+  </data>
+  <data name="dgrdModificationDateResource1.GroupingSettings.GroupContinuesFormatString" xml:space="preserve">
+    <value> Group continues on the next page.</value>
+  </data>
+  <data name="dgrdModificationDateResource1.GroupingSettings.GroupSplitDisplayFormat" xml:space="preserve">
+    <value>Showing {0} of {1} items.</value>
+  </data>
+  <data name="dgrdModificationDateResource1.GroupingSettings.GroupSplitFormat" xml:space="preserve">
+    <value> ({0})</value>
+  </data>
+  <data name="dgrdModificationDateResource1.GroupingSettings.UnGroupButtonTooltip" xml:space="preserve">
+    <value>Click here to ungroup</value>
+  </data>
+  <data name="dgrdModificationDateResource1.GroupingSettings.UnGroupTooltip" xml:space="preserve">
+    <value>Drag out of the bar to ungroup</value>
+  </data>
+  <data name="dgrdModificationDateResource1.GroupPanel.Text" xml:space="preserve">
+    <value>Drag a column header and drop it here to group by that column</value>
+  </data>
+  <data name="dgrdModificationDateResource1.GroupPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.HeaderContextMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.HierarchySettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="dgrdModificationDateResource1.HierarchySettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="dgrdModificationDateResource1.HierarchySettings.SelfCollapseTooltip" xml:space="preserve">
+    <value>Self reference collapse</value>
+  </data>
+  <data name="dgrdModificationDateResource1.HierarchySettings.SelfExpandTooltip" xml:space="preserve">
+    <value>Self reference expand</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.CommandItemSettings.AddNewRecordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.CommandItemSettings.AddNewRecordText" xml:space="preserve">
+    <value>Add new record</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.CommandItemSettings.CancelChangesText" xml:space="preserve">
+    <value>Cancel changes</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.CommandItemSettings.ExportToCsvImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.CommandItemSettings.ExportToCsvText" xml:space="preserve">
+    <value>Export to CSV</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.CommandItemSettings.ExportToExcelImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.CommandItemSettings.ExportToExcelText" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.CommandItemSettings.ExportToPdfImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.CommandItemSettings.ExportToPdfText" xml:space="preserve">
+    <value>Export to Pdf</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.CommandItemSettings.ExportToWordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.CommandItemSettings.ExportToWordText" xml:space="preserve">
+    <value>Export to Word</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.CommandItemSettings.RefreshImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.CommandItemSettings.RefreshText" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.CommandItemSettings.SaveChangesText" xml:space="preserve">
+    <value>Save changes</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.EditFormSettings.CaptionFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.EditFormSettings.InsertCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.ExpandCollapseColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.ExpandCollapseColumn.CollapseImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.ExpandCollapseColumn.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.ExpandCollapseColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.ExpandCollapseColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.ExpandCollapseColumn.ExpandImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.ExpandCollapseColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.ExpandCollapseColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.ExpandCollapseColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.ExpandCollapseColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.ExpandCollapseColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.ExpandCollapseColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.ExpandCollapseColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.ExpandCollapseColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.NoDetailRecordsText" xml:space="preserve">
+    <value>No child records to display.</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.NoMasterRecordsText" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.ChangePageSizeButtonToolTip" xml:space="preserve">
+    <value>Change Page Size</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.ChangePageSizeComboBoxTableSummary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.ChangePageSizeComboBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.ChangePageSizeTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.GoToPageButtonToolTip" xml:space="preserve">
+    <value>Go to Page</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.GoToPageTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>Next Pages</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>Previous Pages</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.RowIndicatorColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.RowIndicatorColumn.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.RowIndicatorColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.RowIndicatorColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.RowIndicatorColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.RowIndicatorColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.RowIndicatorColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.RowIndicatorColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.RowIndicatorColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.RowIndicatorColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.RowIndicatorColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.RowIndicatorColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.Summary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.MasterTableView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.ChangePageSizeButtonToolTip" xml:space="preserve">
+    <value>Change Page Size</value>
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.ChangePageSizeComboBoxTableSummary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.ChangePageSizeComboBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.ChangePageSizeTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.GoToPageButtonToolTip" xml:space="preserve">
+    <value>Go to Page</value>
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.GoToPageTextBoxToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>Next Pages</value>
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>Previous Pages</value>
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdModificationDateResource1.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="dgrdModificationDateResource1.SortingSettings.SortedAscToolTip" xml:space="preserve">
+    <value>Sorted asc</value>
+  </data>
+  <data name="dgrdModificationDateResource1.SortingSettings.SortedDescToolTip" xml:space="preserve">
+    <value>Sorted desc</value>
+  </data>
+  <data name="dgrdModificationDateResource1.SortingSettings.SortToolTip" xml:space="preserve">
+    <value>Click here to sort</value>
+  </data>
+  <data name="dgrdModificationDateResource1.StatusBarSettings.LoadingText" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="dgrdModificationDateResource1.StatusBarSettings.ReadyText" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="dgrdModificationDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpFromDateResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpFromDateResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpFromDateResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpFromDateResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpFromDateResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpFromDateResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpFromDateResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpFromDateResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpFromDateResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="dtpFromDateResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpFromDateResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpFromDateResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="dtpFromDateResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpFromDateResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="dtpFromDateResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="dtpFromDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpFromDateResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="dtpFromDateResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.CalendarCaption" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.CalendarSummary" xml:space="preserve">
+    <value>Calendar control which enables the selection of dates.</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.CellDayFormat" xml:space="preserve">
+    <value>%d</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.ColumnHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpToDateResource1.Calendar.ColumnHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpToDateResource1.Calendar.DateRangeSeparator" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.DayCellToolTipFormat" xml:space="preserve">
+    <value>dddd, MMMM dd, yyyy</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.DaysViewSummary" xml:space="preserve">
+    <value>Table containing all dates for the currently selected month.</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.FastNavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpToDateResource1.Calendar.FastNavigationNextText" xml:space="preserve">
+    <value>&amp;gt;&amp;gt;</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.FastNavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpToDateResource1.Calendar.FastNavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;&amp;lt;</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.FastNavigationSettings.CancelButtonCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.FastNavigationSettings.DateIsOutOfRangeMessage" xml:space="preserve">
+    <value>Date is out of range.</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.FastNavigationSettings.OkButtonCaption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.FastNavigationSettings.TodayButtonCaption" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.NavigationCaption" xml:space="preserve">
+    <value>Title and navigation</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.NavigationNextImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpToDateResource1.Calendar.NavigationNextText" xml:space="preserve">
+    <value>&amp;gt;</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.NavigationPrevImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpToDateResource1.Calendar.NavigationPrevText" xml:space="preserve">
+    <value>&amp;lt;</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.NavigationSummary" xml:space="preserve">
+    <value>Title and navigation which can change and show the current year and month.</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.RowHeaderImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpToDateResource1.Calendar.RowHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpToDateResource1.Calendar.TitleFormat" xml:space="preserve">
+    <value>MMMM yyyy</value>
+  </data>
+  <data name="dtpToDateResource1.Calendar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpToDateResource1.Calendar.ViewSelectorImage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpToDateResource1.Calendar.ViewSelectorText" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="dtpToDateResource1.DateInput.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpToDateResource1.DatePopupButton.ToolTip" xml:space="preserve">
+    <value>Open the calendar popup.</value>
+  </data>
+  <data name="dtpToDateResource1.HiddenInputTitleAttibute" xml:space="preserve">
+    <value>Visually hidden input created for functionality purposes.</value>
+  </data>
+  <data name="dtpToDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpToDateResource1.WrapperTableCaption" xml:space="preserve">
+    <value>RadDatePicker</value>
+  </data>
+  <data name="dtpToDateResource1.WrapperTableSummary" xml:space="preserve">
+    <value>Table holding date picker control for selection of dates.</value>
+  </data>
+  <data name="GridBoundColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource1.HeaderText" xml:space="preserve">
+    <value>ModificationId</value>
+  </data>
+  <data name="GridBoundColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GridBoundColumnResource1.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource1.SortExpression" xml:space="preserve">
+    <value>ModificationId</value>
+  </data>
+  <data name="GridBoundColumnResource2.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource2.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource2.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.HeaderText" xml:space="preserve">
+    <value>Date Option</value>
+  </data>
+  <data name="GridBoundColumnResource2.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource2.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource2.SortExpression" xml:space="preserve">
+    <value>DateOption</value>
+  </data>
+  <data name="GridBoundColumnResource3.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource3.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource3.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.HeaderText" xml:space="preserve">
+    <value>From Day</value>
+  </data>
+  <data name="GridBoundColumnResource3.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource3.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource3.SortExpression" xml:space="preserve">
+    <value>FromDay</value>
+  </data>
+  <data name="GridBoundColumnResource4.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource4.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource4.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.HeaderText" xml:space="preserve">
+    <value>ToDay</value>
+  </data>
+  <data name="GridBoundColumnResource4.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource4.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource4.SortExpression" xml:space="preserve">
+    <value>ToDay</value>
+  </data>
+  <data name="GridBoundColumnResource5.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.DataFormatString" xml:space="preserve">
+    <value>{0: dd/MM/yyyy}</value>
+  </data>
+  <data name="GridBoundColumnResource5.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource5.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource5.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.HeaderText" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="GridBoundColumnResource5.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource5.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource5.SortExpression" xml:space="preserve">
+    <value>FromDate</value>
+  </data>
+  <data name="GridBoundColumnResource6.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.DataFormatString" xml:space="preserve">
+    <value>{0: dd/MM/yyyy}</value>
+  </data>
+  <data name="GridBoundColumnResource6.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBoundColumnResource6.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBoundColumnResource6.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.HeaderText" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="GridBoundColumnResource6.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource6.HtmlEncode" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GridBoundColumnResource6.SortExpression" xml:space="preserve">
+    <value>ToDate</value>
+  </data>
+  <data name="GridTemplateColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.ColumnGroupName" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridTemplateColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridTemplateColumnResource1.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFromDateResource1.Text" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="lblFromDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFromDayResource1.Text" xml:space="preserve">
+    <value>From Day</value>
+  </data>
+  <data name="lblFromDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblToDateResource1.Text" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="lblToDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblToDayResource1.Text" xml:space="preserve">
+    <value>To Day</value>
+  </data>
+  <data name="lblToDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Repeated Monthly</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Specific Period</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Work Force Pro</value>
+  </data>
+  <data name="RadComboBoxItemResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource1.Text" xml:space="preserve">
+    <value>--Please Select--</value>
+  </data>
+  <data name="RadComboBoxItemResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource1.Value" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="RadComboBoxItemResource10.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource10.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="RadComboBoxItemResource10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource10.Value" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="RadComboBoxItemResource11.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource11.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="RadComboBoxItemResource11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource11.Value" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="RadComboBoxItemResource12.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource12.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="RadComboBoxItemResource12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource12.Value" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="RadComboBoxItemResource13.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource13.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="RadComboBoxItemResource13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource13.Value" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="RadComboBoxItemResource14.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource14.Text" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="RadComboBoxItemResource14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource14.Value" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="RadComboBoxItemResource15.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource15.Text" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="RadComboBoxItemResource15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource15.Value" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="RadComboBoxItemResource16.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource16.Text" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="RadComboBoxItemResource16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource16.Value" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="RadComboBoxItemResource17.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource17.Text" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="RadComboBoxItemResource17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource17.Value" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="RadComboBoxItemResource18.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource18.Text" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="RadComboBoxItemResource18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource18.Value" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="RadComboBoxItemResource19.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource19.Text" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="RadComboBoxItemResource19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource19.Value" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="RadComboBoxItemResource2.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource2.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RadComboBoxItemResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource2.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RadComboBoxItemResource20.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource20.Text" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="RadComboBoxItemResource20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource20.Value" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="RadComboBoxItemResource21.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource21.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="RadComboBoxItemResource21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource21.Value" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="RadComboBoxItemResource22.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource22.Text" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="RadComboBoxItemResource22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource22.Value" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="RadComboBoxItemResource23.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource23.Text" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="RadComboBoxItemResource23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource23.Value" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="RadComboBoxItemResource24.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource24.Text" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="RadComboBoxItemResource24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource24.Value" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="RadComboBoxItemResource25.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource25.Text" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="RadComboBoxItemResource25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource25.Value" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="RadComboBoxItemResource26.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource26.Text" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="RadComboBoxItemResource26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource26.Value" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="RadComboBoxItemResource27.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource27.Text" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="RadComboBoxItemResource27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource27.Value" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="RadComboBoxItemResource28.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource28.Text" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="RadComboBoxItemResource28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource28.Value" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="RadComboBoxItemResource29.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource29.Text" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="RadComboBoxItemResource29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource29.Value" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="RadComboBoxItemResource3.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource3.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RadComboBoxItemResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource3.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RadComboBoxItemResource30.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource30.Text" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="RadComboBoxItemResource30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource30.Value" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="RadComboBoxItemResource31.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource31.Text" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="RadComboBoxItemResource31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource31.Value" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="RadComboBoxItemResource32.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource32.Text" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="RadComboBoxItemResource32.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource32.Value" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="RadComboBoxItemResource33.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource33.Text" xml:space="preserve">
+    <value>--Please Select--</value>
+  </data>
+  <data name="RadComboBoxItemResource33.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource33.Value" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="RadComboBoxItemResource34.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource34.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RadComboBoxItemResource34.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource34.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RadComboBoxItemResource35.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource35.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RadComboBoxItemResource35.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource35.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RadComboBoxItemResource36.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource36.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RadComboBoxItemResource36.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource36.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RadComboBoxItemResource37.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource37.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="RadComboBoxItemResource37.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource37.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="RadComboBoxItemResource38.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource38.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="RadComboBoxItemResource38.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource38.Value" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="RadComboBoxItemResource39.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource39.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="RadComboBoxItemResource39.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource39.Value" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="RadComboBoxItemResource4.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource4.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RadComboBoxItemResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource4.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RadComboBoxItemResource40.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource40.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="RadComboBoxItemResource40.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource40.Value" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="RadComboBoxItemResource41.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource41.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="RadComboBoxItemResource41.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource41.Value" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="RadComboBoxItemResource42.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource42.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="RadComboBoxItemResource42.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource42.Value" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="RadComboBoxItemResource43.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource43.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="RadComboBoxItemResource43.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource43.Value" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="RadComboBoxItemResource44.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource44.Text" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="RadComboBoxItemResource44.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource44.Value" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="RadComboBoxItemResource45.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource45.Text" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="RadComboBoxItemResource45.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource45.Value" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="RadComboBoxItemResource46.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource46.Text" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="RadComboBoxItemResource46.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource46.Value" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="RadComboBoxItemResource47.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource47.Text" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="RadComboBoxItemResource47.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource47.Value" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="RadComboBoxItemResource48.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource48.Text" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="RadComboBoxItemResource48.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource48.Value" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="RadComboBoxItemResource49.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource49.Text" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="RadComboBoxItemResource49.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource49.Value" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="RadComboBoxItemResource5.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource5.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="RadComboBoxItemResource5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource5.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="RadComboBoxItemResource50.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource50.Text" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="RadComboBoxItemResource50.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource50.Value" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="RadComboBoxItemResource51.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource51.Text" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="RadComboBoxItemResource51.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource51.Value" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="RadComboBoxItemResource52.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource52.Text" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="RadComboBoxItemResource52.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource52.Value" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="RadComboBoxItemResource53.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource53.Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="RadComboBoxItemResource53.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource53.Value" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="RadComboBoxItemResource54.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource54.Text" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="RadComboBoxItemResource54.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource54.Value" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="RadComboBoxItemResource55.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource55.Text" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="RadComboBoxItemResource55.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource55.Value" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="RadComboBoxItemResource56.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource56.Text" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="RadComboBoxItemResource56.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource56.Value" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="RadComboBoxItemResource57.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource57.Text" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="RadComboBoxItemResource57.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource57.Value" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="RadComboBoxItemResource58.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource58.Text" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="RadComboBoxItemResource58.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource58.Value" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="RadComboBoxItemResource59.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource59.Text" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="RadComboBoxItemResource59.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource59.Value" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="RadComboBoxItemResource6.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource6.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="RadComboBoxItemResource6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource6.Value" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="RadComboBoxItemResource60.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource60.Text" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="RadComboBoxItemResource60.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource60.Value" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="RadComboBoxItemResource61.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource61.Text" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="RadComboBoxItemResource61.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource61.Value" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="RadComboBoxItemResource62.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource62.Text" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="RadComboBoxItemResource62.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource62.Value" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="RadComboBoxItemResource63.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource63.Text" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="RadComboBoxItemResource63.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource63.Value" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="RadComboBoxItemResource64.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource64.Text" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="RadComboBoxItemResource64.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource64.Value" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="RadComboBoxItemResource7.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource7.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="RadComboBoxItemResource7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource7.Value" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="RadComboBoxItemResource8.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource8.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="RadComboBoxItemResource8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource8.Value" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="RadComboBoxItemResource9.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource9.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="RadComboBoxItemResource9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource9.Value" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="RadFilter1Resource1.AddExpressionToolTip" xml:space="preserve">
+    <value>Add Expression</value>
+  </data>
+  <data name="RadFilter1Resource1.AddGroupToolTip" xml:space="preserve">
+    <value>Add Group</value>
+  </data>
+  <data name="RadFilter1Resource1.ApplyButtonText" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="RadFilter1Resource1.BetweenDelimeterText" xml:space="preserve">
+    <value>And</value>
+  </data>
+  <data name="RadFilter1Resource1.ContextMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionBetween" xml:space="preserve">
+    <value>Between</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionContains" xml:space="preserve">
+    <value>Contains</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionDoesNotContain" xml:space="preserve">
+    <value>DoesNotContain</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionEndsWith" xml:space="preserve">
+    <value>EndsWith</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionGreaterThan" xml:space="preserve">
+    <value>GreaterThan</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionGreaterThanOrEqualTo" xml:space="preserve">
+    <value>GreaterThanOrEqualTo</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionIsEmpty" xml:space="preserve">
+    <value>IsEmpty</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionIsNull" xml:space="preserve">
+    <value>IsNull</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionLessThan" xml:space="preserve">
+    <value>LessThan</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionLessThanOrEqualTo" xml:space="preserve">
+    <value>LessThanOrEqualTo</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotBetween" xml:space="preserve">
+    <value>NotBetween</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotEqualTo" xml:space="preserve">
+    <value>NotEqualTo</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotIsEmpty" xml:space="preserve">
+    <value>NotIsEmpty</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotIsNull" xml:space="preserve">
+    <value>NotIsNull</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionStartsWith" xml:space="preserve">
+    <value>StartsWith</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationAnd" xml:space="preserve">
+    <value>And</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationNotAnd" xml:space="preserve">
+    <value>Not And</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationNotOr" xml:space="preserve">
+    <value>Not Or</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationOr" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderBetweenText" xml:space="preserve">
+    <value>Between</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderContainsText" xml:space="preserve">
+    <value>Contains</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderDoesNotContainText" xml:space="preserve">
+    <value>Does Not Contain</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderEndsWithText" xml:space="preserve">
+    <value>Ends With</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderEqualToText" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderGreaterThanOrEqualToText" xml:space="preserve">
+    <value>&gt;=</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderGreaterThanText" xml:space="preserve">
+    <value>&gt;</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderIsEmptyText" xml:space="preserve">
+    <value>Is Empty</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderIsNullText" xml:space="preserve">
+    <value>Is Null</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderLessThanOrEqualToText" xml:space="preserve">
+    <value>&lt;=</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderLessThanText" xml:space="preserve">
+    <value>&lt;</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderNotBetweenText" xml:space="preserve">
+    <value>NotBetween</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderNotEqualToText" xml:space="preserve">
+    <value>&lt;&gt;</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderNotIsEmptyText" xml:space="preserve">
+    <value>Is Not Empty</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderNotIsNullText" xml:space="preserve">
+    <value>Is Not Null</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.PreviewProviderStartsWithText" xml:space="preserve">
+    <value>Starts With</value>
+  </data>
+  <data name="RadFilter1Resource1.RemoveToolTip" xml:space="preserve">
+    <value>Remove Item</value>
+  </data>
+  <data name="RadFilter1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>Apply filter</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblModificationTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvFromDateResource1.ErrorMessage" xml:space="preserve">
+    <value>Please Enter From Date</value>
+  </data>
+  <data name="rfvFromDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvFromDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvFromDayResource1.ErrorMessage" xml:space="preserve">
+    <value>Please Select From Day</value>
+  </data>
+  <data name="rfvFromDayResource1.InitialValue" xml:space="preserve">
+    <value>--Please Select--</value>
+  </data>
+  <data name="rfvFromDayResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvFromDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvToDateResource1.ErrorMessage" xml:space="preserve">
+    <value>Please Enter To Date</value>
+  </data>
+  <data name="rfvToDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvToDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvToDayResource1.ErrorMessage" xml:space="preserve">
+    <value>Please Select To Day</value>
+  </data>
+  <data name="rfvToDayResource1.InitialValue" xml:space="preserve">
+    <value>--Please Select--</value>
+  </data>
+  <data name="rfvToDayResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvToDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

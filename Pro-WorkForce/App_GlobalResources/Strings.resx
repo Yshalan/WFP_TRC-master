@@ -1,0 +1,1506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CssFileName" xml:space="preserve">
+    <value>ControlsStyle.css</value>
+  </data>
+  <data name="lblReportTitle" xml:space="preserve">
+    <value>Report Title</value>
+  </data>
+  <data name="PageDir" xml:space="preserve">
+    <value>ltr</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Theme1</value>
+  </data>
+  <data name="AppSettings" xml:space="preserve">
+    <value>Application Settings</value>
+  </data>
+  <data name="DateRange" xml:space="preserve">
+    <value>"To Date" Should be greater than or equal to "From Date"</value>
+  </data>
+  <data name="DeletedSuccessfully" xml:space="preserve">
+    <value>Deleted Successfully</value>
+  </data>
+  <data name="ErrorDelete" xml:space="preserve">
+    <value>Error While Deleting</value>
+  </data>
+  <data name="ErrorModfiy" xml:space="preserve">
+    <value>Error While Modifying</value>
+  </data>
+  <data name="ErrorSave" xml:space="preserve">
+    <value>Error While Saving</value>
+  </data>
+  <data name="ErrorUpdate" xml:space="preserve">
+    <value>Error While Updating</value>
+  </data>
+  <data name="ModifySuccessfully" xml:space="preserve">
+    <value>Modified Successfully</value>
+  </data>
+  <data name="SaveSuccessfully" xml:space="preserve">
+    <value>Saved Successfully</value>
+  </data>
+  <data name="UpdatedSuccessfully" xml:space="preserve">
+    <value>Updated Successfully</value>
+  </data>
+  <data name="AbsentDash" xml:space="preserve">
+    <value>Absent DashBoard</value>
+  </data>
+  <data name="AssignEmpSchedule" xml:space="preserve">
+    <value>Assign Employee Schedule</value>
+  </data>
+  <data name="AssignMgr" xml:space="preserve">
+    <value>Assign Managers</value>
+  </data>
+  <data name="AttendDash" xml:space="preserve">
+    <value>Attendees DashBoard</value>
+  </data>
+  <data name="CodeExist" xml:space="preserve">
+    <value>Code Already Exist</value>
+  </data>
+  <data name="DashBoard" xml:space="preserve">
+    <value>Dash Board</value>
+  </data>
+  <data name="DateExist" xml:space="preserve">
+    <value>Date Already Exists</value>
+  </data>
+  <data name="DelayDash" xml:space="preserve">
+    <value>Delay DashBoard</value>
+  </data>
+  <data name="DesignationHeader" xml:space="preserve">
+    <value>Define Designations</value>
+  </data>
+  <data name="DirectMgrLeaveHeader" xml:space="preserve">
+    <value>Direct Manager Leave Approval</value>
+  </data>
+  <data name="EarlyDash" xml:space="preserve">
+    <value>Early Out DashBoard</value>
+  </data>
+  <data name="EmployeeSelect" xml:space="preserve">
+    <value>Please Choose Employees</value>
+  </data>
+  <data name="LeavesDash" xml:space="preserve">
+    <value>Leaves DashBoard</value>
+  </data>
+  <data name="LeaveTypeSelected" xml:space="preserve">
+    <value>Leave Type Already Selected</value>
+  </data>
+  <data name="NameExist" xml:space="preserve">
+    <value>English Name Already Exist</value>
+  </data>
+  <data name="PleaseSelect" xml:space="preserve">
+    <value>--Please Select--</value>
+  </data>
+  <data name="ArNameExist" xml:space="preserve">
+    <value>Arabic Name  Already Exists</value>
+  </data>
+  <data name="btnAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btnDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnFind" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CantDeleteReligion" xml:space="preserve">
+    <value>One More Religion Could't Deleted</value>
+  </data>
+  <data name="DaySelect" xml:space="preserve">
+    <value>Please Select At Least One Day From The List :</value>
+  </data>
+  <data name="DirectMgrPermitHeader" xml:space="preserve">
+    <value>Direct Manager Permission Approval</value>
+  </data>
+  <data name="EmpLeaveBalance" xml:space="preserve">
+    <value>Employee Leave Balance</value>
+  </data>
+  <data name="EmpReligion" xml:space="preserve">
+    <value>Employee Religion</value>
+  </data>
+  <data name="EmpShifts" xml:space="preserve">
+    <value>Employee Shifts</value>
+  </data>
+  <data name="EmpStatus" xml:space="preserve">
+    <value>Employee Status</value>
+  </data>
+  <data name="EnNameExist" xml:space="preserve">
+    <value>English Name  Already Exists</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>File Not Found</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>files</value>
+  </data>
+  <data name="KB" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="StatusCodeExist" xml:space="preserve">
+    <value>Status Code Exists</value>
+  </data>
+  <data name="UploadSize" xml:space="preserve">
+    <value>Upload file size supports only up to</value>
+  </data>
+  <data name="UploadSupport" xml:space="preserve">
+    <value>Upload supports only</value>
+  </data>
+  <data name="DefGrade" xml:space="preserve">
+    <value>Define Grades</value>
+  </data>
+  <data name="DefHoliday" xml:space="preserve">
+    <value>Define Holidays</value>
+  </data>
+  <data name="DirectMgrOverHeader" xml:space="preserve">
+    <value>Direct Manager Overtime Approval</value>
+  </data>
+  <data name="EmpWorkLoc" xml:space="preserve">
+    <value>Employees Work Locations</value>
+  </data>
+  <data name="EmpWorkSchedule" xml:space="preserve">
+    <value>Employee Work Schedule</value>
+  </data>
+  <data name="InsertDuplication" xml:space="preserve">
+    <value>Error : Insertion duplication for Employee work schedule</value>
+  </data>
+  <data name="LeaveTypeExist" xml:space="preserve">
+    <value>Leave Type Already Exist</value>
+  </data>
+  <data name="AbsentRuleAddSuccess" xml:space="preserve">
+    <value>Absent Rule Added Successfully</value>
+  </data>
+  <data name="AddSuccessfully" xml:space="preserve">
+    <value>Added Successfully</value>
+  </data>
+  <data name="AllowedOccureAddSuccess" xml:space="preserve">
+    <value>Allowed Occurance Added Successfully</value>
+  </data>
+  <data name="CantDelete" xml:space="preserve">
+    <value>One or More Shedule(s) Coul'd not deleted</value>
+  </data>
+  <data name="ComNameExist" xml:space="preserve">
+    <value>Company Name Already Exists</value>
+  </data>
+  <data name="ComWorkLocations" xml:space="preserve">
+    <value>Companies Work Locations</value>
+  </data>
+  <data name="ConsiderPeriodInDays" xml:space="preserve">
+    <value>Considered Period</value>
+  </data>
+  <data name="DefOverRules" xml:space="preserve">
+    <value>Define Overtime Rules</value>
+  </data>
+  <data name="DefReligions" xml:space="preserve">
+    <value>Define Religions</value>
+  </data>
+  <data name="DefTAPolicy" xml:space="preserve">
+    <value>Define TA Policies</value>
+  </data>
+  <data name="PleaseDelayInDays" xml:space="preserve">
+    <value>Please enter No. of Delays</value>
+  </data>
+  <data name="PleaseDelayInMin" xml:space="preserve">
+    <value>Please Enter Delay Limit in Min</value>
+  </data>
+  <data name="EmpLeave" xml:space="preserve">
+    <value>Employee Leaves</value>
+  </data>
+  <data name="EmpLeaveRequest" xml:space="preserve">
+    <value>Employee Leave Request</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="EmpNonotinlevel" xml:space="preserve">
+    <value>Employee Number not Exist or not in This level Please Insert Another Number</value>
+  </data>
+  <data name="EmpPermitRequest" xml:space="preserve">
+    <value>Employee Permission Request</value>
+  </data>
+  <data name="EmpSelectLeast" xml:space="preserve">
+    <value>Please Select At Least One Employee From The Company :</value>
+  </data>
+  <data name="EmpWorkScheduleMr" xml:space="preserve">
+    <value>Employee Work Schedule - Mr.</value>
+  </data>
+  <data name="EmpWorkScheduleMrs" xml:space="preserve">
+    <value>Employee Work Schedule - Ms.</value>
+  </data>
+  <data name="ErrAddMaxAllow" xml:space="preserve">
+    <value>Error While Adding Maximum Allowed</value>
+  </data>
+  <data name="ErrAddWorkLoc" xml:space="preserve">
+    <value>Error While Adding Work Location</value>
+  </data>
+  <data name="ErrorAdd" xml:space="preserve">
+    <value>Error While Adding</value>
+  </data>
+  <data name="ErrorAddViolation" xml:space="preserve">
+    <value>Error While Adding Violation</value>
+  </data>
+  <data name="FlixebleSchedule" xml:space="preserve">
+    <value>Flexible Work Schedule</value>
+  </data>
+  <data name="FrmTime1CantLeft" xml:space="preserve">
+    <value>From Time1 Cannot be left as 00:00 for</value>
+  </data>
+  <data name="FrmTime2CantLeft" xml:space="preserve">
+    <value>From Time2 Cannot be left as 00:00 for</value>
+  </data>
+  <data name="HRLeaveApprove" xml:space="preserve">
+    <value>Human Resource Leave Approval</value>
+  </data>
+  <data name="HROverApprove" xml:space="preserve">
+    <value>Human Resource Overtime Approval</value>
+  </data>
+  <data name="HRPermitApprove" xml:space="preserve">
+    <value>Human Resource Permission Approval</value>
+  </data>
+  <data name="LeaveBalance" xml:space="preserve">
+    <value>Leave Balance</value>
+  </data>
+  <data name="LeaveBalanceHistory" xml:space="preserve">
+    <value>Leave Balance History</value>
+  </data>
+  <data name="LeaveExist" xml:space="preserve">
+    <value>Leave Record Already Exists Between The Date Range</value>
+  </data>
+  <data name="LeaveType" xml:space="preserve">
+    <value>Leaves Types</value>
+  </data>
+  <data name="LevelAddSuccess" xml:space="preserve">
+    <value>Level Added Successfully</value>
+  </data>
+  <data name="LogicGroup" xml:space="preserve">
+    <value>Employees logical Group</value>
+  </data>
+  <data name="LowLevelDelete" xml:space="preserve">
+    <value>Only lowest level could be deleted</value>
+  </data>
+  <data name="ManualEntry" xml:space="preserve">
+    <value>Manual Entry</value>
+  </data>
+  <data name="MaritalStatus" xml:space="preserve">
+    <value>Marital Status</value>
+  </data>
+  <data name="MaxAllowed" xml:space="preserve">
+    <value>Maximum allowed already entered for this duration</value>
+  </data>
+  <data name="MaxDeff" xml:space="preserve">
+    <value>Max Difference Between From Date and To Date is 30 Days</value>
+  </data>
+  <data name="MaxDurationEntered" xml:space="preserve">
+    <value>Maximum duration already entered for this duration</value>
+  </data>
+  <data name="NameorCodeExist" xml:space="preserve">
+    <value>Name or Code Already Exists</value>
+  </data>
+  <data name="Nationalities" xml:space="preserve">
+    <value>Nationalities</value>
+  </data>
+  <data name="NoAbsentDays" xml:space="preserve">
+    <value>No. of absent days</value>
+  </data>
+  <data name="NormalSchedule" xml:space="preserve">
+    <value>Normal Work Schedule</value>
+  </data>
+  <data name="NumIsntForThisLevel" xml:space="preserve">
+    <value>Number is not in This level Please Insert Another Number</value>
+  </data>
+  <data name="OrgCompany" xml:space="preserve">
+    <value>Organization Companies</value>
+  </data>
+  <data name="OrgLevel" xml:space="preserve">
+    <value>Organization Levels</value>
+  </data>
+  <data name="OrgStructure" xml:space="preserve">
+    <value>Organization Structure</value>
+  </data>
+  <data name="OverMassUpdate" xml:space="preserve">
+    <value>OverTime Rules Mass Update</value>
+  </data>
+  <data name="OvertimeInserted" xml:space="preserve">
+    <value>This time already inserted for another high overtime period</value>
+  </data>
+  <data name="OvertimeRules" xml:space="preserve">
+    <value>Overtime Rules</value>
+  </data>
+  <data name="PermitType" xml:space="preserve">
+    <value>Permissions Type</value>
+  </data>
+  <data name="PlaeseSelectLevel" xml:space="preserve">
+    <value>Please Select Level for Recalculate</value>
+  </data>
+  <data name="PleaseSelectFromList" xml:space="preserve">
+    <value>Please Select From The List</value>
+  </data>
+  <data name="RecalFailed" xml:space="preserve">
+    <value>Recalculate Proccess Failed</value>
+  </data>
+  <data name="RecalSuccess" xml:space="preserve">
+    <value>Recalculate Proccess Successfully</value>
+  </data>
+  <data name="Religions" xml:space="preserve">
+    <value>Religions</value>
+  </data>
+  <data name="RemoveReference" xml:space="preserve">
+    <value>Please remove the reference with Enity and Try again</value>
+  </data>
+  <data name="ShiftSchedule" xml:space="preserve">
+    <value>Shift Work Schedule</value>
+  </data>
+  <data name="TAMassUpdate" xml:space="preserve">
+    <value>TA Policy Mass Update</value>
+  </data>
+  <data name="TAPolicy" xml:space="preserve">
+    <value>TA Policy</value>
+  </data>
+  <data name="TAReason" xml:space="preserve">
+    <value>TA Reason</value>
+  </data>
+  <data name="TimeRange" xml:space="preserve">
+    <value>"To Time" Should be greater than "From Time"</value>
+  </data>
+  <data name="TotalDelayInMin" xml:space="preserve">
+    <value>Total Delay/ Early-Out Limit in Min.</value>
+  </data>
+  <data name="ToTime1CantLeft" xml:space="preserve">
+    <value>To Time1 Cannot be left as 00:00, for</value>
+  </data>
+  <data name="ToTime2CantLeft" xml:space="preserve">
+    <value>To Time2 Cannot be left as 00:00, for</value>
+  </data>
+  <data name="ViewActiveSchedule" xml:space="preserve">
+    <value>View Active Schedule</value>
+  </data>
+  <data name="ViewMgr" xml:space="preserve">
+    <value>View Managers</value>
+  </data>
+  <data name="ViolationActions" xml:space="preserve">
+    <value>Violation Actions</value>
+  </data>
+  <data name="ViolationAddSuccess" xml:space="preserve">
+    <value>Violation Added Successfully</value>
+  </data>
+  <data name="WorkLocAddSuccess" xml:space="preserve">
+    <value>Work Location Added Successfully</value>
+  </data>
+  <data name="Absentdaysperperiod" xml:space="preserve">
+    <value>Absent days per period</value>
+  </data>
+  <data name="Addatleastonelevel" xml:space="preserve">
+    <value>Please add atleast one level</value>
+  </data>
+  <data name="ConsecutiveAbsent" xml:space="preserve">
+    <value>Consecutive Absent Days</value>
+  </data>
+  <data name="ConsecutiveDelay" xml:space="preserve">
+    <value>Consecutive Delays</value>
+  </data>
+  <data name="DelayInDays" xml:space="preserve">
+    <value>No. of Delays</value>
+  </data>
+  <data name="DelayInMin" xml:space="preserve">
+    <value>Delay Limit in Min.</value>
+  </data>
+  <data name="Noofdelaysperperiod" xml:space="preserve">
+    <value>No. of delays per period</value>
+  </data>
+  <data name="OneAbsentDay" xml:space="preserve">
+    <value>One Absent Day</value>
+  </data>
+  <data name="OneDayDelay" xml:space="preserve">
+    <value>One Day Delay Limit</value>
+  </data>
+  <data name="Absent" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="AddCom" xml:space="preserve">
+    <value>Add Company</value>
+  </data>
+  <data name="ChangePass" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="ComCouldnotDeleted" xml:space="preserve">
+    <value>One More Company Could't be Deleted</value>
+  </data>
+  <data name="DateRangeEarly" xml:space="preserve">
+    <value>End date earlier than start date</value>
+  </data>
+  <data name="Delay" xml:space="preserve">
+    <value>Delay</value>
+  </data>
+  <data name="EarlyOut" xml:space="preserve">
+    <value>Early Out</value>
+  </data>
+  <data name="EmpAssigned" xml:space="preserve">
+    <value>This Employee Is Already Assigned For Another User</value>
+  </data>
+  <data name="EmpCodeExist" xml:space="preserve">
+    <value>Employee Code Already Exists</value>
+  </data>
+  <data name="EmpNameExist" xml:space="preserve">
+    <value>Employee Name Already Exists</value>
+  </data>
+  <data name="EndEqualStart" xml:space="preserve">
+    <value>End and start date are the same</value>
+  </data>
+  <data name="EntityCouldnotDeleted" xml:space="preserve">
+    <value>One More Entity Could't be Deleted</value>
+  </data>
+  <data name="ErrorEmpProcessing" xml:space="preserve">
+    <value>Error Processing : Invalid Employee Id</value>
+  </data>
+  <data name="ErrorPermitProcessing" xml:space="preserve">
+    <value>Error Processing : Invalid Permission Id</value>
+  </data>
+  <data name="ErrOvertimeEdit" xml:space="preserve">
+    <value>Cannot Change Overtime Rule, Overtime Already Exist At That Date Or Period</value>
+  </data>
+  <data name="ErrTAEdit" xml:space="preserve">
+    <value>Cannot Change TA Policy, TA Policy Already Exist At That Date Or Period</value>
+  </data>
+  <data name="OrgEntity" xml:space="preserve">
+    <value>Organization Entities</value>
+  </data>
+  <data name="OvertimeChange" xml:space="preserve">
+    <value>Overtime Rule Changed</value>
+  </data>
+  <data name="PassChangeSuccess" xml:space="preserve">
+    <value>Your password is changed successfully, Please logout and login using the new password</value>
+  </data>
+  <data name="PleaseNoAbsentDays" xml:space="preserve">
+    <value>Please Enter No. Of Absent Days</value>
+  </data>
+  <data name="Pleaseselectenddate" xml:space="preserve">
+    <value>Please Select End Date</value>
+  </data>
+  <data name="Pleaseselecttodate" xml:space="preserve">
+    <value>Please Select To Date</value>
+  </data>
+  <data name="TAActivated" xml:space="preserve">
+    <value>TA policy already activated</value>
+  </data>
+  <data name="TAChange" xml:space="preserve">
+    <value>TA Policy Changed</value>
+  </data>
+  <data name="UserIDExist" xml:space="preserve">
+    <value>User ID Already Exists</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ViewAddEdit" xml:space="preserve">
+    <value>ViewAddEdit</value>
+  </data>
+  <data name="ViewAll" xml:space="preserve">
+    <value>ViewAll</value>
+  </data>
+  <data name="WrongOldPass" xml:space="preserve">
+    <value>Your old password is wrong</value>
+  </data>
+  <data name="EntityNameExist" xml:space="preserve">
+    <value>Entity Name Already Exists</value>
+  </data>
+  <data name="EntityCodeExist" xml:space="preserve">
+    <value>Entity Code already exists</value>
+  </data>
+  <data name="DefineUserGroups" xml:space="preserve">
+    <value>Define User Groups</value>
+  </data>
+  <data name="EmpPerm" xml:space="preserve">
+    <value>Employee Permissions</value>
+  </data>
+  <data name="FailedPreviligies" xml:space="preserve">
+    <value>Failed to delete previliges</value>
+  </data>
+  <data name="FailedToDeletGroup" xml:space="preserve">
+    <value>Failed To Delete Group</value>
+  </data>
+  <data name="Groupalreadyexists" xml:space="preserve">
+    <value>Group already exists</value>
+  </data>
+  <data name="MismatchCompany" xml:space="preserve">
+    <value>Mismatch with company</value>
+  </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>Operation Failed</value>
+  </data>
+  <data name="ChkConnection" xml:space="preserve">
+    <value>Please Make Sure Database Connection</value>
+  </data>
+  <data name="DefUsers" xml:space="preserve">
+    <value>Define Users</value>
+  </data>
+  <data name="EmptyUserOrPass" xml:space="preserve">
+    <value>Do Not Leave User Name Or Password Empty</value>
+  </data>
+  <data name="ErrorLogin" xml:space="preserve">
+    <value>Error during login to system</value>
+  </data>
+  <data name="InvalidUserOrPass" xml:space="preserve">
+    <value>Invalid user name or passowrd</value>
+  </data>
+  <data name="UsernotActive" xml:space="preserve">
+    <value>User is not Active please refere to System Adminstrator</value>
+  </data>
+  <data name="NursingValidation" xml:space="preserve">
+    <value>Please Select Female Employee </value>
+  </data>
+  <data name="NotificationType" xml:space="preserve">
+    <value>Notification Type</value>
+  </data>
+  <data name="EmpHR" xml:space="preserve">
+    <value>Employee HR</value>
+  </data>
+  <data name="Assign_Company" xml:space="preserve">
+    <value>Assign Schedule By Company</value>
+  </data>
+  <data name="Assign_Emp" xml:space="preserve">
+    <value>Assign Schedule By Employee</value>
+  </data>
+  <data name="Assign_Entity" xml:space="preserve">
+    <value>Assign Schedule By Entity</value>
+  </data>
+  <data name="Assign_LogicalGrp" xml:space="preserve">
+    <value>Assign Schedule By Logical Group</value>
+  </data>
+  <data name="Assign_WorkLoc" xml:space="preserve">
+    <value>Assign Schedule By Work Location</value>
+  </data>
+  <data name="WorkSchedule" xml:space="preserve">
+    <value>Work Schedule</value>
+  </data>
+  <data name="EmpNursePerm" xml:space="preserve">
+    <value>Employee Nursing Permission</value>
+  </data>
+  <data name="EmpStudyPerm" xml:space="preserve">
+    <value>Employee Study Permission</value>
+  </data>
+  <data name="CardPrinting" xml:space="preserve">
+    <value>Card Printing</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Birth Date</value>
+  </data>
+  <data name="ErrorImport" xml:space="preserve">
+    <value>Error While Importing</value>
+  </data>
+  <data name="ImportSuccessfully" xml:space="preserve">
+    <value>Users Imported Successfully</value>
+  </data>
+  <data name="NoUsersImported" xml:space="preserve">
+    <value>No User imported</value>
+  </data>
+  <data name="TAException" xml:space="preserve">
+    <value>TA Exceptions</value>
+  </data>
+  <data name="ErrorImageExtension" xml:space="preserve">
+    <value>File Extension is not valid. Valid Extensions are</value>
+  </data>
+  <data name="LogicalGroup" xml:space="preserve">
+    <value>Assign Employees to Logical Group</value>
+  </data>
+  <data name="Assign_Schedule" xml:space="preserve">
+    <value>Assign Schedule</value>
+  </data>
+  <data name="EmpDeputyManager" xml:space="preserve">
+    <value>Employee Deputy Manager</value>
+  </data>
+  <data name="UserPrivilege" xml:space="preserve">
+    <value>User Privileges</value>
+  </data>
+  <data name="MultiplePermissions" xml:space="preserve">
+    <value>Permission for Multiple Employees</value>
+  </data>
+  <data name="PleaseSelectEmployee" xml:space="preserve">
+    <value>Please Select Employee</value>
+  </data>
+  <data name="RamadanPeriod" xml:space="preserve">
+    <value>Ramadan Period</value>
+  </data>
+  <data name="RealTimeMovements" xml:space="preserve">
+    <value>Real Time Movements</value>
+  </data>
+  <data name="EmpActiveSchedule" xml:space="preserve">
+    <value>Employee Active Schedule</value>
+  </data>
+  <data name="DynamicReport" xml:space="preserve">
+    <value>Dynamic Report</value>
+  </data>
+  <data name="AddRamadan" xml:space="preserve">
+    <value>Add Ramadan Schedule</value>
+  </data>
+  <data name="ViewRamadan" xml:space="preserve">
+    <value>View Ramadan Schedule</value>
+  </data>
+  <data name="EmpNotManager" xml:space="preserve">
+    <value>The Employee Number Inserted Does Not Belong To a Manager</value>
+  </data>
+  <data name="EmpFullDetails" xml:space="preserve">
+    <value>Employee Full Details</value>
+  </data>
+  <data name="PleaseEnterAmount" xml:space="preserve">
+    <value>Please Enter Amount</value>
+  </data>
+  <data name="Invalid_Employee" xml:space="preserve">
+    <value>Employee Information is either invalid or does not exist</value>
+  </data>
+  <data name="SelectCompany" xml:space="preserve">
+    <value>Please Select Company</value>
+  </data>
+  <data name="SelectEntity" xml:space="preserve">
+    <value>Please Select Entity</value>
+  </data>
+  <data name="ConsecutiveEarlyOuts" xml:space="preserve">
+    <value>Consecutive Early Outs</value>
+  </data>
+  <data name="NoofEarlyOutsPerPeriod" xml:space="preserve">
+    <value>No. of Early Outs Per .Period</value>
+  </data>
+  <data name="OneDayEarlyOutLimit" xml:space="preserve">
+    <value>One Day Early Out Limit</value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>No Data to View</value>
+  </data>
+  <data name="SavScheduleShiftDetail" xml:space="preserve">
+    <value>Please add schedule details before shift details</value>
+  </data>
+  <data name="AlreadyHaveUsers" xml:space="preserve">
+    <value>This group already have users</value>
+  </data>
+  <data name="LeaveAndPermissionApproval" xml:space="preserve">
+    <value>Leaves and Permissions Approval</value>
+  </data>
+  <data name="PermissionApproval" xml:space="preserve">
+    <value>Permission Approval</value>
+  </data>
+  <data name="LeaveWorkFlowValidation" xml:space="preserve">
+    <value>Please Create Work Flow For This Leave Type</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>عربي</value>
+  </data>
+  <data name="GroupExist" xml:space="preserve">
+    <value>Group Already Exist For Selected Event</value>
+  </data>
+  <data name="ExceedLimit" xml:space="preserve">
+    <value>You Cannot Add More Employees For This Group</value>
+  </data>
+  <data name="Events_Definition" xml:space="preserve">
+    <value>Events Definition</value>
+  </data>
+  <data name="EventAdvancedSchedule" xml:space="preserve">
+    <value>Event Schedule</value>
+  </data>
+  <data name="LoginDate" xml:space="preserve">
+    <value>Login Date :</value>
+  </data>
+  <data name="LoginTime" xml:space="preserve">
+    <value>Login Time :</value>
+  </data>
+  <data name="LoginUser" xml:space="preserve">
+    <value>Login User :</value>
+  </data>
+  <data name="DircetManager_EmpRequests" xml:space="preserve">
+    <value>Direct Manager Employee Requests</value>
+  </data>
+  <data name="HumanResourceManager_EmpRequests" xml:space="preserve">
+    <value>Human Resource Employee Requests</value>
+  </data>
+  <data name="RecalculateTransactions" xml:space="preserve">
+    <value>Recalculate Transactions</value>
+  </data>
+  <data name="DateGreaterThanToday" xml:space="preserve">
+    <value>End Date should be less than or equal today date</value>
+  </data>
+  <data name="ErrorInRecalculate" xml:space="preserve">
+    <value>Error In Recalculate</value>
+  </data>
+  <data name="RecalculateDone" xml:space="preserve">
+    <value>Recalculate Done</value>
+  </data>
+  <data name="SummaryDash" xml:space="preserve">
+    <value>Summary DashBoard</value>
+  </data>
+  <data name="DailyTransactions" xml:space="preserve">
+    <value>Daily Transactions</value>
+  </data>
+  <data name="EmployeeViolations" xml:space="preserve">
+    <value>Violation Correction</value>
+  </data>
+  <data name="ManagerNotifications" xml:space="preserve">
+    <value>Manager Notifications</value>
+  </data>
+  <data name="AbsentDate" xml:space="preserve">
+    <value>Absent Date</value>
+  </data>
+  <data name="DelayDate" xml:space="preserve">
+    <value>Delay Date</value>
+  </data>
+  <data name="DelayDuration" xml:space="preserve">
+    <value>Delay Duration</value>
+  </data>
+  <data name="EarlyOutDate" xml:space="preserve">
+    <value>Early Out Date</value>
+  </data>
+  <data name="EarlyOutDuration" xml:space="preserve">
+    <value>Early Out Duration</value>
+  </data>
+  <data name="EmployeeArabicName" xml:space="preserve">
+    <value>Employee Arabic Name</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>Employee Name</value>
+  </data>
+  <data name="LeaveDate" xml:space="preserve">
+    <value>Leave Date</value>
+  </data>
+  <data name="LeavePeriod" xml:space="preserve">
+    <value>Leave Period</value>
+  </data>
+  <data name="NoEmployeeEmail" xml:space="preserve">
+    <value>This employee does not have an email</value>
+  </data>
+  <data name="PermissionDate" xml:space="preserve">
+    <value>Permission Date</value>
+  </data>
+  <data name="PermissionPeriod" xml:space="preserve">
+    <value>Pemission Period</value>
+  </data>
+  <data name="EmployeeNumber" xml:space="preserve">
+    <value>Employee Number</value>
+  </data>
+  <data name="CouldNotDeleteWorkLocation" xml:space="preserve">
+    <value>Work Location Couldn`t be Updated, Because It Is Used In The System</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ChangeForSysUser" xml:space="preserve">
+    <value>This Feature for System users only not Active Directory users</value>
+  </data>
+  <data name="SelectLeaveType" xml:space="preserve">
+    <value>Please Select Leave Type</value>
+  </data>
+  <data name="CouldnotDeleteRecord" xml:space="preserve">
+    <value>Couldn`t Delete Record, Because It Have Been Used In The System</value>
+  </data>
+  <data name="LeaveBalanceRange" xml:space="preserve">
+    <value>Maximum Allowed Should be Less Than Or Equal Balance</value>
+  </data>
+  <data name="MaximumGrreaterMinimum" xml:space="preserve">
+    <value>Maximum Duration must be greater than minimum duration</value>
+  </data>
+  <data name="MaximumMinimumGrreaterMonthlyBalance" xml:space="preserve">
+    <value>Monthly Balance must be greater than Maximum and Minimum Duration</value>
+  </data>
+  <data name="RamadnPeriodValidation" xml:space="preserve">
+    <value>Ramadan Period Must 29 Days Or 30 Days</value>
+  </data>
+  <data name="WorkLocationSelect" xml:space="preserve">
+    <value>Please Select Work Location(s)</value>
+  </data>
+  <data name="ReligionSelect" xml:space="preserve">
+    <value>Please Select Religion(s)</value>
+  </data>
+  <data name="Shift2GreaterthanShift1" xml:space="preserve">
+    <value>Shift2 Start Time should be grater than Shift1 End Time for  </value>
+  </data>
+  <data name="EmpCardNoExist" xml:space="preserve">
+    <value>Employee Card Number Already Exist</value>
+  </data>
+  <data name="EmpCardNoAssinged" xml:space="preserve">
+    <value>Employee Card No. Already Assigned To Another Employee</value>
+  </data>
+  <data name="EmpLeaveExist" xml:space="preserve">
+    <value>Cannot Delete, Employee Have Leave(s)</value>
+  </data>
+  <data name="EmpPermissionExist" xml:space="preserve">
+    <value>Cannot Delete, Employee Have Permission(s)</value>
+  </data>
+  <data name="EmpMoveExist" xml:space="preserve">
+    <value>Cannot Delete Employee, Employee Have Move(s)</value>
+  </data>
+  <data name="BirthDateValidation" xml:space="preserve">
+    <value>Birth Date Must Be Less Than Today`s Date</value>
+  </data>
+  <data name="BirthDateValidation2" xml:space="preserve">
+    <value>Birth Date Should Be Less Than Join Date</value>
+  </data>
+  <data name="WorkScheduleTiemRange" xml:space="preserve">
+    <value>Please select permission time in range work schedule time</value>
+  </data>
+  <data name="EmpDetails" xml:space="preserve">
+    <value>Employee Details</value>
+  </data>
+  <data name="AllowedDurationAddSuccess" xml:space="preserve">
+    <value>Allowed Duration Added Successfully</value>
+  </data>
+  <data name="SelectPendingStatus" xml:space="preserve">
+    <value>You Cannot Delete Approved Request, Please Select Pending Request to Delete.</value>
+  </data>
+  <data name="Notification_Exception" xml:space="preserve">
+    <value>Notification Exceptions</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="GeneraltMgrLeaveHeader" xml:space="preserve">
+    <value>General Manager Leave Approval</value>
+  </data>
+  <data name="GeneralMgrPermitHeader" xml:space="preserve">
+    <value>General Manager Permission Approval</value>
+  </data>
+  <data name="LeaveSufficient" xml:space="preserve">
+    <value>This leave type is allowed when balance not sufficient, Are you sure you want to Apply or to cancel it?</value>
+  </data>
+  <data name="DevidedPermission" xml:space="preserve">
+    <value>The above part must be different than below part</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Pending....</value>
+  </data>
+  <data name="NoDataFound" xml:space="preserve">
+    <value>No Data Found</value>
+  </data>
+  <data name="ConsiderDays" xml:space="preserve">
+    <value>Consider Days Must be Greater than zero</value>
+  </data>
+  <data name="SelectAtLeastOneDay" xml:space="preserve">
+    <value>Please Select At Least One Day</value>
+  </data>
+  <data name="DelayandEarlyOutInMin" xml:space="preserve">
+    <value>Delay and Early Out In Min.</value>
+  </data>
+  <data name="EarlyOutInMin" xml:space="preserve">
+    <value>Early Out Limit In Min.</value>
+  </data>
+  <data name="OneDayDelayandEarly" xml:space="preserve">
+    <value>One Day Delay and Early Out Limit</value>
+  </data>
+  <data name="OneDayEarly" xml:space="preserve">
+    <value>One Day Early Out Limit</value>
+  </data>
+  <data name="PleaseDelayandEarlyOut" xml:space="preserve">
+    <value>Please Enter Delay and Early Out In Min</value>
+  </data>
+  <data name="PleaseEarlyOutInMin" xml:space="preserve">
+    <value>Please Enter Early Out In Min</value>
+  </data>
+  <data name="PermissionTypeDurationLimit" xml:space="preserve">
+    <value>Can't  exceed permission type duration limit</value>
+  </data>
+  <data name="PermissionTypeDurationLimitDevide" xml:space="preserve">
+    <value>Can't  exceed permission type duration limit in devide permission</value>
+  </data>
+  <data name="AutoApprovedPermissionBalance" xml:space="preserve">
+    <value>There is not enough balance for this Permission</value>
+  </data>
+  <data name="DuplicateFile" xml:space="preserve">
+    <value>This file already exist please delete this file or rename</value>
+  </data>
+  <data name="AutoApprovalPerm" xml:space="preserve">
+    <value>Automatic Approved...</value>
+  </data>
+  <data name="LeaveTypeDiffParentLeaveType" xml:space="preserve">
+    <value>Please select parent leave type different than selected leave type</value>
+  </data>
+  <data name="DelayEarlyOutPerPeriod" xml:space="preserve">
+    <value>Delay or Early Out Per Period</value>
+  </data>
+  <data name="EarlyOutInDays" xml:space="preserve">
+    <value>No. of Early Out</value>
+  </data>
+  <data name="MissingInMissingOutPerPeriod" xml:space="preserve">
+    <value>Missing In - Missing Out Per Period</value>
+  </data>
+  <data name="PleaseNoEarlyOutDays" xml:space="preserve">
+    <value>Please Enter No. Of Early Out Days</value>
+  </data>
+  <data name="ManualEntryMassUpdate" xml:space="preserve">
+    <value>Manual Entry Mass Update</value>
+  </data>
+  <data name="CardLayOut" xml:space="preserve">
+    <value>Card Layout</value>
+  </data>
+  <data name="ManagerReports" xml:space="preserve">
+    <value>Manager Reports</value>
+  </data>
+  <data name="PleaseSelectReport" xml:space="preserve">
+    <value>Please Select Report</value>
+  </data>
+  <data name="SucssesAttached" xml:space="preserve">
+    <value>Attached Sucssefully</value>
+  </data>
+  <data name="HRNotifications" xml:space="preserve">
+    <value>HR Notifications</value>
+  </data>
+  <data name="NoActiveOverTime" xml:space="preserve">
+    <value>No Active OverTime for this Employee</value>
+  </data>
+  <data name="NotAllowedOverTime" xml:space="preserve">
+    <value>OverTime Not Allowed for this Employee</value>
+  </data>
+  <data name="MoreThan" xml:space="preserve">
+    <value>More Than</value>
+  </data>
+  <data name="PleaseMoreThan" xml:space="preserve">
+    <value>Please enter more than value</value>
+  </data>
+  <data name="PleaseUpTo" xml:space="preserve">
+    <value>Please enter up to value</value>
+  </data>
+  <data name="UpTo" xml:space="preserve">
+    <value>Up To</value>
+  </data>
+  <data name="DifferentRasons" xml:space="preserve">
+    <value>Lunch Break Reason Must be Different than Pray Time Reason</value>
+  </data>
+  <data name="EmployeeType" xml:space="preserve">
+    <value>Employee Type</value>
+  </data>
+  <data name="HRLeaveRequest" xml:space="preserve">
+    <value>Human Resource Leave Request</value>
+  </data>
+  <data name="HR_PermissionRequest" xml:space="preserve">
+    <value>Human Resource Permission Request</value>
+  </data>
+  <data name="HRManualEntry" xml:space="preserve">
+    <value>Human Resource Manual Entry</value>
+  </data>
+  <data name="HR_TAException" xml:space="preserve">
+    <value>Human Resource TA Exception</value>
+  </data>
+  <data name="HRLeaveRequestApproval" xml:space="preserve">
+    <value>Leave Approval Requests</value>
+  </data>
+  <data name="HRPermissionRequestApproval" xml:space="preserve">
+    <value>Permission Approval Requests</value>
+  </data>
+  <data name="HRManualEntryApproval" xml:space="preserve">
+    <value>Manual Entry Approval Requests</value>
+  </data>
+  <data name="HR_TAExceptionApproval" xml:space="preserve">
+    <value>TA Exceptions Approval Requests</value>
+  </data>
+  <data name="CardRequest" xml:space="preserve">
+    <value>Employee Card Request</value>
+  </data>
+  <data name="CardRequestApproval" xml:space="preserve">
+    <value>Employee Card Request Approval</value>
+  </data>
+  <data name="PrintRequestedEmpCard" xml:space="preserve">
+    <value>Print Requested Employee Card</value>
+  </data>
+  <data name="ChangeEmpNo" xml:space="preserve">
+    <value>Change Employee Number</value>
+  </data>
+  <data name="EmpNoExist" xml:space="preserve">
+    <value>Employee No. Already Exists</value>
+  </data>
+  <data name="HRReports" xml:space="preserve">
+    <value>Human Resource Reports</value>
+  </data>
+  <data name="CannotChangeExternalNo" xml:space="preserve">
+    <value>Cannot Change External Employee Number due to Configuration in Application Settings</value>
+  </data>
+  <data name="CannotChangeInternalNo" xml:space="preserve">
+    <value>Cannot Change Internal Employee Number due to Configuration in Application Settings</value>
+  </data>
+  <data name="WorkScheduleNotExist" xml:space="preserve">
+    <value>No Work Schedule Exist</value>
+  </data>
+  <data name="ManualEntryRequest" xml:space="preserve">
+    <value>Manual Entry Request</value>
+  </data>
+  <data name="DirectMgrManualEntryHeader" xml:space="preserve">
+    <value>Direct Manager Manual Entry Approval</value>
+  </data>
+  <data name="HRManualEntryHeader" xml:space="preserve">
+    <value>Human Resource Manual Entry Approval</value>
+  </data>
+  <data name="ApproveDeduction" xml:space="preserve">
+    <value>Approve Monthly Deduction</value>
+  </data>
+  <data name="AllowedAfterDays" xml:space="preserve">
+    <value>The Select Permission Type Not Allowed After : </value>
+  </data>
+  <data name="AllwoedBeforeDays" xml:space="preserve">
+    <value>The Select Permission Type Not Allowed Before :</value>
+  </data>
+  <data name="ScheduleGroup" xml:space="preserve">
+    <value>Group Schedule</value>
+  </data>
+  <data name="LeaveSubstitute" xml:space="preserve">
+    <value>Leave Substitute</value>
+  </data>
+  <data name="AssignEmp_ScheduleGroup" xml:space="preserve">
+    <value>Assign Employee Schedule Groups</value>
+  </data>
+  <data name="PleaseSelectRestDay" xml:space="preserve">
+    <value>There Is Already Shift In The Selected Date, Please Select Date Considered As Rest Day</value>
+  </data>
+  <data name="PleaseSelectSubstituteDate" xml:space="preserve">
+    <value>There Is Already An Employee Substitution In The Selected Date, Please Select Date Doesn`t Have Leave Substitution</value>
+  </data>
+  <data name="SelfNursingValidation" xml:space="preserve">
+    <value>This Type Of Permission Can Be Only Requested For Female Employees</value>
+  </data>
+  <data name="SelfNursePerm" xml:space="preserve">
+    <value>Nursing Permission Request</value>
+  </data>
+  <data name="DirectMgrNurPermitHeader" xml:space="preserve">
+    <value>Direct Manager Nursing Permission Approval</value>
+  </data>
+  <data name="HRNurPermitHeader" xml:space="preserve">
+    <value>Human Resource Nursing Permission Approval</value>
+  </data>
+  <data name="GeneralMgrNurPermitHeader" xml:space="preserve">
+    <value>General Manager Nursing Permission Approval</value>
+  </data>
+  <data name="Emp_StudyPermissionRequest" xml:space="preserve">
+    <value>Study Permission Request</value>
+  </data>
+  <data name="DirectMgrStudyPermitHeader" xml:space="preserve">
+    <value>Direct Manager Study Permission Approval</value>
+  </data>
+  <data name="HRStudyPermitApprove" xml:space="preserve">
+    <value>Human Resource Study Permission Approval</value>
+  </data>
+  <data name="GeneralMgrStudyPermitHeader" xml:space="preserve">
+    <value>General Manager Study Permission Approval</value>
+  </data>
+  <data name="GeneralMgrManualEntryHeader" xml:space="preserve">
+    <value>General Manager Manual Entry Approval</value>
+  </data>
+  <data name="OutTime" xml:space="preserve">
+    <value>Out Time</value>
+  </data>
+  <data name="EmployeeTypeSelect" xml:space="preserve">
+    <value>Please Select Employee Type(s)</value>
+  </data>
+  <data name="EmployeeRoamers" xml:space="preserve">
+    <value>Employee Roamers</value>
+  </data>
+  <data name="ViolationExceptions" xml:space="preserve">
+    <value>Violation Exceptions</value>
+  </data>
+  <data name="ChangeEmployeeEntity" xml:space="preserve">
+    <value>Change Employee Entity</value>
+  </data>
+  <data name="LogicalGroupSelect" xml:space="preserve">
+    <value>Please Select Logical Group</value>
+  </data>
+  <data name="EmailConfigurations" xml:space="preserve">
+    <value>Email Configurations</value>
+  </data>
+  <data name="ErrorDeleteRecourd" xml:space="preserve">
+    <value>Please Select At Least One Record</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Are you sure to delete ?</value>
+  </data>
+  <data name="ClearDevice" xml:space="preserve">
+    <value>User Device Cleared Successfully</value>
+  </data>
+  <data name="MobileWorkLocationExceedLicense" xml:space="preserve">
+    <value>No. Of Allowed Mobile Devices For Work Location Exceeded License Limit, Please Update Your License In Order To Add More Mobile Devices</value>
+  </data>
+  <data name="NoOfMobileExceed" xml:space="preserve">
+    <value>No. Of Mobile Exceeded The License Limit, Please Update Your License In Order To Add More Mobile Devices</value>
+  </data>
+  <data name="ScheduleGroupManager" xml:space="preserve">
+    <value>The Selected Group doesn`t have a Manager</value>
+  </data>
+  <data name="AboutProduct" xml:space="preserve">
+    <value>About Product</value>
+  </data>
+  <data name="DSNNotVerified" xml:space="preserve">
+    <value>The Deployement Serial No. You Have Entered Is Not Valid</value>
+  </data>
+  <data name="BeaconNoExist" xml:space="preserve">
+    <value>Beacon No. Already Exists</value>
+  </data>
+  <data name="RenewSupportContract" xml:space="preserve">
+    <value>Your Support Contract Has Been Expired, You Will Not Be Able To Update Your Release, Please Renew your Support Contract</value>
+  </data>
+  <data name="RejectedByDM" xml:space="preserve">
+    <value>Rejected by Manager</value>
+  </data>
+  <data name="RejectedByGM" xml:space="preserve">
+    <value>Rejected By General Manager</value>
+  </data>
+  <data name="RejectedByHR" xml:space="preserve">
+    <value>Rejected By Human Resource</value>
+  </data>
+  <data name="CreateDynamicReport" xml:space="preserve">
+    <value>Create Dynamic Reports</value>
+  </data>
+  <data name="DeviceFeedbackDashboard" xml:space="preserve">
+    <value>Device Feedback Dashboard</value>
+  </data>
+  <data name="ErrorDeleteDefaultSchedule" xml:space="preserve">
+    <value>The Selected Schedule Cannot Be Deleted Because It Is a Default Schedule</value>
+  </data>
+  <data name="SearchMethod" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="SkillsExist" xml:space="preserve">
+    <value>The Selected Category Already Have Skills, Please Delete Skills Related In Order To Delete Category</value>
+  </data>
+  <data name="EmployeeSkills" xml:space="preserve">
+    <value>Employee Skills</value>
+  </data>
+  <data name="CoordinatorLeaveRequest" xml:space="preserve">
+    <value>Coordinator Leave Request</value>
+  </data>
+  <data name="CoordinatorPermitRequest" xml:space="preserve">
+    <value>Coordinator Permission Request</value>
+  </data>
+  <data name="IncorrectSkill" xml:space="preserve">
+    <value>The Inserted Skill Either Incorrect Or Does Not Exist</value>
+  </data>
+  <data name="SkillExists" xml:space="preserve">
+    <value>Employee Skill Already Exists</value>
+  </data>
+  <data name="CouldNotDeletePermissionRequest" xml:space="preserve">
+    <value>You Could Not Delete Permission, The Selected Permission Is Pending</value>
+  </data>
+  <data name="DefineProjects" xml:space="preserve">
+    <value>Define Projects</value>
+  </data>
+  <data name="ProjectTasks" xml:space="preserve">
+    <value>Project Tasks</value>
+  </data>
+  <data name="DefineResourceWork" xml:space="preserve">
+    <value>Define Resource Work</value>
+  </data>
+  <data name="TaskDetails" xml:space="preserve">
+    <value>Task Details</value>
+  </data>
+  <data name="AbsentToolTip" xml:space="preserve">
+    <value>By selecting this option number of absent days will be considered in the monthly deduction</value>
+  </data>
+  <data name="DelayEarlyOut" xml:space="preserve">
+    <value>Delay and Early Out</value>
+  </data>
+  <data name="DelayEarlyOutToolTip" xml:space="preserve">
+    <value>By selecting this option number deduction days for monthly delay and early out period will be considered in the monthly deduction as the below formula</value>
+  </data>
+  <data name="MissingIn" xml:space="preserve">
+    <value>Missing In</value>
+  </data>
+  <data name="MissingInToolTip" xml:space="preserve">
+    <value>By selecting this option number of missing in transactions will be considered in the monthly deduction</value>
+  </data>
+  <data name="MissingOut" xml:space="preserve">
+    <value>Missing Out</value>
+  </data>
+  <data name="MissingOutToolTip" xml:space="preserve">
+    <value>By selecting this option number of missing out transactions will be considered in the monthly deduction</value>
+  </data>
+  <data name="NotCompleteWorkHours" xml:space="preserve">
+    <value>Not Complete Work Hours</value>
+  </data>
+  <data name="NotCompleteWorkHoursToolTip" xml:space="preserve">
+    <value>By selecting this option number deduction days for not completing working hours will be considered in the monthly deduction as the below values</value>
+  </data>
+  <data name="ApproveInvalidAttempts" xml:space="preserve">
+    <value>Approve Invalid Attempts</value>
+  </data>
+  <data name="InvalidTrans_Select" xml:space="preserve">
+    <value>Please Select Transaction From the Table Below</value>
+  </data>
+  <data name="GoalsWeightNotAccurate" xml:space="preserve">
+    <value>Total Weight Should be 100 % in Order to Submit Your Yearly Goals</value>
+  </data>
+  <data name="SelectCoordinatorType" xml:space="preserve">
+    <value>Please Select at Least One Coordinator Type from the List</value>
+  </data>
+  <data name="Manager_Summary" xml:space="preserve">
+    <value>Manager Summary</value>
+  </data>
+  <data name="CoordinatorType" xml:space="preserve">
+    <value>Coordinator Types</value>
+  </data>
+  <data name="ShortNameExist" xml:space="preserve">
+    <value>Short Name Already Exists</value>
+  </data>
+  <data name="DefineSemesters" xml:space="preserve">
+    <value>Define Semesters</value>
+  </data>
+  <data name="EmpShiftsRequest" xml:space="preserve">
+    <value>Employee Shifts Request</value>
+  </data>
+  <data name="EmpShiftsApprove" xml:space="preserve">
+    <value>Employee Shifts Approval</value>
+  </data>
+  <data name="UpdateTransactionRequest" xml:space="preserve">
+    <value>Update Transaction Request</value>
+  </data>
+  <data name="DirectMgrUpdateTransactionHeader" xml:space="preserve">
+    <value>Direct Manager Update Transaction Approval</value>
+  </data>
+  <data name="GeneralUpdateTransactionHeader" xml:space="preserve">
+    <value>General Manager Update Transaction Approval</value>
+  </data>
+  <data name="HRUpdateTransactionHeader" xml:space="preserve">
+    <value>Human Resource Update Transaction Approval</value>
+  </data>
+  <data name="HRUpdateTransactionApproval" xml:space="preserve">
+    <value>Update Transactions Approval</value>
+  </data>
+  <data name="ImportTimeAttendance" xml:space="preserve">
+    <value>Import Time Attendance</value>
+  </data>
+  <data name="SelectEmployeeCard" xml:space="preserve">
+    <value>Please Select At Least One Employee To View Card</value>
+  </data>
+  <data name="SendToPrinter" xml:space="preserve">
+    <value>Your Requested Cards Have Been Sent To Printer</value>
+  </data>
+  <data name="UploadImage" xml:space="preserve">
+    <value>Please Upload Image</value>
+  </data>
+  <data name="SliderImages" xml:space="preserve">
+    <value>Slider Announcements</value>
+  </data>
+  <data name="InsertValidImageType" xml:space="preserve">
+    <value>Please Insert Valid Image Extension, Valid Image Extensions (jpg, png, jpeg, gif, bmp)</value>
+  </data>
+  <data name="LeaveGradeBalanceRange" xml:space="preserve">
+    <value>Maximum Allowed Should be Less Than Or Equal Grade Balance</value>
+  </data>
+  <data name="ErrAddGradeBalance" xml:space="preserve">
+    <value>Error While Adding Grade Balance</value>
+  </data>
+  <data name="GradeBalanceAddSuccess" xml:space="preserve">
+    <value>Grade Balance Added Successfully</value>
+  </data>
+  <data name="SummaryLinkReport" xml:space="preserve">
+    <value>Summary Link Reports</value>
+  </data>
+  <data name="CardTemplates" xml:space="preserve">
+    <value>Card Template(s)</value>
+  </data>
+  <data name="LoginToViewReport" xml:space="preserve">
+    <value>Please Login In Order To View The Report</value>
+  </data>
+  <data name="SelectCardTemplate" xml:space="preserve">
+    <value>Please Select Card Template To View Card</value>
+  </data>
+  <data name="EmployeeNoInsert" xml:space="preserve">
+    <value>Please Insert Employee Card No.</value>
+  </data>
+  <data name="EmployeeNoNotFound" xml:space="preserve">
+    <value>Employee Name Was Not Found, Please Insert Valid Employee No.</value>
+  </data>
+  <data name="StatusSummaryDashboard" xml:space="preserve">
+    <value>Status Summary Dashboard</value>
+  </data>
+  <data name="OvertimeTypes" xml:space="preserve">
+    <value>Overtime Types</value>
+  </data>
+  <data name="EmpOvertimeRequest" xml:space="preserve">
+    <value>Employee Overtime Request</value>
+  </data>
+  <data name="StudentManualEntryMassUpdate" xml:space="preserve">
+    <value>Student Attendance</value>
+  </data>
+  <data name="TransactionAlreadyExists" xml:space="preserve">
+    <value>Transaction Already Exists</value>
+  </data>
+  <data name="ScheduleVisit" xml:space="preserve">
+    <value>Schedule Visit</value>
+  </data>
+  <data name="EmpAllowedGPS" xml:space="preserve">
+    <value>Allowed GPS Coordinates</value>
+  </data>
+  <data name="GPSCoordinateExists" xml:space="preserve">
+    <value>GPS Coordinates Already Exists</value>
+  </data>
+  <data name="DefineSurvey" xml:space="preserve">
+    <value>Define Survey</value>
+  </data>
+  <data name="SurveyAssignment" xml:space="preserve">
+    <value>Survey Assignment</value>
+  </data>
+  <data name="RemoteAttendance" xml:space="preserve">
+    <value>Remote Attendance</value>
+  </data>
+  <data name="EmpShifts_Coordinators" xml:space="preserve">
+    <value>Prepare Shifts Coordinators</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>Shift Preparation Period</value>
+  </data>
+  <data name="IdNumberExists" xml:space="preserve">
+    <value>Id Number Already Exists</value>
+  </data>
+  <data name="BlackListVisitors" xml:space="preserve">
+    <value>BlackList Visitors</value>
+  </data>
+  <data name="DefineUniversity" xml:space="preserve">
+    <value>University(s) &amp; College(s)</value>
+  </data>
+  <data name="DefineCardType" xml:space="preserve">
+    <value>Define Card Type</value>
+  </data>
+  <data name="InsertRemarks" xml:space="preserve">
+    <value>Please Insert Remarks</value>
+  </data>
+  <data name="CardHistory" xml:space="preserve">
+    <value>Employee Card History</value>
+  </data>
+  <data name="CardsQueue" xml:space="preserve">
+    <value>Employee Cards Queue UnderPrinting</value>
+  </data>
+  <data name="PleaseSelectStatus" xml:space="preserve">
+    <value>Please Select Status</value>
+  </data>
+  <data name="NoDesignation" xml:space="preserve">
+    <value>The Employee has no Designation assigned</value>
+  </data>
+  <data name="SendNotification" xml:space="preserve">
+    <value>Send Notification</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>Enter Email Address</value>
+  </data>
+</root>

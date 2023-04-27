@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TriggerLeaves_SAP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EmployeeNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LeaveTypeId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FromDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ToDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FromTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ToTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LeaveHour" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Remarks" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TriggerLeaves_SAPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TriggerLeaves_SAPResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="TriggerLeaves_SAPSoapIn">
+    <wsdl:part name="parameters" element="tns:TriggerLeaves_SAP" />
+  </wsdl:message>
+  <wsdl:message name="TriggerLeaves_SAPSoapOut">
+    <wsdl:part name="parameters" element="tns:TriggerLeaves_SAPResponse" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldHttpGetIn" />
+  <wsdl:message name="HelloWorldHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TriggerLeaves_SAPHttpGetIn">
+    <wsdl:part name="EmployeeNumber" type="s:string" />
+    <wsdl:part name="LeaveTypeId" type="s:string" />
+    <wsdl:part name="FromDate" type="s:string" />
+    <wsdl:part name="ToDate" type="s:string" />
+    <wsdl:part name="FromTime" type="s:string" />
+    <wsdl:part name="ToTime" type="s:string" />
+    <wsdl:part name="LeaveHour" type="s:string" />
+    <wsdl:part name="Remarks" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TriggerLeaves_SAPHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldHttpPostIn" />
+  <wsdl:message name="HelloWorldHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TriggerLeaves_SAPHttpPostIn">
+    <wsdl:part name="EmployeeNumber" type="s:string" />
+    <wsdl:part name="LeaveTypeId" type="s:string" />
+    <wsdl:part name="FromDate" type="s:string" />
+    <wsdl:part name="ToDate" type="s:string" />
+    <wsdl:part name="FromTime" type="s:string" />
+    <wsdl:part name="ToTime" type="s:string" />
+    <wsdl:part name="LeaveHour" type="s:string" />
+    <wsdl:part name="Remarks" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TriggerLeaves_SAPHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="SAP_Leave_WebServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TriggerLeaves_SAP">
+      <wsdl:input message="tns:TriggerLeaves_SAPSoapIn" />
+      <wsdl:output message="tns:TriggerLeaves_SAPSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SAP_Leave_WebServiceHttpGet">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldHttpGetIn" />
+      <wsdl:output message="tns:HelloWorldHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TriggerLeaves_SAP">
+      <wsdl:input message="tns:TriggerLeaves_SAPHttpGetIn" />
+      <wsdl:output message="tns:TriggerLeaves_SAPHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SAP_Leave_WebServiceHttpPost">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldHttpPostIn" />
+      <wsdl:output message="tns:HelloWorldHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TriggerLeaves_SAP">
+      <wsdl:input message="tns:TriggerLeaves_SAPHttpPostIn" />
+      <wsdl:output message="tns:TriggerLeaves_SAPHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SAP_Leave_WebServiceSoap" type="tns:SAP_Leave_WebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TriggerLeaves_SAP">
+      <soap:operation soapAction="http://tempuri.org/TriggerLeaves_SAP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SAP_Leave_WebServiceSoap12" type="tns:SAP_Leave_WebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TriggerLeaves_SAP">
+      <soap12:operation soapAction="http://tempuri.org/TriggerLeaves_SAP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SAP_Leave_WebServiceHttpGet" type="tns:SAP_Leave_WebServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TriggerLeaves_SAP">
+      <http:operation location="/TriggerLeaves_SAP" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SAP_Leave_WebServiceHttpPost" type="tns:SAP_Leave_WebServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TriggerLeaves_SAP">
+      <http:operation location="/TriggerLeaves_SAP" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SAP_Leave_WebService">
+    <wsdl:port name="SAP_Leave_WebServiceSoap" binding="tns:SAP_Leave_WebServiceSoap">
+      <soap:address location="http://localhost/SAP_WS/SAP_Leave_WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SAP_Leave_WebServiceSoap12" binding="tns:SAP_Leave_WebServiceSoap12">
+      <soap12:address location="http://localhost/SAP_WS/SAP_Leave_WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SAP_Leave_WebServiceHttpGet" binding="tns:SAP_Leave_WebServiceHttpGet">
+      <http:address location="http://localhost/SAP_WS/SAP_Leave_WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SAP_Leave_WebServiceHttpPost" binding="tns:SAP_Leave_WebServiceHttpPost">
+      <http:address location="http://localhost/SAP_WS/SAP_Leave_WebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

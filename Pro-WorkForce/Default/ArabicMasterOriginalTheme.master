@@ -1,0 +1,467 @@
+﻿<%@ Master Language="VB" CodeFile="ArabicMasterOriginalTheme.master.vb" Inherits="Default_ArabicMaster" %>
+
+<%@ Register Src="~/UserControls/LeftMenu.ascx" TagName="Left" TagPrefix="uc1" %>
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server" id="head1">
+    <meta charset="utf-8" />
+    <title>Work Force Pro</title>
+    <meta content="" charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--[if IE 10]>
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+    <![endif]-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="../svassets/img/favicon.png" />
+    <!-- Favicon -->
+    <link href="Images/favicon.png" rel="icon" type="image/png" />
+
+    <!-- Smart Vision core CSS -->
+    <link href="../svassets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../svassets/css/font-awesome.min.css" />
+    <link href="../svassets/css/animations.css" rel="stylesheet" />
+    <link href="../svassets/css/simple-sidebar.css" rel="stylesheet" />
+    <link href="../svassets/css/component.css" rel="stylesheet" />
+    <link href="../svassets/css/hover.css" rel="stylesheet" />
+    <link href="../assets/css/slick.css" rel="stylesheet" />
+
+
+    <link id="lnkDofDesign" runat="server" href="../svassets/css/custom-dof.css" type="text/css" title="styles1" media="screen" rel="stylesheet" />
+    <link id="lnkGreenDesign" runat="server" href="../svassets/css/custom.css" type="text/css" title="styles2" media="screen" rel="stylesheet" />
+    <link id="lnkRedDesign" runat="server" href="../svassets/css/custom-Red.css" type="text/css" title="styles3" media="screen" rel="stylesheet" />
+    <link id="lnkBlueDesign" runat="server" href="../svassets/css/custom-Blue.css" type="text/css" title="styles4" media="screen" rel="stylesheet" />
+    <link id="lnkVioletDesign" runat="server" href="../svassets/css/custom-Violet.css" type="text/css" title="styles5" media="screen" rel="stylesheet" />
+    <link id="lnkGoldDesign" runat="server" href="../svassets/css/custom-Gold.css" type="text/css" title="styles6" media="screen" rel="stylesheet" />
+    <link id="lnkADMDesign" runat="server" href="../svassets/css/custom-adm.css" type="text/css" title="styles7" media="screen" rel="stylesheet" />
+
+    <%--    Lobi Box ALert--%>
+    <%--<link href="../CSS/lobibox.min.css" rel="stylesheet" />--%>
+    <script type="text/javascript" src="../js/jquery.1.11.min.js"></script>
+    <script type="text/javascript" src="../js/Action.js"></script>
+    <script type="text/javascript" src="../js/lobibox.min.js"></script>
+
+    <!-- Arabic  CSS -->
+    <link href="../svassets/css/custom_Ar.css" rel="stylesheet" type="text/css" />
+
+    <!-- Old  CSS -->
+    <%--     <link href="../CSS/css.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/AjaxExtender.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/AISstyle1.css" rel="stylesheet" type="text/css" />
+    <link href="../css/TA_innerpage.css" rel="stylesheet" type="text/css" />--%>
+    <%-- <link href="../cssarabic/TA_innerpage.css" rel="stylesheet" type="text/css" />--%>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script type="text/javascript" src="../svassets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="../svassets/js/html5shiv.min.js"></script>
+      <script type="text/javascript" src="../svassets/js/respond.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="../svassets/css/all-ie-only.css" />
+    <![endif]-->
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
+        </asp:ScriptManager>
+        <header>
+            <a href="#menu-toggle" id="menu-toggle">
+                <img src="../svassets/img/togglemenu.png" alt="" /></a>
+            <a class="navbar-brand" href="../default/homearabic.aspx">
+                <%--<img alt="" src="../svassets/img/logo.png" />--%>
+                <%--  <asp:Image ID="imgLogo" runat="server" ImageUrl="../svassets/img/Logo.png"  alt="Smart Time"/>--%>
+                <%--<asp:Image ImageUrl="../assets/img/logo.png" runat="server" ToolTip="الصفحة الرئيسية" />--%>
+                <asp:Image ImageUrl="../assets/img/WF-logo.png" runat="server" ToolTip="الصفحة الرئيسية" Height="42px" Width="216px"/>
+            </a>
+
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#RightHeader" aria-expanded="false" aria-controls="RightHeader">
+                <i class="fa fa-ellipsis-v"></i>
+            </button>
+
+            <img id="ClientLogo" runat="server" alt="" class="Client-logo" src="../svassets/img/client_logo.png" />
+            <div id="RightHeader" class="right-header collapse">
+                <ul>
+
+                    <li class="dropdown user">
+                        <a href="#" class="dropdown-toggle">
+                            <span class="avatar">
+                                <img alt="" id="EmpImage" runat="server" src="../assets/img/user.png" />
+                            </span><%--<b class="caret"></b>--%>
+                            <div class="UserText">
+                                <asp:Label ID="lblLoginUser" SkinID="UserName" runat="server" Text="Label"></asp:Label>
+                                <div class="clear"></div>
+                                <asp:Label ID="lblLoginDate" SkinID="LoginTime" runat="server" Text=""><b>Last Login:</b></asp:Label>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+
+
+
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <asp:Image ID="Image2" ImageUrl="../svassets/img/icn_edit.png" runat="server" ToolTip="اختر لونك المفضل" />
+                        </a>
+
+                        <div class="dropdown-menu animated fadeInUp">
+                            <div>
+                                <h4>اختر لونك المفضل</h4>
+                                <div class="clear"></div>
+                                <div class="colours" id="Colour-wrapper">
+                                    <a href="../svassets/css/custom-Dof.css" class="Dof styleswitch" rel="styles1"></a>
+                                    <a href="../svassets/css/custom.css" class="Green styleswitch" rel="styles2"></a>
+                                    <a href="../svassets/css/custom-Red.css" class="Red styleswitch" rel="styles3"></a>
+                                    <a href="../svassets/css/custom-Blue.css" class="Blue styleswitch" rel="styles4"></a>
+                                    <a href="../svassets/css/custom-Violet.css" class="Violet styleswitch" rel="styles5"></a>
+                                    <a href="../svassets/css/custom-Gold.css" class="Gold styleswitch" rel="styles6"></a>
+                                    <a href="../svassets/css/custom-Gold.css" class="Gold styleswitch" rel="styles7"></a>
+                                </div>
+                            </div>
+                            <%--  <li><a href="#">Profile</a> </li>
+                             <li><a href="#"><span class="badge bg-danger pull-right">3</span> Notifications </a></li>
+                             <li><a href="#">Help</a> </li>
+                             <li class="divider"></li>
+                             <li><a href="#">Logout</a> </li>--%>
+                        </div>
+                    </li>
+                    <li>
+                        <asp:LinkButton ID="lnkbtnLanguage" runat="server" CausesValidation="false">
+                            <asp:Image ID="ImgLanguage" src="../svassets/img/EnBt.png" runat="server" ToolTip="تغيير اللغة الى الانجليزية" />
+                            <%--<asp:Image ID="ImgLanguage" ImageUrl="../svassets/img/ArBt.png" runat="server" />--%>
+                        </asp:LinkButton>
+
+                    </li>
+                    <li>
+                        <asp:LinkButton ID="lnkbtnLogOut" runat="server" CausesValidation="false">
+                            <asp:Image ID="ImgLogOut" src="../svassets/img/icn_logout.png" runat="server" ToolTip="تسجيل الخروج" />
+                        </asp:LinkButton>
+                    </li>
+                </ul>
+
+
+
+            </div>
+
+        </header>
+        <div class="clear"></div>
+
+        <div id="wrapper" class="active">
+
+
+
+
+            <!-- Sidebar -->
+            <uc1:Left ID="Left1" runat="server" />
+            <!-- /#sidebar-wrapper -->
+
+
+            <!-- Page content -->
+            <div id="page-content-wrapper">
+
+
+                <div class="clear"></div>
+                <div class="container-fluid">
+                    <div id="body">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <a href="#" class="horizondalMenuBt collapsed" data-toggle="collapse" data-target="#horizondalMenu" aria-expanded="false" aria-controls="horizondalMenu">
+                                    <i class="fa fa-bars"></i>Menu
+                                </a>
+                                <div class="horizondalMenu collapse" id="horizondalMenu">
+                                    <ul class="responsive" dir="rtl">
+                                        <li id="liAdmin" runat="server">
+                                            <asp:LinkButton ID="lbtnAdmin_1_2_3_1" runat="server" CausesValidation="false">
+                                                <div class="menuIcon">
+                                                    <i class="iconImg bg1">
+                                                        <img src="../svassets/img/menuicon/icon_1.png" alt="" /></i>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <asp:Label ID="lblAdministration" runat="server" Text="إدارة النظام"></asp:Label>
+                                            </asp:LinkButton>
+                                        </li>
+
+                                        <li id="liDefinitions" runat="server">
+                                            <asp:LinkButton ID="lbtnDefinitions_1_2_3_2" runat="server" CausesValidation="false">
+                                                <div class="menuIcon">
+                                                    <i class="iconImg bg2">
+                                                        <img src="../svassets/img/menuicon/icon_2.png" alt="" /></i>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <asp:Label ID="lblDefinitions" runat="server" Text="تعريفات النظام"></asp:Label>
+                                            </asp:LinkButton>
+                                        </li>
+
+                                        <li id="liEmployee" runat="server">
+                                            <asp:LinkButton ID="lbtnEmployee_1_2_3_6" runat="server" CausesValidation="false">
+                                                <div class="menuIcon">
+                                                    <i class="iconImg  bg3">
+                                                        <img src="../svassets/img/menuicon/icon_3.png" alt="" /></i>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <asp:Label ID="lblEmployees" runat="server" Text="الموظفين"></asp:Label>
+                                            </asp:LinkButton>
+                                        </li>
+
+                                        <li id="liDailyTasks" runat="server">
+                                            <asp:LinkButton ID="lbtnDailyTasks_1_2_3_3" runat="server" CausesValidation="false">
+                                                <div class="menuIcon">
+                                                    <i class="iconImg bg4">
+                                                        <img src="../svassets/img/menuicon/icon_4.png" alt="" /></i>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <asp:Label ID="lblDailyTasks" runat="server" Text="المهام اليومية"></asp:Label>
+                                            </asp:LinkButton>
+                                        </li>
+
+                                        <li id="liHr" runat="server">
+                                            <asp:LinkButton ID="lbtnHR_2_3_10" runat="server" CausesValidation="false">
+                                                <div class="menuIcon">
+                                                    <i class="iconImg  bg5">
+                                                        <img src="../svassets/img/menuicon/icon_5.png" alt="" /></i>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <asp:Label ID="lblHR" runat="server" Text="الموارد البشرية"></asp:Label>
+                                            </asp:LinkButton>
+                                        </li>
+
+                                        <li id="liSelfServices" runat="server">
+                                            <asp:LinkButton ID="lbtnSelfServices_2_3_8" runat="server" CausesValidation="false">
+                                                <div class="menuIcon">
+                                                    <i class="iconImg  bg6">
+                                                        <img src="../svassets/img/menuicon/icon_6.png" alt="" /></i>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <asp:Label ID="lblSelfServices" runat="server" Text="الخدمات الذاتية"></asp:Label>
+                                            </asp:LinkButton>
+                                        </li>
+
+                                        <li id="liRequests" runat="server">
+                                            <asp:LinkButton ID="lbtnRequests_2_3_9" runat="server" CausesValidation="false">
+                                                <div id="Div1" class="date" runat="server">
+                                                    <asp:Label ID="lblRequestsCount" runat="server"
+                                                        Style="border-radius: 10px; position: absolute; left: 68px; top: -17px; background-color: #FF503F; border-style: none; text-align: center; font-size: 13px; display: inline-block; padding: 3px; color: whitesmoke; z-index: 9999999999999;">
+                                                    </asp:Label>
+                                                </div>
+                                                <div class="menuIcon">
+                                                    <i class="iconImg  bg7">
+                                                        <img src="../svassets/img/menuicon/icon_7.png" alt="" /></i>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <asp:Label ID="lblEmployeeRequest" runat="server" Font-Size="11.5px" Text="طلبات الموظفين"></asp:Label>
+                                            </asp:LinkButton>
+                                        </li>
+
+                                        <li id="liDashBoard" runat="server">
+                                            <asp:LinkButton ID="lbtnDashBoard_1_2_3_7" runat="server" CausesValidation="false">
+                                                <div class="menuIcon">
+                                                    <i class="iconImg  bg8">
+                                                        <img src="../svassets/img/menuicon/icon_8.png" alt="" /></i>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <asp:Label ID="lblDashboards" runat="server" Text="لوحات القياس"></asp:Label>
+                                            </asp:LinkButton>
+                                        </li>
+
+                                        <li id="liReports" runat="server">
+                                            <asp:LinkButton ID="lbtnReports_1_2_3_4" runat="server" CausesValidation="false">
+                                                <div class="menuIcon">
+                                                    <i class="iconImg  bg9">
+                                                        <img src="../svassets/img/menuicon/icon_9.png" alt="" /></i>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <asp:Label ID="lblReports" runat="server" Text="التقارير"></asp:Label>
+                                            </asp:LinkButton>
+                                        </li>
+
+                                        <li id="liTaskManagement" runat="server">
+                                            <asp:LinkButton ID="lbtnTaskManagement_2_3_12" runat="server" CausesValidation="false">
+                                                <div class="menuIcon">
+                                                    <i class="iconImg  bg10">
+                                                        <img src="../svassets/img/menuicon/icon_12.png" alt="" height="41" width="41" /></i>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <asp:Label ID="lblTaskMangement" runat="server" Text="ادارة المهام"></asp:Label>
+                                            </asp:LinkButton>
+                                        </li>
+
+                                        <li id="liAppraisal" runat="server">
+                                            <asp:LinkButton ID="lbtnAppraisal_2_3_13" runat="server" CausesValidation="false">
+                                                <div class="menuIcon">
+                                                    <i class="iconImg  bg11">
+                                                        <img src="../svassets/img/menuicon/icon_13.png" alt="" /></i>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <asp:Label ID="lblAppraisal" runat="server" Text="التقييم"></asp:Label>
+                                            </asp:LinkButton>
+                                        </li>
+
+                                        <li id="liSchedule" runat="server">
+                                            <asp:LinkButton ID="lbtnSchedule_2_3_11" runat="server" CausesValidation="false">
+                                                <div class="menuIcon">
+                                                    <i class="iconImg  bg12">
+                                                        <img src="../svassets/img/menuicon/icon_11.png" alt="" /></i>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <asp:Label ID="lblSchedule" runat="server" Text="الجدول"></asp:Label>
+                                            </asp:LinkButton>
+                                        </li>
+
+                                        <li id="liSecurity" runat="server">
+                                            <asp:LinkButton ID="lbtnSecurity_1_2_3_5" runat="server" CausesValidation="false">
+                                                <div class="menuIcon">
+                                                    <i class="iconImg  bg3">
+                                                        <img src="../svassets/img/menuicon/icon_10.png" alt="" /></i>
+                                                </div>
+                                                <div class="clear"></div>
+                                                <asp:Label ID="lblSecurity" runat="server" Text="الحماية"></asp:Label>
+                                            </asp:LinkButton>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+                        <div>
+                            <div class="Svpanel">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+        </footer>
+
+
+        <!-- Javascript -->
+
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+
+        <%--<script src="../Svassets/js/lib/moment.min.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" src="../svassets/js/moment.js"></script>--%>
+
+        <script src="../svassets/js/jquery.min.js"></script>
+        <script src="../assets/js/slick.js"></script>
+        <script src="../svassets/js/bootstrap.min.js"></script>
+        <script src="../svassets/css/styleswitch.js"></script>
+        <%--<script src="../svassets/js/jquery.carousel.fullscreen.js"></script>--%>
+
+        <%--  <script type="text/javascript" src="../svassets/js/moment.js"></script>--%>
+        <%--<script src="../svassets/js/docs.min.js"></script>--%>
+        <script src="../svassets/js/svCustom.js"></script>
+
+        <%-- <script src="../Svassets/js/lib/jquery.min.js" type="text/javascript" charset="utf-8"></script>--%>
+        <script src="../Svassets/js/lib/moment.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <asp:ContentPlaceHolder ID="scripts" runat="server">
+        </asp:ContentPlaceHolder>
+        <script type="text/javascript">
+            $(document).on('ready', function () {
+
+                $('.responsive').slick({
+                    dots: false,
+                    infinite: false,
+                    speed: 300,
+                    slidesToShow: 9,
+                    slidesToScroll: 1,
+                    rtl: true,
+                    variableWidth: false,
+                    //centerMode: RightHeader,
+                    responsive: [
+                      {
+                          breakpoint: 1024,
+                          settings: {
+                              slidesToShow: 9,
+                              slidesToScroll: 1,
+                              infinite: false,
+                              dots: false
+                          }
+                      },
+                      {
+                          breakpoint: 600,
+                          settings: {
+                              slidesToShow: 5,
+                              slidesToScroll: 1
+                          }
+                      },
+                      {
+                          breakpoint: 480,
+                          settings: {
+                              slidesToShow: 4,
+                              slidesToScroll: 1
+                          }
+                      }
+                      // You can unslick at a given breakpoint now by adding:
+                      // settings: "unslick"
+                      // instead of a settings object
+                    ]
+                });
+
+
+
+            });
+</script>
+        <script>
+            $("#menu-toggle").click(function (e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+
+            function confirmDelete(gvName) {
+                var Lang = '<%= Lang %>'
+                var TargetBaseControl = null;
+                try {
+                    //get target base control.
+                    TargetBaseControl = document.getElementById(gvName);
+
+                }
+                catch (err) {
+                    TargetBaseControl = null;
+                }
+
+                if (TargetBaseControl == null) {
+                    ShowMessage('No Data')
+                    return false;
+                }
+                //get all the control of the type INPUT in the base control.
+                var Inputs = TargetBaseControl.getElementsByTagName("input");
+                var TargetChildControl = "chk";
+                for (var n = 0; n < Inputs.length; ++n) {
+                    if (Inputs[n].type == 'checkbox' && Inputs[n].checked && Inputs[n].id.indexOf(TargetChildControl, 0) >= 0) {
+                        return confirm('هل انت متأكد من الحذف؟');
+                    }
+
+                }
+                if (Lang == "en") {
+                    ShowMessage('Please Select From The List');
+                } else {
+                    ShowMessage('الرجاء الاختيار من القائمة')
+                }
+                return false;
+            }
+
+            //setInterval(function () {
+            //    notify_Requests("Permission Request", "Employee Request Permission", "en")
+            //}, 6 * 1000);
+
+        </script>
+
+    </form>
+</body>
+</html>

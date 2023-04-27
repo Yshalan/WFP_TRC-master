@@ -1,0 +1,128 @@
+﻿<%@ Master Language="VB" CodeFile="ArabicMaster_old.master.vb" Inherits="Default_ArabicMaster" %>
+
+<%@ Register Src="../UserControls/LeftMenu.ascx" TagName="LeftMenu" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../CSS/css.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/AjaxExtender.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/AISstyle1.css" rel="stylesheet" type="text/css" />
+    <link href="../cssarabic/TA_innerpage.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body dir="rtl">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
+    </asp:ScriptManager>
+    <div id="main_innerpage">
+        <div id="main_div">
+            <div id="logo_div">
+                <div>
+                    <asp:LinkButton ID="lnkLanguage" runat="server">
+                    <div id="home" style="padding-top:25px; margin-left:8px">
+                        English
+                    </div>
+                    </asp:LinkButton>
+                </div>
+                <a href="../Default/Homearabic.aspx">
+                    <%--<img src="../imagearabic/logo.jpg" alt="smart time" />--%>
+                    <asp:Image ID="imgLogo" runat="server" Height="75px"/>
+                </a>
+                <br />
+                <div id="UserInfo" style="margin-right: 5px; margin-top: -1px">
+                    <asp:Label ID="lblUser" runat="server" Text="اسم المستخدم :" CssClass="Profiletitletxt"></asp:Label>
+                    <asp:Label ID="lblLoginUser" runat="server" CssClass="Profiletitletxt"></asp:Label>
+                    <asp:Label ID="lblDate" runat="server" Text="تاريخ الدخول :" CssClass="Profiletitletxt"></asp:Label>
+                    <asp:Label ID="lblLoginDate" runat="server" CssClass="Profiletitletxt"></asp:Label>
+                    <asp:Label ID="lblTime" runat="server" Text="وقت الدخول :" CssClass="Profiletitletxt"></asp:Label>
+                    <asp:Label ID="lblLoginTime" runat="server" CssClass="Profiletitletxt"></asp:Label>
+                </div>
+                <br />
+                <div style="margin-right: 140px; margin-top: -58px">
+                    <a href="../Default/logout.aspx">
+                        <div id="logout2">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="menu_div" style="margin-top: 40px">
+                <asp:LinkButton ID="lbtnSecurity_1_2_3_5" runat="server" class="link_9" CausesValidation="false">
+                </asp:LinkButton>
+                <asp:LinkButton ID="lbtnReports_1_2_3_4" runat="server" class="link_8" CausesValidation="false">
+                </asp:LinkButton>
+                <asp:LinkButton ID="lbtnDashBoard_1_2_3_7" runat="server" class="link_5" CausesValidation="false">
+                </asp:LinkButton>
+                <asp:LinkButton ID="lbtnRequests_2_3_9" runat="server" class="link_7" CausesValidation="false">
+                </asp:LinkButton>
+                <asp:LinkButton ID="lbtnSelfServices_2_3_8" runat="server" class="link_6" CausesValidation="false">
+                </asp:LinkButton>
+                <asp:LinkButton ID="lbtnDailyTasks_1_2_3_3" runat="server" class="link_4" CausesValidation="false">
+                </asp:LinkButton>
+                <asp:LinkButton ID="lbtnEmployee_1_2_3_6" runat="server" class="link_3" CausesValidation="false">
+                </asp:LinkButton>
+                <asp:LinkButton ID="lbtnDefinitions_1_2_3_2" runat="server" class="link_2" CausesValidation="false">
+                </asp:LinkButton>
+                <asp:LinkButton ID="lbtnAdmin_1_2_3_1" runat="server" class="link_1" CausesValidation="false">
+                </asp:LinkButton>
+            </div>
+            <div id="content_div">
+                <div id="right_content_div">
+                    <div id="right_content_main">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div id="curv_bottom_right">
+                    </div>
+                </div>
+                <div id="leftmenu">
+                    <uc1:LeftMenu ID="LeftMenu1" runat="server" />
+                </div>
+            </div>
+        </div>
+        <div id="foter">
+        </div>
+    </div>
+    <script type="text/javascript">
+
+
+        function DisplayAlert() {
+            window.ShowMessage("Could you select an item please");
+
+        }
+
+        function confirmDelete(gvName) {
+            var Lang = '<%= Lang %>'
+            var TargetBaseControl = null;
+            try {
+                //get target base control.
+                TargetBaseControl = document.getElementById(gvName);
+
+            }
+            catch (err) {
+                TargetBaseControl = null;
+            }
+
+            if (TargetBaseControl == null) {
+                ShowMessage('No Data')
+                return false;
+            }
+            //get all the control of the type INPUT in the base control.
+            var Inputs = TargetBaseControl.getElementsByTagName("input");
+            var TargetChildControl = "chk";
+            for (var n = 0; n < Inputs.length; ++n) {
+                if (Inputs[n].type == 'checkbox' && Inputs[n].checked && Inputs[n].id.indexOf(TargetChildControl, 0) >= 0) {
+                    return confirm('هل انت متاكد من الحذف ؟');
+                }
+
+            }
+
+            ShowMessage('الرجاء الاختيار من القائمة')
+
+            return false;
+        }
+    </script>
+    </form>
+</body>
+</html>

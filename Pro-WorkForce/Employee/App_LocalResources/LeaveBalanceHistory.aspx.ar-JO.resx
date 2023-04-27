@@ -1,0 +1,975 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Work Force Pro : : تاريخ ترصيد الاجازات</value>
+  </data>
+  <data name="PageResource2.Title" xml:space="preserve">
+    <value>تاريخ ترصيد الاجازات</value>
+  </data>
+  <data name="tabBalanceResource1.ToolTip" xml:space="preserve">
+    <value>رصيد الاجازات</value>
+  </data>
+  <data name="tabBalanceResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabContainer1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabContainer1Resource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabExpiredResource1.ToolTip" xml:space="preserve">
+    <value>رصيد المنتهي</value>
+  </data>
+  <data name="tabExpiredResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.BackImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.ClientSettings.ClientMessages.ColumnResizeTooltipFormatString" xml:space="preserve">
+    <value>Width: &lt;strong&gt;{0}&lt;/strong&gt; &lt;em&gt;pixels&lt;/em&gt;</value>
+  </data>
+  <data name="dgrdBalanceResource1.ClientSettings.ClientMessages.DragToGroupOrReorder" xml:space="preserve">
+    <value>Drag to group or reorder</value>
+  </data>
+  <data name="dgrdBalanceResource1.ClientSettings.ClientMessages.DragToResize" xml:space="preserve">
+    <value>Drag to resize</value>
+  </data>
+  <data name="dgrdBalanceResource1.ClientSettings.ClientMessages.DropHereToReorder" xml:space="preserve">
+    <value>Drop here to reorder</value>
+  </data>
+  <data name="dgrdBalanceResource1.ClientSettings.ClientMessages.PagerTooltipFormatString" xml:space="preserve">
+    <value>Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;</value>
+  </data>
+  <data name="dgrdBalanceResource1.FilterMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.GroupingSettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse group</value>
+  </data>
+  <data name="dgrdBalanceResource1.GroupingSettings.GroupByFieldsSeparator" xml:space="preserve">
+    <value>; </value>
+  </data>
+  <data name="dgrdBalanceResource1.GroupingSettings.GroupContinuedFormatString" xml:space="preserve">
+    <value>... group continued from the previous page. </value>
+  </data>
+  <data name="dgrdBalanceResource1.GroupingSettings.GroupContinuesFormatString" xml:space="preserve">
+    <value> Group continues on the next page.</value>
+  </data>
+  <data name="dgrdBalanceResource1.GroupingSettings.GroupSplitDisplayFormat" xml:space="preserve">
+    <value>Showing {0} of {1} items.</value>
+  </data>
+  <data name="dgrdBalanceResource1.GroupingSettings.GroupSplitFormat" xml:space="preserve">
+    <value> ({0})</value>
+  </data>
+  <data name="dgrdBalanceResource1.GroupingSettings.UnGroupButtonTooltip" xml:space="preserve">
+    <value>Click here to ungroup</value>
+  </data>
+  <data name="dgrdBalanceResource1.GroupingSettings.UnGroupTooltip" xml:space="preserve">
+    <value>Drag out of the bar to ungroup</value>
+  </data>
+  <data name="dgrdBalanceResource1.GroupPanel.Text" xml:space="preserve">
+    <value>Drag a column header and drop it here to group by that column</value>
+  </data>
+  <data name="dgrdBalanceResource1.GroupPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.HeaderContextMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.HierarchySettings.CollapseTooltip" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="dgrdBalanceResource1.HierarchySettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="dgrdBalanceResource1.HierarchySettings.SelfCollapseTooltip" xml:space="preserve">
+    <value>Self reference collapse</value>
+  </data>
+  <data name="dgrdBalanceResource1.HierarchySettings.SelfExpandTooltip" xml:space="preserve">
+    <value>Self reference expand</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.CommandItemSettings.AddNewRecordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.CommandItemSettings.AddNewRecordText" xml:space="preserve">
+    <value>اضافة سجل جديد</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.CommandItemSettings.ExportToCsvImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.CommandItemSettings.ExportToCsvText" xml:space="preserve">
+    <value>Export to CSV</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.CommandItemSettings.ExportToExcelImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.CommandItemSettings.ExportToExcelText" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.CommandItemSettings.ExportToPdfImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.CommandItemSettings.ExportToPdfText" xml:space="preserve">
+    <value>Export to Pdf</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.CommandItemSettings.ExportToWordImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.CommandItemSettings.ExportToWordText" xml:space="preserve">
+    <value>Export to Word</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.CommandItemSettings.RefreshImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.CommandItemSettings.RefreshText" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.EditFormSettings.CaptionFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.EditFormSettings.InsertCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.ExpandCollapseColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.ExpandCollapseColumn.CollapseImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.ExpandCollapseColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.ExpandCollapseColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.ExpandCollapseColumn.ExpandImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.ExpandCollapseColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.ExpandCollapseColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.ExpandCollapseColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.ExpandCollapseColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.ExpandCollapseColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.ExpandCollapseColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.ExpandCollapseColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.ExpandCollapseColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.FilterExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.NoDetailRecordsText" xml:space="preserve">
+    <value>لايوجد سجلات للعرض</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.NoMasterRecordsText" xml:space="preserve">
+    <value>لايوجد سجلات للعرض</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>الصفحة الاولى</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>الصفحة الاخيرة</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.RowIndicatorColumn.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.RowIndicatorColumn.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.RowIndicatorColumn.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.RowIndicatorColumn.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.RowIndicatorColumn.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.RowIndicatorColumn.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.RowIndicatorColumn.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.RowIndicatorColumn.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.RowIndicatorColumn.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.RowIndicatorColumn.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.RowIndicatorColumn.SortExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.Summary" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.MasterTableView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.PagerStyle.FirstPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.PagerStyle.FirstPageToolTip" xml:space="preserve">
+    <value>الصفحة الاولى</value>
+  </data>
+  <data name="dgrdBalanceResource1.PagerStyle.LastPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.PagerStyle.LastPageToolTip" xml:space="preserve">
+    <value>الصفحة الاخيرة</value>
+  </data>
+  <data name="dgrdBalanceResource1.PagerStyle.NextPagesToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdBalanceResource1.PagerStyle.NextPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.PagerStyle.NextPageToolTip" xml:space="preserve">
+    <value>الصفحة التالية</value>
+  </data>
+  <data name="dgrdBalanceResource1.PagerStyle.PagerTextFormat" xml:space="preserve">
+    <value>Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;.</value>
+  </data>
+  <data name="dgrdBalanceResource1.PagerStyle.PageSizeLabelText" xml:space="preserve">
+    <value>Page size:</value>
+  </data>
+  <data name="dgrdBalanceResource1.PagerStyle.PrevPagesToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdBalanceResource1.PagerStyle.PrevPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdBalanceResource1.PagerStyle.PrevPageToolTip" xml:space="preserve">
+    <value>الصفحة السابقة</value>
+  </data>
+  <data name="dgrdBalanceResource1.SortingSettings.SortedAscToolTip" xml:space="preserve">
+    <value>ترتيب تصاعدي</value>
+  </data>
+  <data name="dgrdBalanceResource1.SortingSettings.SortedDescToolTip" xml:space="preserve">
+    <value>ترتيب تنازلي</value>
+  </data>
+  <data name="dgrdBalanceResource1.SortingSettings.SortToolTip" xml:space="preserve">
+    <value>اضغط هنا للترتيب</value>
+  </data>
+  <data name="dgrdBalanceResource1.StatusBarSettings.LoadingText" xml:space="preserve">
+    <value>تحميل...</value>
+  </data>
+  <data name="dgrdBalanceResource1.StatusBarSettings.ReadyText" xml:space="preserve">
+    <value>جاهز</value>
+  </data>
+  <data name="dgrdBalanceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgrdEmployeePermissionResource1.GroupingSettings.ExpandTooltip" xml:space="preserve">
+    <value>Expand group</value>
+  </data>
+  <data name="GridBound10ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound10ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound10ColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound10ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound10ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound10ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound10ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound10ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound10ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound10ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound10ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound10ColumnResource1.HeaderText" xml:space="preserve">
+    <value>انشئ من قبل</value>
+  </data>
+  <data name="GridBound10ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound10ColumnResource1.SortExpression" xml:space="preserve">
+    <value>CREATED_BY</value>
+  </data>
+  <data name="GridBound11ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound1ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound1ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.HeaderText" xml:space="preserve">
+    <value>تاريخ الرصيد</value>
+  </data>
+  <data name="GridBound1ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound1ColumnResource1.SortExpression" xml:space="preserve">
+    <value>BalanceDate</value>
+  </data>
+  <data name="GridBound2ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound2ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound2ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.HeaderText" xml:space="preserve">
+    <value>الرصيد</value>
+  </data>
+  <data name="GridBound2ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound2ColumnResource1.SortExpression" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="GridBound3ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound3ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound3ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.HeaderText" xml:space="preserve">
+    <value>المجموع الكلي للرصيد</value>
+  </data>
+  <data name="GridBound3ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound3ColumnResource1.SortExpression" xml:space="preserve">
+    <value>TotalBalance</value>
+  </data>
+  <data name="GridBound4ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound4ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound4ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.HeaderText" xml:space="preserve">
+    <value>تاريخ الانشاء</value>
+  </data>
+  <data name="GridBound4ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound4ColumnResource1.SortExpression" xml:space="preserve">
+    <value>CREATED_DATE</value>
+  </data>
+  <data name="GridBound5ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound5ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound5ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.HeaderText" xml:space="preserve">
+    <value>الملاحظات</value>
+  </data>
+  <data name="GridBound5ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound5ColumnResource1.SortExpression" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="GridBound6ColumnResource1.AndCurrentFilterValue1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound6ColumnResource1.CurrentFilterValue1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound6ColumnResource1.DataFormatString1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound6ColumnResource1.EditFormHeaderTextFormat1" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound6ColumnResource1.EmptyDataText1" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound6ColumnResource1.FooterAggregateFormatString1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound6ColumnResource1.FooterText1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound6ColumnResource1.GroupByExpression1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound6ColumnResource1.HeaderAbbr1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound6ColumnResource1.HeaderAxis1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound6ColumnResource1.HeaderImageUrl1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound6ColumnResource1.HeaderText" xml:space="preserve">
+    <value>انشئ من قبل</value>
+  </data>
+  <data name="GridBound6ColumnResource1.HeaderTooltip1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound6ColumnResource1.SortExpression1" xml:space="preserve">
+    <value>CREATED_BY</value>
+  </data>
+  <data name="GridBound7ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound7ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound7ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.HeaderText" xml:space="preserve">
+    <value>تاريخ الانتهاء</value>
+  </data>
+  <data name="GridBound7ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound7ColumnResource1.SortExpression" xml:space="preserve">
+    <value>ExpireDate</value>
+  </data>
+  <data name="GridBound8ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound8ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound8ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.HeaderText" xml:space="preserve">
+    <value>الرصيد المنتهي</value>
+  </data>
+  <data name="GridBound8ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound8ColumnResource1.SortExpression" xml:space="preserve">
+    <value>ExpireBalance</value>
+  </data>
+  <data name="GridBound9ColumnResource1.AndCurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound9ColumnResource1.CurrentFilterValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound9ColumnResource1.DataFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound9ColumnResource1.EditFormHeaderTextFormat" xml:space="preserve">
+    <value>{0}:</value>
+  </data>
+  <data name="GridBound9ColumnResource1.EmptyDataText" xml:space="preserve">
+    <value>&amp;nbsp;</value>
+  </data>
+  <data name="GridBound9ColumnResource1.FooterAggregateFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound9ColumnResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound9ColumnResource1.GroupByExpression" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound9ColumnResource1.HeaderAbbr" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound9ColumnResource1.HeaderAxis" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound9ColumnResource1.HeaderImageUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound9ColumnResource1.HeaderText" xml:space="preserve">
+    <value>تاريخ الانشاء</value>
+  </data>
+  <data name="GridBound9ColumnResource1.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound9ColumnResource1.SortExpression" xml:space="preserve">
+    <value>CREATED_DATE</value>
+  </data>
+  <data name="tabBalanceResource2.HeaderText" xml:space="preserve">
+    <value>رصيد الاجازات</value>
+  </data>
+  <data name="tabExpiredResource2.HeaderText" xml:space="preserve">
+    <value>الرصيد المنتهي</value>
+  </data>
+  <data name="RadFilter1Resource1.AddExpressionToolTip" xml:space="preserve">
+    <value>اضافة مصطلح</value>
+  </data>
+  <data name="RadFilter1Resource1.AddGroupToolTip" xml:space="preserve">
+    <value>اضافة مجموعة</value>
+  </data>
+  <data name="RadFilter1Resource1.ApplyButtonText" xml:space="preserve">
+    <value>تطبيق</value>
+  </data>
+  <data name="RadFilter1Resource1.BetweenDelimeterText" xml:space="preserve">
+    <value>و</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionBetween" xml:space="preserve">
+    <value>بين</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionContains" xml:space="preserve">
+    <value>يحتوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionDoesNotContain" xml:space="preserve">
+    <value>لايحتوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionEndsWith" xml:space="preserve">
+    <value>ينتهي ب</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionEqualto" xml:space="preserve">
+    <value>يساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionGreaterThan" xml:space="preserve">
+    <value>اكبر من</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionGreaterThanOrEqualTo" xml:space="preserve">
+    <value>اكبر من او يساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionIsEmpty" xml:space="preserve">
+    <value>فارغ</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionIsNull" xml:space="preserve">
+    <value>لايوجد قيمة</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionLessThan" xml:space="preserve">
+    <value>اصغر من</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionLessThanOrEqualTo" xml:space="preserve">
+    <value>اصغر من او يساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotBetween" xml:space="preserve">
+    <value>ليس بين</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotEqualTo" xml:space="preserve">
+    <value>لايساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotIsEmpty" xml:space="preserve">
+    <value>ليس فارغ</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotIsNull" xml:space="preserve">
+    <value>يوجد قيمة</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionStartsWith" xml:space="preserve">
+    <value>يبدأ ب</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationAnd" xml:space="preserve">
+    <value>و</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationNotAnd" xml:space="preserve">
+    <value>وليس</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationNotOr" xml:space="preserve">
+    <value>او ليس</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationOr" xml:space="preserve">
+    <value>او</value>
+  </data>
+  <data name="RadFilter1Resource1.RemoveToolTip" xml:space="preserve">
+    <value>ازالة بند</value>
+  </data>
+  <data name="RadFilter1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>تطبيق البحث</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBound0ColumnResource100.HeaderText" xml:space="preserve">
+    <value>إسم الموظف</value>
+  </data>
+  <data name="GridBound1ColumnResource99.HeaderText" xml:space="preserve">
+    <value>رقم الموظف</value>
+  </data>
+  <data name="btnSearchResource1.Text" xml:space="preserve">
+    <value>إظهار</value>
+  </data>
+  <data name="btnSearchResource1.ToolTip" xml:space="preserve">
+    <value>إظهار</value>
+  </data>
+  <data name="GridBound10ColumnResource100.HeaderText" xml:space="preserve">
+    <value>رقم الموظف</value>
+  </data>
+  <data name="GridBound11ColumnResource99.HeaderText" xml:space="preserve">
+    <value>إسم الموظف</value>
+  </data>
+</root>

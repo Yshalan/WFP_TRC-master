@@ -1,0 +1,20 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="TestEmployeeFilter.aspx.vb" StylesheetTheme="Default"  MasterPageFile="~/Default/AdminMaster.master"
+Inherits="Admin_UserControls_TestEmployeeFilter" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<%@ Register Src="../Admin/UserControls/EmployeeFilter.ascx" TagName="PageFilter" TagPrefix="uc1" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+ </asp:Content>
+ 
+ 
+ <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+ <asp:UpdatePanel ID="pnlEmployee" runat="server">
+                    <ContentTemplate>
+                    <uc1:PageFilter ID="UserCtrlOrgHeirarchy" runat="server" HeaderText="View Employee Heirarchy" />
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+ </asp:Content>
+
+

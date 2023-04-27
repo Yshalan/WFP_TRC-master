@@ -1,0 +1,436 @@
+﻿<%@ Master Language="VB" CodeFile="ArabicMaster.master.vb" Inherits="Default_ArabicMasterTheme2" %>
+
+<%@ Register Src="~/UserControls/LeftMenu.ascx" TagName="Left" TagPrefix="uc1" %>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Pro-WorkForce</title>
+    <meta content="" charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="../Sait/img/favicon.png" />
+    <!-- Favicon -->
+    <link href="../Sait/img/favicon.png" rel="icon" type="image/png" />
+
+    <!-- Boostrap core CSS -->
+    <link href="../Sait/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Sait/css/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+    <%--<link href="../CSS/bootstrap-datepicker.min.css" rel="stylesheet" />--%>
+
+    <!-- lobi box CSS -->
+    <link href="../CSS/lobibox.min.css" rel="stylesheet" />
+
+    <!-- Smart Vision core CSS -->
+    <link href="../App_Themes/Default/StyleSheet.css" rel="stylesheet" />
+    <%--<link href="../CSS/query-builder.default.css" rel="stylesheet" />--%>
+    <link href="../Sait/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../Sait/css/animations.css" rel="stylesheet" />
+    <link href="../Sait/css/simple-sidebar-new.css" rel="stylesheet" />
+    <link href="../Sait/css/component.css" rel="stylesheet" />
+    <link href="../Sait/css/hover.css" rel="stylesheet" />
+    <link href="../Sait/css/css/animate.css" rel="stylesheet" />
+    <link href="../Sait/css/commonstyle.css" rel="stylesheet" />
+
+    <!-- Material CSS -->
+    <%--    <link href="../CSS/Material2/Grid.Material2.css" rel="stylesheet" />
+    <link href="../CSS/Material2/DataPager.Material2.css" rel="stylesheet" />
+    <link href="../CSS/Material2/Input.Material2.css" rel="stylesheet" />
+
+    <link href="../Sait/css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css" />
+    <link href="../Sait/css/toastr.min.css" rel="stylesheet" type="text/css" />--%>
+
+    <!-- Theme CSS -->
+    <link href="../assets_new/css/Arabic_temp.css" type="text/css" media="screen" rel="stylesheet" />
+    <link href="../Sait/css/custom.css" type="text/css" title="styles2" media="screen" rel="stylesheet" />
+    <link href="../Sait/css/custom-dof.css" type="text/css" title="styles1" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/custom-Red.css" type="text/css" title="styles3" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/custom-Blue.css" type="text/css" title="styles4" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/custom-Violet.css" type="text/css" title="styles5" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/custom-Gold.css" type="text/css" title="styles6" media="screen" rel="stylesheet" disabled="" />
+
+    <link href="../Sait/css/lightdefault.css" type="text/css" title="styles7" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/lightcustom-dof.css" type="text/css" title="styles8" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/lightcustom-Red.css" type="text/css" title="styles9" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/lightcustom-Gold.css" type="text/css" title="styles10" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/lightcustom-Blue.css" type="text/css" title="styles11" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/lightcustom-Violet.css" type="text/css" title="styles12" media="screen" rel="stylesheet" disabled="" />
+
+
+    <!-- Javascript -->
+    <%--<script src="../js/jquery-3.2.1.min.js" type="text/javascript"></script>--%>
+
+    <script src="../Sait/js/ie10-viewport-bug-workaround.js" type="text/javascript"></script>
+
+    <script src="../Sait/js/jquery.min.js"></script>
+    <script src="../Sait/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../js/Action.js" type="text/javascript"></script>
+    <script src="../js/lobibox.min.js" type="text/javascript"></script>
+    <%--    <script src="../js/jquery.Jcrop.js" type="text/javascript"></script>
+    <script src="../js/featherlight.min.js" type="text/javascript"></script>
+    <script src="../js/featherlight.gallery.min.js" type="text/javascript"></script>--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
+        </asp:ScriptManager>
+
+        <header>
+            <a href="#menu-toggle" id="menu-toggle">
+                <img src="../Sait/img/togglemenu-ar.png" alt="" /></a>
+            <a class="navbar-brand" href="../default/home.aspx">
+                <%--<img alt="" src="../Sait/img/logo.png" />--%>
+                <%--<asp:Image ID="imgLogo" runat="server" ImageUrl="../Sait/img/Logo.png"  alt="Smart Time"/>--%>
+                <%--<asp:Image ImageUrl="../assets/img/logo.png" runat="server" ToolTip="Home Page" />--%>
+                <asp:Image ImageUrl="../assets/img/final-logo_ar.png" runat="server" ToolTip="Home Page" Height="45px" />
+            </a>
+            <%--<asp:LinkButton ID="lnkHome" CssClass="navbar-brand" runat="server">
+                <img alt="" src="../assets/img/logo.png" />
+            </asp:LinkButton>--%>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#RightHeader" aria-expanded="false" aria-controls="RightHeader">
+                <i class="fa fa-ellipsis-v"></i>
+            </button>
+
+            <%--<img src="../ShowImage.ashx" id="ClientLogo" class="Client-logo">--%>
+            <div id="RightHeader" class="left-header collapse">
+                <ul>
+                    <li>
+                        <img src="../ShowImage.ashx" id="ClientLogo" class="Client-logo">
+                    </li>
+                    <li>
+                        <asp:LinkButton ID="lnkbtnLogOut" runat="server" CausesValidation="false">
+                            <img id="Img1" src="../Sait/img/icn_logout.png" runat="server" />
+
+                        </asp:LinkButton>
+                    </li>
+                    <li>
+                        <asp:LinkButton ID="lnkbtnLanguage" runat="server" CausesValidation="false">
+                            <img id="ImgLanguage" src="../Sait/img/EnBt.png" runat="server" />
+                        </asp:LinkButton>
+                    </li>
+                    <li class="dropdown-ar">
+                        <div class="btn-group icn_notification icn_notification-ar">
+                            <%--<img src="../images/notification_border.png" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" />--%>
+                            <%--<img src="../Sait/img/icn-notification.png" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" />--%>
+                            <%--<asp:Image ImageUrl="../images/notification.png" ID="Image1" runat="server" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" />--%>
+
+                            <%--                            <asp:Label ID="lblNotification1" runat="server" />
+                            <ul class="dropdown-menu-ar">
+                                <li class="number"><a href="../NewRecord/ServiceTeamView.aspx" class="head">You have
+                                    <asp:Label ID="lblNotification2" runat="server" />new notifications.</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li role="separator" class="divider"></li>
+                                <li>
+                                    <asp:HyperLink ID="HyperLink1" NavigateUrl="~/NewRecord/Notifications.aspx" CssClass="seeAll" runat="server" Text="Sell all notification" /></li>
+                            </ul>--%>
+                        </div>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"></a>
+                    </li>
+                    <li class="dropdown user">
+                        <a href="#" class="dropdown-toggle">
+                            <span class="avatar">
+                                <img alt="" src="../Sait/img/user.png" />
+                            </span><%--<b class="caret"></b>--%>
+                            <div class="UserText">
+                                <asp:Label ID="lblLoginUser" SkinID="UserName" runat="server" Text="Label"></asp:Label>
+                                <div class="clear"></div>
+                                <asp:Label ID="lblLoginDate" SkinID="LoginTime" runat="server" Text=""><b>Last Login:</b></asp:Label>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+
+        <div class="clear">
+        </div>
+
+        <section class="section" id="wrapper">
+            <!-- Sidebar -->
+            <aside class="side-left Horizontal" id="stickscroll" style="display: none;">
+                <uc1:Left ID="Left2" runat="server" />
+            </aside>
+
+            <!-- Page content -->
+            <div id="divContent" class="content-ar content Horizontal_content">
+                <div class="animated fadeInUp">
+                    <div class="Svpanel">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- side menu icons -->
+
+        <div class="iconsettings">
+            <div class='sidesettingsdiv'>
+                <h4 class="text-uppercase mb-0">مصمم الالوان</h4>
+                <p>صمم و اعرضه بنفس اللحظة</p>
+                <hr />
+                <h5 class="menu-Options">
+                    <asp:Label ID="Label6" runat="server" Text="خيارات عرض القائمة"></asp:Label>
+                </h5>
+                <div class="clear"></div>
+                <!-- Outline Button group -->
+                <div class="form-group">
+                    <div class="tab_position_Horizontal">
+                        <a href="#">
+                            <asp:Label ID="Label1" runat="server" Text="أفقي"></asp:Label>
+                        </a>
+                    </div>
+                    <div class="tab_position_Vertical">
+                        <a href="#">
+                            <asp:Label ID="Label2" runat="server" Text="عامودي"></asp:Label>
+                        </a>
+                    </div>
+                </div>
+                <!-- theme group -->
+
+
+                <div class="sidetheme">
+                    <h4>Choose your Theme</h4>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#home">داكن</a></li>
+                        <li><a data-toggle="tab" href="#menu1">فاتح</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="home" class="tab-pane fade in active">
+                            <div class="colours" id="Colour-wrapper">
+                                <a href="../Sait/css/custom.css" class="Green styleswitch" rel="styles2">الاولي</a>
+                                <a href="../Sait/css/custom-Dof.css" class="Dof styleswitch" rel="styles1">البنفسجي</a>
+                                <a href="../Sait/css/custom-Red.css" class="Red styleswitch" rel="styles3">الاحمر</a>
+                                <a href="../Sait/css/custom-Gold.css" class="Gold styleswitch" rel="styles6">الاخضر</a>
+                                <a href="../Sait/css/custom-Blue.css" class="Blue styleswitch" rel="styles4">الازرق</a>
+                                <a href="../Sait/css/custom-Violet.css" class="Violet styleswitch" rel="styles5">الزهري</a>
+                            </div>
+                        </div>
+                        <div id="menu1" class="tab-pane fade">
+                            <div class="colours" id="Colour-wrapper-light">
+                                <a href="../Sait/css/lightdefault.css" class="Green styleswitch" rel="styles7">الاولي</a>
+                                <a href="../Sait/css/lightcustom-Dof.css" class="Dof styleswitch" rel="styles8">البنفسجي</a>
+                                <a href="../Sait/css/lightcustom-Red.css" class="Red styleswitch" rel="styles9">الاحمر</a>
+                                <a href="../Sait/css/lightcustom-Gold.css" class="Gold styleswitch" rel="styles10">الاخضر</a>
+                                <a href="../Sait/css/lightcustom-Blue.css" class="Blue styleswitch" rel="styles11">الازرق</a>
+                                <a href="../Sait/css/lightcustom-Violet.css" class="Violet styleswitch" rel="styles12">الزهري</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <a id='clickme' href='#'>
+                    <i class="fa fa-cog spinner white"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- Javascript -->
+
+        <script src="../Sait/js/modernizr.custom.js"></script>
+        <script src="../Sait/js/moment.js" type="text/javascript"></script>
+        <script src="../Sait/css/styleswitch.js"></script>
+        <script type="text/javascript" src="../js/compiled/flipclock.js"></script>
+        <%--    <script src="../Sait/js/docs.min.js"></script>--%>
+        <script src="../Sait/js/svCustom.js"></script>
+        <script src="../Sait/js/moment-with-locales.min.js" type="text/javascript"></script>
+        <script src="../Sait/js/bootstrap-datepicker.min.js"></script>
+        <script src="../Sait/js/bootstrap-datetimepicker.js" type="text/javascript"></script>
+        <%--<script src="../js/query-builder.standalone.min.js"></script>--%>
+        <script src="../Sait/js/jquery.cookie.js"></script>
+
+
+
+        <!-- Javascript highcharts -->
+        <%--<script src="../Dashboards/js/highcharts.js"></script>--%>
+        <%--<script src="../Dashboards/js/series-label.js"></script>--%>
+        <%--<script src="../Dashboards/js/exporting.js"></script>--%>
+        <%--<script src="../Dashboards/js/export-data.js"></script>--%>
+        <%--<script src="../Dashboards/js/highcharts-more.js"></script>--%>
+        <%--<script src="../Dashboards/js/solid-gauge.src.js"></script>--%>
+
+        <script src="../DashBoard/js/highcharts.js" type="text/javascript"></script>
+        <script src="../DashBoard/js/drilldown.js" type="text/javascript"></script>
+        <script src="../DashBoard/js/exporting.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+            //$(function () {
+            //    $('.datepicker').datetimepicker({
+            //        format: 'DD/MM/YYYY'
+            //    });
+            //    $('.datetimepicker').datetimepicker();
+            //});
+
+            $(document).ready(function () {
+                $("#stickscroll").css("display", "block");
+                var dir = sessionStorage.getItem("direction"); //$.cookie("direction");
+                var element = $("#wrapper");
+                var toggled = localStorage.getItem('toggled');;
+                element.toggleClass("toggled");
+                if (toggled == "true") {
+                    element.addClass("toggled");
+                }
+                else {
+                    element.removeClass("toggled");
+                }
+                if (dir == "v") {
+                    var i = $(this).index();
+                    $('.side-left').removeClass('Vertical').addClass('Horizontal');
+                    $('.content').removeClass('Horizontal_content');
+                    $("#divContent").addClass("Horizontalcontent");
+
+                }
+                else {
+                    var i = $(this).index();
+                    $('.side-left').addClass('Vertical').removeClass('Horizontal');
+                    $('.content').addClass('Horizontal_content');
+                }
+                myFunction();
+                if (!$("#stickscroll").hasClass("Horizontal")) {
+                    $('.tab_position_Horizontal a').addClass('active');
+                    $('.tab_position_Vertical a').removeClass('active');
+                }
+                else {
+                    $('.tab_position_Horizontal a').removeClass('active');
+                    $('.tab_position_Vertical a').addClass('active');
+                }
+                $('#clickme').click(function () {
+                    var $slider = $('.sidesettingsdiv');
+                    $slider.animate({
+                        right: parseInt($slider.css('right'), 0) == -300 ?
+                            0 : -300
+                    });
+                });
+            });
+
+
+            $('.tab_position_Horizontal a').click(function () {
+                var i = $(this).index();
+                $('.side-left').addClass('Vertical').removeClass('Horizontal');
+                $('.tab_position_Horizontal a').addClass('active');
+                $('.tab_position_Vertical a').removeClass('active');
+                $('.content').addClass('Horizontal_content');
+                sessionStorage.setItem("direction", "h");
+                if ($("#wrapper").hasClass("toggled")) {
+                    $("#divContent").removeClass("Horizontalcontent");
+                }
+            });
+
+
+            $('.tab_position_Vertical a').click(function () {
+                var i = $(this).index();
+                $('.side-left').removeClass('Vertical').addClass('Horizontal');
+                $('.tab_position_Horizontal a').removeClass('active');
+                $('.tab_position_Vertical a').addClass('active');
+                $('.content').removeClass('Horizontal_content');
+                sessionStorage.setItem("direction", "v");
+                if ($("#wrapper").hasClass("toggled")) {
+                    $("#divContent").addClass("Horizontalcontent");
+                }
+            });
+
+
+
+            //*Menu Toggle*/
+            $("#menu-toggle").click(function (e) {
+                var dir = sessionStorage.getItem("direction"); //$.cookie("direction");
+                if (dir == "v") {
+                    $(this).toggleClass('');
+                    e.preventDefault();
+                    $("#wrapper").toggleClass("toggled");
+                    $(".content").addClass("Horizontalcontent");
+                }
+                else {
+                    $(this).toggleClass('');
+                    e.preventDefault();
+                    $("#wrapper").toggleClass("toggled");
+                    $(".content").removeClass("Horizontalcontent");
+                }
+
+                if ($("#wrapper").hasClass("toggled")) {
+                    localStorage.setItem('toggled', 'true');
+                }
+                else {
+                    localStorage.setItem('toggled', 'false');
+                }
+            });
+
+            //*sticky scroll manu*/
+            window.onscroll = function () { myFunction() };
+
+            var sticky;
+            if ($('#stickscroll').is(':hidden')) {
+                sticky = 65;
+            }
+            else {
+                sticky = stickscroll.offsetTop;
+            }
+
+            function myFunction() {
+
+                if (window.pageYOffset >= sticky) {
+                    if (!$("#stickscroll").hasClass("Horizontal")) {
+                        stickscroll.classList.add("sticky")
+                    }
+                    else {
+                        stickscroll.classList.remove("sticky");
+                    }
+
+                } else {
+                    stickscroll.classList.remove("sticky");
+                }
+            }
+
+
+        </script>
+        <asp:ContentPlaceHolder ID="scripts" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <script type="text/javascript">
+
+
+            function confirmDelete(gvName) {
+                var Lang = 'ar';<%--'<%= Lang %>'--%>;
+                var TargetBaseControl = null;
+                try {
+                    //get target base control.
+                    TargetBaseControl = document.getElementById(gvName);
+
+                }
+                catch (err) {
+                    TargetBaseControl = null;
+                }
+
+                if (TargetBaseControl == null) {
+                    ShowMessage('No Data')
+                    return false;
+                }
+                //get all the control of the type INPUT in the base control.
+                var Inputs = TargetBaseControl.getElementsByTagName("input");
+                var TargetChildControl = "chk";
+                for (var n = 0; n < Inputs.length; ++n) {
+                    if (Inputs[n].type == 'checkbox' && Inputs[n].checked && Inputs[n].id.indexOf(TargetChildControl, 0) >= 0) {
+                        return confirm('Are you sure you want to delete?');
+                    }
+
+                }
+                if (Lang == "en") {
+                    ShowMessage('info', 'Please select from the list', 'right bottom');
+                } else {
+                    ShowMessage('info', 'الرجاء الاختيار من القائمة', 'left bottom')
+                }
+                return false;
+            }
+
+        </script>
+    </form>
+</body>
+</html>

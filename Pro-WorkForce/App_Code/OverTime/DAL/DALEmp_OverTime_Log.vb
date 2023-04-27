@@ -1,0 +1,125 @@
+Imports Microsoft.VisualBasic
+Imports SmartV.DB
+Imports System.Data
+Imports System.Data.SqlClient
+Imports System.Reflection
+Imports SmartV.UTILITIES
+Imports TA.Lookup
+
+
+Namespace TA.OverTime
+
+    Public Class DALEmp_OverTime_Log
+        Inherits MGRBase
+
+
+
+#Region "Class Variables"
+        Private strConn As String
+        Private Emp_OverTime_Log_Select As String = "Emp_OverTime_Log_select"
+        Private Emp_OverTime_Log_Select_All As String = "Emp_OverTime_Log_select_All"
+        Private Emp_OverTime_Log_Insert As String = "Emp_OverTime_Log_Insert"
+        Private Emp_OverTime_Log_Update As String = "Emp_OverTime_Log_Update"
+        Private Emp_OverTime_Log_Delete As String = "Emp_OverTime_Log_Delete"
+#End Region
+#Region "Constructor"
+        Public Sub New()
+
+
+
+        End Sub
+
+#End Region
+
+#Region "Methods"
+
+        Public Function Add(ByVal FK_OT_MasterID As Long, ByVal FK_ActionEmployeeID As Long, ByVal FK_OTDecisionID As Integer, ByVal ActionDate As DateTime, ByVal Remarks As String) As Integer
+
+            objDac = DAC.getDAC()
+            Try
+                errNo = objDac.AddUpdateDeleteSPTrans(Emp_OverTime_Log_Insert, New SqlParameter("@FK_OT_MasterID", FK_OT_MasterID), _
+               New SqlParameter("@FK_ActionEmployeeID", FK_ActionEmployeeID), _
+               New SqlParameter("@FK_OTDecisionID", FK_OTDecisionID), _
+               New SqlParameter("@ActionDate", ActionDate), New SqlParameter("@Remarks", Remarks))
+            Catch ex As Exception
+                errNo = -11
+                CtlCommon.CreateErrorLog(logPath, ex.Message, MethodBase.GetCurrentMethod.Name)
+            End Try
+            Return errNo
+
+        End Function
+
+        Public Function Update(ByVal LogID As Long, ByVal FK_OT_MasterID As Long, ByVal FK_ActionEmployeeID As Long, ByVal FK_OTDecisionID As Integer, ByVal ActionDate As DateTime, ByVal Remarks As String) As Integer
+
+            objDac = DAC.getDAC()
+            Try
+                errNo = objDac.AddUpdateDeleteSPTrans(Emp_OverTime_Log_Update, New SqlParameter("@LogID", LogID), _
+               New SqlParameter("@FK_OT_MasterID", FK_OT_MasterID), _
+               New SqlParameter("@FK_ActionEmployeeID", FK_ActionEmployeeID), _
+               New SqlParameter("@FK_OTDecisionID", FK_OTDecisionID), _
+               New SqlParameter("@ActionDate", ActionDate), New SqlParameter("@Remarks", Remarks))
+            Catch ex As Exception
+                errNo = -11
+                CtlCommon.CreateErrorLog(logPath, ex.Message, MethodBase.GetCurrentMethod.Name)
+            End Try
+            Return errNo
+
+        End Function
+
+        Public Function Delete(ByVal LogID As Long) As Integer
+
+            objDac = DAC.getDAC()
+            Try
+                errNo = objDac.AddUpdateDeleteSPTrans(Emp_OverTime_Log_Delete, New SqlParameter("@LogID", LogID))
+            Catch ex As Exception
+                errNo = -11
+                CtlCommon.CreateErrorLog(logPath, ex.Message, MethodBase.GetCurrentMethod.Name)
+            End Try
+            Return errNo
+
+        End Function
+
+        Public Function GetByPK(ByVal LogID As Long) As DataRow
+
+            objDac = DAC.getDAC()
+            Dim objRow As DataRow
+            Try
+                objRow = objDac.GetDataTable(Emp_OverTime_Log_Select, New SqlParameter("@LogID", LogID)).Rows(0)
+            Catch ex As Exception
+                errNo = -11
+                CtlCommon.CreateErrorLog(logPath, ex.Message, MethodBase.GetCurrentMethod.Name)
+            End Try
+            Return objRow
+
+        End Function
+
+        Public Function GetAll() As DataTable
+
+            objDac = DAC.getDAC()
+            Dim objColl As DataTable
+            Try
+                objColl = objDac.GetDataTable(Emp_OverTime_Log_Select_All, Nothing)
+            Catch ex As Exception
+                errNo = -11
+                CtlCommon.CreateErrorLog(logPath, ex.Message, MethodBase.GetCurrentMethod.Name)
+            End Try
+            Return objColl
+
+
+        End Function
+        Public Function CheckIfExists(ByVal FK_ActionEmployeeID As Integer) As Boolean
+            objDac = DAC.getDAC()
+            Dim objColl As Integer
+            Try
+                objColl = objDac.GetSingleValue(Of Integer)("", New SqlParameter("@FK_ActionEmployeeID", FK_ActionEmployeeID))
+            Catch ex As Exception
+                errNo = -11
+                CtlCommon.CreateErrorLog(AppDomain.CurrentDomain.RelativeSearchPath.Substring(0, AppDomain.CurrentDomain.RelativeSearchPath.LastIndexOf("\") + 1), ex.Message.ToString(), MethodBase.GetCurrentMethod.Name)
+            End Try
+            Return objColl
+        End Function
+#End Region
+
+
+    End Class
+End Namespace

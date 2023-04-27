@@ -1,0 +1,1506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CssFileName" xml:space="preserve">
+    <value>arControlsStyle.css</value>
+  </data>
+  <data name="lblReportTitle" xml:space="preserve">
+    <value>عنوان التقرير</value>
+  </data>
+  <data name="PageDir" xml:space="preserve">
+    <value>rtl</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>arTheme1</value>
+  </data>
+  <data name="AppSettings" xml:space="preserve">
+    <value>اعدادات النظام</value>
+  </data>
+  <data name="DateRange" xml:space="preserve">
+    <value>"الى تاريخ" يجب ان يكون اكبر من او يساوي "من تاريخ"</value>
+  </data>
+  <data name="DeletedSuccessfully" xml:space="preserve">
+    <value>تم الحذف بنجاح</value>
+  </data>
+  <data name="ErrorDelete" xml:space="preserve">
+    <value>خطأ اثناء الحذف</value>
+  </data>
+  <data name="ErrorModfiy" xml:space="preserve">
+    <value>خطأ اثناء التعديل</value>
+  </data>
+  <data name="ErrorSave" xml:space="preserve">
+    <value>خطأ اثناء الحفظ</value>
+  </data>
+  <data name="ErrorUpdate" xml:space="preserve">
+    <value>خطأ اثناء التحديث</value>
+  </data>
+  <data name="ModifySuccessfully" xml:space="preserve">
+    <value>تم التعديل بنجاح</value>
+  </data>
+  <data name="SaveSuccessfully" xml:space="preserve">
+    <value>تم الحفظ بنجاح</value>
+  </data>
+  <data name="UpdatedSuccessfully" xml:space="preserve">
+    <value>تم التحديث بنجاح</value>
+  </data>
+  <data name="AbsentDash" xml:space="preserve">
+    <value>لوحة قياس الغياب</value>
+  </data>
+  <data name="AssignEmpSchedule" xml:space="preserve">
+    <value>ربط جداول الموظفين</value>
+  </data>
+  <data name="AssignMgr" xml:space="preserve">
+    <value> ربط المدراء بالموظفين</value>
+  </data>
+  <data name="AttendDash" xml:space="preserve">
+    <value>لوحة قياس الحضور</value>
+  </data>
+  <data name="CodeExist" xml:space="preserve">
+    <value>الرمز موجود مسبقاً</value>
+  </data>
+  <data name="DashBoard" xml:space="preserve">
+    <value>لوحة القياس</value>
+  </data>
+  <data name="DateExist" xml:space="preserve">
+    <value>التاريخ موجود مسبقاً</value>
+  </data>
+  <data name="DelayDash" xml:space="preserve">
+    <value>لوحة قياس التأخير</value>
+  </data>
+  <data name="DesignationHeader" xml:space="preserve">
+    <value>تعريف المسميات الوظيفية</value>
+  </data>
+  <data name="DirectMgrOverHeader" xml:space="preserve">
+    <value>قبول العمل الاضافي من قبل المدير المباشر</value>
+  </data>
+  <data name="EarlyDash" xml:space="preserve">
+    <value>لوحة قياس الخروج المبكر</value>
+  </data>
+  <data name="EmployeeSelect" xml:space="preserve">
+    <value>الرجاء اختيار موظفين</value>
+  </data>
+  <data name="LeavesDash" xml:space="preserve">
+    <value>لوحة قياس الاجازات</value>
+  </data>
+  <data name="LeaveTypeSelected" xml:space="preserve">
+    <value>نوع الاجازة تم اختياره مسبقاً</value>
+  </data>
+  <data name="NameExist" xml:space="preserve">
+    <value>الاسم باللغة الانجليزية موجود مسبقاً</value>
+  </data>
+  <data name="PleaseSelect" xml:space="preserve">
+    <value>--الرجاء الاختيار--</value>
+  </data>
+  <data name="ArNameExist" xml:space="preserve">
+    <value>الاسم باللغة العربية موجود مسبقاً</value>
+  </data>
+  <data name="btnAdd" xml:space="preserve">
+    <value>اضافة</value>
+  </data>
+  <data name="btnClear" xml:space="preserve">
+    <value>مسح</value>
+  </data>
+  <data name="btnDelete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="btnFind" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="btnUpdate" xml:space="preserve">
+    <value>تحديث</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>الغاء</value>
+  </data>
+  <data name="CantDeleteReligion" xml:space="preserve">
+    <value>لايمكن حذف ديانة واحدة او اكثر</value>
+  </data>
+  <data name="DaySelect" xml:space="preserve">
+    <value>الرجاء اختيار على الاقل يوم واحد من القائمة:</value>
+  </data>
+  <data name="DirectMgrPermitHeader" xml:space="preserve">
+    <value>قبول المغادرات من قبل المدير المباشر</value>
+  </data>
+  <data name="EmpLeaveBalance" xml:space="preserve">
+    <value>رصيد اجازات الموظف</value>
+  </data>
+  <data name="EmpReligion" xml:space="preserve">
+    <value>ديانات الموظفين</value>
+  </data>
+  <data name="EmpShifts" xml:space="preserve">
+    <value>جدول عمل المناوبات</value>
+  </data>
+  <data name="EmpStatus" xml:space="preserve">
+    <value>حالة الموظفين</value>
+  </data>
+  <data name="EnNameExist" xml:space="preserve">
+    <value>الاسم باللغة الانجليزية موجود مسبقاً</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>لم يتم العثور على الملف</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>الملفات</value>
+  </data>
+  <data name="KB" xml:space="preserve">
+    <value>ك.ب</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="StatusCodeExist" xml:space="preserve">
+    <value>رمز الحالة موجود مسبقاً</value>
+  </data>
+  <data name="UploadSize" xml:space="preserve">
+    <value>سعة تحميل الملف تسمح حتى</value>
+  </data>
+  <data name="UploadSupport" xml:space="preserve">
+    <value>تحميل الملفات يسمح فقط</value>
+  </data>
+  <data name="DirectMgrLeaveHeader" xml:space="preserve">
+    <value>قبول الاجازات من قبل المدير المباشر</value>
+  </data>
+  <data name="EmpWorkLoc" xml:space="preserve">
+    <value>فروع عمل الموظفين</value>
+  </data>
+  <data name="EmpWorkSchedule" xml:space="preserve">
+    <value>جدول عمل الموظفين</value>
+  </data>
+  <data name="InsertDuplication" xml:space="preserve">
+    <value>خطأ : تكرار في ادخال جداول عمل الموظفين</value>
+  </data>
+  <data name="DefGrade" xml:space="preserve">
+    <value>تعريف الدرجة الوظيفية</value>
+  </data>
+  <data name="DefHoliday" xml:space="preserve">
+    <value>العطل الرسمية و الأعياد</value>
+  </data>
+  <data name="LeaveTypeExist" xml:space="preserve">
+    <value>نوع الاجازة موجود مسبقاً</value>
+  </data>
+  <data name="AbsentRuleAddSuccess" xml:space="preserve">
+    <value>تم اضافة قاعة الغياب بنجاح</value>
+  </data>
+  <data name="AddSuccessfully" xml:space="preserve">
+    <value>تم الاضافة بنجاح</value>
+  </data>
+  <data name="AllowedOccureAddSuccess" xml:space="preserve">
+    <value>تم اضافة اقصى فترات السماح بنجاح</value>
+  </data>
+  <data name="CantDelete" xml:space="preserve">
+    <value>جدول او اكثر لايمكن حذفهم</value>
+  </data>
+  <data name="ComNameExist" xml:space="preserve">
+    <value>اسم الشركة موجود مسبقاً</value>
+  </data>
+  <data name="ComWorkLocations" xml:space="preserve">
+    <value>فروع العمل</value>
+  </data>
+  <data name="ConsiderPeriodInDays" xml:space="preserve">
+    <value>اعتبار الفترة</value>
+  </data>
+  <data name="DefOverRules" xml:space="preserve">
+    <value>قواعد العمل الإضافي</value>
+  </data>
+  <data name="DefReligions" xml:space="preserve">
+    <value>الديانات</value>
+  </data>
+  <data name="DefTAPolicy" xml:space="preserve">
+    <value>سياسات الحضور و الإنصراف</value>
+  </data>
+  <data name="PleaseDelayInDays" xml:space="preserve">
+    <value>الرجاء ادخال عدد التأخيرات</value>
+  </data>
+  <data name="PleaseDelayInMin" xml:space="preserve">
+    <value>الرجاء ادخال فترة التأخير بالدقائق</value>
+  </data>
+  <data name="EmpLeave" xml:space="preserve">
+    <value>اجازات الموظفين</value>
+  </data>
+  <data name="EmpLeaveRequest" xml:space="preserve">
+    <value>طلب اجازة الموظف</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>الموظفين</value>
+  </data>
+  <data name="EmpNonotinlevel" xml:space="preserve">
+    <value>رقم الموظف غير موجود أو ليس في هذا المستوى, الرجاء ادخال رقم اخر</value>
+  </data>
+  <data name="EmpPermitRequest" xml:space="preserve">
+    <value>طلب مغادرة الموظف</value>
+  </data>
+  <data name="EmpSelectLeast" xml:space="preserve">
+    <value>الرجاء اختيار موظف واحد على الاقل من الشركة</value>
+  </data>
+  <data name="EmpWorkScheduleMr" xml:space="preserve">
+    <value>جدول عمل الموظف- السيد.</value>
+  </data>
+  <data name="EmpWorkScheduleMrs" xml:space="preserve">
+    <value>جدول عمل الموظف- السيدة.</value>
+  </data>
+  <data name="ErrAddMaxAllow" xml:space="preserve">
+    <value>خطأ اثناء اضافة اقصى مرات السماح</value>
+  </data>
+  <data name="ErrAddWorkLoc" xml:space="preserve">
+    <value>خطأ اثناء اضافة فرع العمل</value>
+  </data>
+  <data name="ErrorAdd" xml:space="preserve">
+    <value>خطأ اثناء الاضافة</value>
+  </data>
+  <data name="ErrorAddViolation" xml:space="preserve">
+    <value>خطأ اثناء حفظ انتهاك</value>
+  </data>
+  <data name="FlixebleSchedule" xml:space="preserve">
+    <value>جدول العمل المرن</value>
+  </data>
+  <data name="FrmTime1CantLeft" xml:space="preserve">
+    <value>"من وقت1" لايمكن ان يكون 00:00</value>
+  </data>
+  <data name="FrmTime2CantLeft" xml:space="preserve">
+    <value>"من وقت2" لايمكن ان يكون 00:00</value>
+  </data>
+  <data name="HRLeaveApprove" xml:space="preserve">
+    <value>قبول الاجازة من قبل الموارد البشرية</value>
+  </data>
+  <data name="HROverApprove" xml:space="preserve">
+    <value>قبول العمل الاضافي من قبل الموارد البشرية</value>
+  </data>
+  <data name="HRPermitApprove" xml:space="preserve">
+    <value>قبول المغادرة من قبل الموارد البشرية</value>
+  </data>
+  <data name="LeaveBalance" xml:space="preserve">
+    <value>رصيد الاجازات</value>
+  </data>
+  <data name="LeaveBalanceHistory" xml:space="preserve">
+    <value>تاريخ رصيد الاجازات</value>
+  </data>
+  <data name="LeaveExist" xml:space="preserve">
+    <value>الاجازة موجودة مسبقاً في حدود التاريخ</value>
+  </data>
+  <data name="LeaveType" xml:space="preserve">
+    <value>انوع الاجازات</value>
+  </data>
+  <data name="LevelAddSuccess" xml:space="preserve">
+    <value>تم اضافة المستوى بنجاح</value>
+  </data>
+  <data name="LogicGroup" xml:space="preserve">
+    <value>المجموعات الوظيفية</value>
+  </data>
+  <data name="LowLevelDelete" xml:space="preserve">
+    <value>يمكن الغاء المستوى الادنى فقط</value>
+  </data>
+  <data name="ManualEntry" xml:space="preserve">
+    <value>الادخال اليدوي</value>
+  </data>
+  <data name="MaritalStatus" xml:space="preserve">
+    <value>الحالة الإجتماعية</value>
+  </data>
+  <data name="MaxAllowed" xml:space="preserve">
+    <value>اقصى مرات السماح تم ادخالها مسبقاً لهذه الفترة</value>
+  </data>
+  <data name="MaxDeff" xml:space="preserve">
+    <value>اقصى فرق بين"من تاريخ" و "الى تاريخ" هو 30 يوم</value>
+  </data>
+  <data name="MaxDurationEntered" xml:space="preserve">
+    <value>اقصى فترة تم ادخالها لهذه المدة</value>
+  </data>
+  <data name="NameorCodeExist" xml:space="preserve">
+    <value>الاسم او الرمز موجود مسبقاً</value>
+  </data>
+  <data name="Nationalities" xml:space="preserve">
+    <value>الجنسيات</value>
+  </data>
+  <data name="NoAbsentDays" xml:space="preserve">
+    <value>عدد ايام الغياب</value>
+  </data>
+  <data name="NormalSchedule" xml:space="preserve">
+    <value>جدول العمل العادي</value>
+  </data>
+  <data name="NumIsntForThisLevel" xml:space="preserve">
+    <value>الرقم ليس في هذا المستوى, الرجاء ادخال رقم اخر</value>
+  </data>
+  <data name="OrgCompany" xml:space="preserve">
+    <value>هيكلية المؤسسة</value>
+  </data>
+  <data name="OrgLevel" xml:space="preserve">
+    <value>مستويات المؤسسة</value>
+  </data>
+  <data name="OrgStructure" xml:space="preserve">
+    <value>هيكلية المؤسسة</value>
+  </data>
+  <data name="OverMassUpdate" xml:space="preserve">
+    <value>التحديث الشامل لقواعد العمل الاضافي</value>
+  </data>
+  <data name="OvertimeInserted" xml:space="preserve">
+    <value>هذا الوقت مستخدم في فترة مدخلة مسبقاً</value>
+  </data>
+  <data name="OvertimeRules" xml:space="preserve">
+    <value>قواعد العمل الإضافي</value>
+  </data>
+  <data name="PermitType" xml:space="preserve">
+    <value>انواع المغادرات</value>
+  </data>
+  <data name="PlaeseSelectLevel" xml:space="preserve">
+    <value>الرجاء اختيار مستوى لإعادة الاحتساب </value>
+  </data>
+  <data name="PleaseSelectFromList" xml:space="preserve">
+    <value>الرجاء الاختيار من القائمة</value>
+  </data>
+  <data name="RecalFailed" xml:space="preserve">
+    <value>فشل عملية اعادة الاحتساب</value>
+  </data>
+  <data name="RecalSuccess" xml:space="preserve">
+    <value>عملية اعادة الاحتساب تمت بنجاح</value>
+  </data>
+  <data name="Religions" xml:space="preserve">
+    <value>الديانات</value>
+  </data>
+  <data name="RemoveReference" xml:space="preserve">
+    <value>الرجاء حذف المعرف و وحدة العمل, ثم حاول مرة اخرى</value>
+  </data>
+  <data name="ShiftSchedule" xml:space="preserve">
+    <value>جدول عمل الفترات</value>
+  </data>
+  <data name="TAMassUpdate" xml:space="preserve">
+    <value>التحديث الشامل لسياسة الحضور</value>
+  </data>
+  <data name="TAPolicy" xml:space="preserve">
+    <value>سياسات الحضور و الإنصراف</value>
+  </data>
+  <data name="TAReason" xml:space="preserve">
+    <value>اسباب وقت الحضور</value>
+  </data>
+  <data name="TimeRange" xml:space="preserve">
+    <value>"الى وقت" يجب ان تكون اكبر من  "من وقت"</value>
+  </data>
+  <data name="TotalDelayInMin" xml:space="preserve">
+    <value>مجموع التأخيرات/مدة الخروج المبكر بالدقائق</value>
+  </data>
+  <data name="ToTime1CantLeft" xml:space="preserve">
+    <value>"،الى وقت1" لايمكن ان يكون 00:00</value>
+  </data>
+  <data name="ToTime2CantLeft" xml:space="preserve">
+    <value>"،الى وقت2" لايمكن ان يكون 00:00</value>
+  </data>
+  <data name="ViewActiveSchedule" xml:space="preserve">
+    <value>عرض الجدول النشط</value>
+  </data>
+  <data name="ViewMgr" xml:space="preserve">
+    <value>عرض المدراء</value>
+  </data>
+  <data name="ViolationActions" xml:space="preserve">
+    <value>اجراءات الانتهاك</value>
+  </data>
+  <data name="ViolationAddSuccess" xml:space="preserve">
+    <value>تم اضافة الانتهاك بنجاح</value>
+  </data>
+  <data name="WorkLocAddSuccess" xml:space="preserve">
+    <value>تم اضافة فرع العمل بنجاح</value>
+  </data>
+  <data name="Absentdaysperperiod" xml:space="preserve">
+    <value>ايام الغياب في فترة</value>
+  </data>
+  <data name="Addatleastonelevel" xml:space="preserve">
+    <value>الرجاء</value>
+  </data>
+  <data name="ConsecutiveAbsent" xml:space="preserve">
+    <value>ايام غياب متكررة</value>
+  </data>
+  <data name="ConsecutiveDelay" xml:space="preserve">
+    <value>تأخيرات متكرره</value>
+  </data>
+  <data name="DelayInDays" xml:space="preserve">
+    <value>عدد التأخيرات</value>
+  </data>
+  <data name="DelayInMin" xml:space="preserve">
+    <value>فترة التأخير بالدقائق</value>
+  </data>
+  <data name="Noofdelaysperperiod" xml:space="preserve">
+    <value>عدد التأخيرات في فترة</value>
+  </data>
+  <data name="OneAbsentDay" xml:space="preserve">
+    <value>يوم غياب واحد</value>
+  </data>
+  <data name="OneDayDelay" xml:space="preserve">
+    <value>فترة التأخير في يوم واحد</value>
+  </data>
+  <data name="Absent" xml:space="preserve">
+    <value>الغياب</value>
+  </data>
+  <data name="AddCom" xml:space="preserve">
+    <value>اضافة شركة</value>
+  </data>
+  <data name="ChangePass" xml:space="preserve">
+    <value>تغيير كلمة السر</value>
+  </data>
+  <data name="ComCouldnotDeleted" xml:space="preserve">
+    <value>شركة او اكثر لايمكن حذفها</value>
+  </data>
+  <data name="DateRangeEarly" xml:space="preserve">
+    <value>تاريخ الانتهاء قبل تاريخ البداية</value>
+  </data>
+  <data name="Delay" xml:space="preserve">
+    <value>التأخير</value>
+  </data>
+  <data name="EarlyOut" xml:space="preserve">
+    <value>الخروج المبكر</value>
+  </data>
+  <data name="EmpAssigned" xml:space="preserve">
+    <value>هذا الموظف محجوز من قبل مستخدم اخر</value>
+  </data>
+  <data name="EmpCodeExist" xml:space="preserve">
+    <value>رمز الموظف موجود مسبقاً</value>
+  </data>
+  <data name="EmpNameExist" xml:space="preserve">
+    <value>اسم الموظف موجود مسبقاً</value>
+  </data>
+  <data name="EndEqualStart" xml:space="preserve">
+    <value>تاريخ البداية و تاريخ الانتهاء نفس التاريخ</value>
+  </data>
+  <data name="EntityCouldnotDeleted" xml:space="preserve">
+    <value>وحدة عمل او اكثر لايمكن حذفها</value>
+  </data>
+  <data name="ErrorEmpProcessing" xml:space="preserve">
+    <value>خطأ: رقم تعريف الموظف خاطئ</value>
+  </data>
+  <data name="ErrorPermitProcessing" xml:space="preserve">
+    <value>خطأ: رقم تعريف المغادرة خاطئ</value>
+  </data>
+  <data name="ErrOvertimeEdit" xml:space="preserve">
+    <value>لايمكن تغيير سياسة الوقت الاضافي، يوجد سياسة وقت اضافي في هذه الفترة</value>
+  </data>
+  <data name="ErrTAEdit" xml:space="preserve">
+    <value>لايمكن تغيير سياسة الحضور و الانصراف، يوجد سياسة حضور في هذه الفترة</value>
+  </data>
+  <data name="operationfaild" xml:space="preserve">
+    <value>فشلت العملية</value>
+  </data>
+  <data name="OrgEntity" xml:space="preserve">
+    <value>وحدات عمل المؤسسة</value>
+  </data>
+  <data name="OvertimeChange" xml:space="preserve">
+    <value>تم تغيير قاعدة العمل الاضافي</value>
+  </data>
+  <data name="PassChangeSuccess" xml:space="preserve">
+    <value>تم تغيير كلمة السر بنجاح ، الرجاء القيام بتسجيل الخروج ثم تسجيل الدخول مرة اخرى بكلمة السر الجديدة</value>
+  </data>
+  <data name="PleaseNoAbsentDays" xml:space="preserve">
+    <value>الرجاء ادخال عدد ايام الغياب</value>
+  </data>
+  <data name="Pleaseselectenddate" xml:space="preserve">
+    <value>الرجاء اختيار تاريخ الانتهاء</value>
+  </data>
+  <data name="Pleaseselecttodate" xml:space="preserve">
+    <value>الرجاء اختيار الى تاريخ</value>
+  </data>
+  <data name="TAActivated" xml:space="preserve">
+    <value>سياسة الحضور تم تفعيلها مسبقاً</value>
+  </data>
+  <data name="TAChange" xml:space="preserve">
+    <value>تم تغيير سياسةالحضور</value>
+  </data>
+  <data name="UserIDExist" xml:space="preserve">
+    <value>المستخدم موجود مسبقاً</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="ViewAddEdit" xml:space="preserve">
+    <value>عرض اضافة تعديل</value>
+  </data>
+  <data name="ViewAll" xml:space="preserve">
+    <value>عرض الكل</value>
+  </data>
+  <data name="WrongOldPass" xml:space="preserve">
+    <value>كلمة السر القديمة خاطئة</value>
+  </data>
+  <data name="EntityNameExist" xml:space="preserve">
+    <value>اسم وحدة العمل موجود مسبقاً</value>
+  </data>
+  <data name="EntityCodeExist" xml:space="preserve">
+    <value>رمز وحدة العمل موجود مسبقاً</value>
+  </data>
+  <data name="MismatchCompany" xml:space="preserve">
+    <value>عدم تطابق مع الشركة</value>
+  </data>
+  <data name="EmpPerm" xml:space="preserve">
+    <value>مغادرات الموظف</value>
+  </data>
+  <data name="DefineUserGroups" xml:space="preserve">
+    <value>تعريفات مجموعات المستخدم</value>
+  </data>
+  <data name="FailedPreviligies" xml:space="preserve">
+    <value>فشل في حذف الصلاحيات</value>
+  </data>
+  <data name="FailedToDeletGroup" xml:space="preserve">
+    <value>فشل في حذف المجموعة</value>
+  </data>
+  <data name="Groupalreadyexists" xml:space="preserve">
+    <value>المجموعة موجودة مسبقا</value>
+  </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>العملية فشلت</value>
+  </data>
+  <data name="ChkConnection" xml:space="preserve">
+    <value>الرجاء التأكد من إعدادات النظام</value>
+  </data>
+  <data name="DefUsers" xml:space="preserve">
+    <value>تعريف المستخدمين</value>
+  </data>
+  <data name="EmptyUserOrPass" xml:space="preserve">
+    <value>الرجاء عدم ترك اسم المستخدم او كلمة السر فارغة</value>
+  </data>
+  <data name="ErrorLogin" xml:space="preserve">
+    <value>خطأ أثناء عملية تسجيل الدخول</value>
+  </data>
+  <data name="InvalidUserOrPass" xml:space="preserve">
+    <value>اسم المستخدم او كلمة المرور غير صحيحة</value>
+  </data>
+  <data name="UsernotActive" xml:space="preserve">
+    <value>المستخدم غير مفعل الرجاء مراجعة مسؤول النظام</value>
+  </data>
+  <data name="NursingValidation" xml:space="preserve">
+    <value>الرجاء اختيار موظف انثى</value>
+  </data>
+  <data name="NotificationType" xml:space="preserve">
+    <value>انواع الاشعارات</value>
+  </data>
+  <data name="EmpHR" xml:space="preserve">
+    <value>موظفين الموارد البشرية</value>
+  </data>
+  <data name="Assign_Company" xml:space="preserve">
+    <value>تعيين الجدول لشركة</value>
+  </data>
+  <data name="Assign_Emp" xml:space="preserve">
+    <value>تعيين الجدول لموظف</value>
+  </data>
+  <data name="Assign_Entity" xml:space="preserve">
+    <value>تعيين الجدول لوحدة العمل</value>
+  </data>
+  <data name="Assign_LogicalGrp" xml:space="preserve">
+    <value>تعيين الجدول لمجموعة الموظفين</value>
+  </data>
+  <data name="Assign_WorkLoc" xml:space="preserve">
+    <value>تعيين الجدول لموقع العمل</value>
+  </data>
+  <data name="WorkSchedule" xml:space="preserve">
+    <value>جدول العمل</value>
+  </data>
+  <data name="EmpNursePerm" xml:space="preserve">
+    <value>ساعة الرضاعة</value>
+  </data>
+  <data name="EmpStudyPerm" xml:space="preserve">
+    <value>ساعات الدراسة</value>
+  </data>
+  <data name="CardPrinting" xml:space="preserve">
+    <value>طباعة البطاقات</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>تاريخ الميلاد</value>
+  </data>
+  <data name="ErrorImport" xml:space="preserve">
+    <value>خطأ اثناء عملية جلب المستخدمين</value>
+  </data>
+  <data name="ImportSuccessfully" xml:space="preserve">
+    <value>تم جلب المستخدمين بنجاح</value>
+  </data>
+  <data name="NoUsersImported" xml:space="preserve">
+    <value>لم يتم جلب اي موظف</value>
+  </data>
+  <data name="TAException" xml:space="preserve">
+    <value>استثنائات الحضور</value>
+  </data>
+  <data name="ErrorImageExtension" xml:space="preserve">
+    <value>إمتداد الملف غير صحيح. الامتدادات الصحيحة هي </value>
+  </data>
+  <data name="LogicalGroup" xml:space="preserve">
+    <value>تعيين الموظفين في مجموعات</value>
+  </data>
+  <data name="Assign_Schedule" xml:space="preserve">
+    <value>تعيين الجدول</value>
+  </data>
+  <data name="EmpDeputyManager" xml:space="preserve">
+    <value>نائب المدير</value>
+  </data>
+  <data name="UserPrivilege" xml:space="preserve">
+    <value>صلاحيات المستخدمين</value>
+  </data>
+  <data name="MultiplePermissions" xml:space="preserve">
+    <value>مغادره لعدة موظفين</value>
+  </data>
+  <data name="PleaseSelectEmployee" xml:space="preserve">
+    <value>الرجاء اختيار موظف</value>
+  </data>
+  <data name="RamadanPeriod" xml:space="preserve">
+    <value>فترة رمضان</value>
+  </data>
+  <data name="RealTimeMovements" xml:space="preserve">
+    <value>الحركات الحالية</value>
+  </data>
+  <data name="EmpActiveSchedule" xml:space="preserve">
+    <value>الجدول النشط للموظف</value>
+  </data>
+  <data name="DynamicReport" xml:space="preserve">
+    <value>التقرير الدايناميكي</value>
+  </data>
+  <data name="AddRamadan" xml:space="preserve">
+    <value>إضافة جدول رمضان</value>
+  </data>
+  <data name="ViewRamadan" xml:space="preserve">
+    <value>عرض جدول رمضان</value>
+  </data>
+  <data name="EmpNotManager" xml:space="preserve">
+    <value>رقم الموظف الذي تم ادخاله ليس لمدير</value>
+  </data>
+  <data name="EmpFullDetails" xml:space="preserve">
+    <value>تفاصيل الموظف</value>
+  </data>
+  <data name="PleaseEnterAmount" xml:space="preserve">
+    <value>الرجاء ادخال القيمة </value>
+  </data>
+  <data name="Invalid_Employee" xml:space="preserve">
+    <value>معلومات الموظف اما غير صحيحة او غير موجودة</value>
+  </data>
+  <data name="SelectCompany" xml:space="preserve">
+    <value>الرجاء اختيار شركه</value>
+  </data>
+  <data name="SelectEntity" xml:space="preserve">
+    <value>الرجاء اختيار وحدة عمل</value>
+  </data>
+  <data name="ConsecutiveEarlyOuts" xml:space="preserve">
+    <value>خروجات مبكرة متتالية</value>
+  </data>
+  <data name="NoofEarlyOutsPerPeriod" xml:space="preserve">
+    <value>عدد مرات الخروج المبكر في فترة</value>
+  </data>
+  <data name="OneDayEarlyOutLimit" xml:space="preserve">
+    <value>فترة الخروج المبكر في يوم واحد</value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>لا يوجد بيانات لعرضها</value>
+  </data>
+  <data name="SavScheduleShiftDetail" xml:space="preserve">
+    <value>الرجاء اضافة معلومات الجدول قبل معلومات المناوبه</value>
+  </data>
+  <data name="AlreadyHaveUsers" xml:space="preserve">
+    <value>هذه المجموعة لديها المستخدمين</value>
+  </data>
+  <data name="LeaveAndPermissionApproval" xml:space="preserve">
+    <value>الموافقة على المغادرات والاجازات</value>
+  </data>
+  <data name="PermissionApproval" xml:space="preserve">
+    <value>الموافقة على المغادرات</value>
+  </data>
+  <data name="LeaveWorkFlowValidation" xml:space="preserve">
+    <value>الرجاء اختيار سير عمل لنوع الاجازه</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="GroupExist" xml:space="preserve">
+    <value>المجموعة معرفة مسبقاً للحدث الذي تم اختياره</value>
+  </data>
+  <data name="ExceedLimit" xml:space="preserve">
+    <value>لايمكنك اضافة المزيد من الموظفين لهذه المجموعة</value>
+  </data>
+  <data name="Events_Definition" xml:space="preserve">
+    <value>تعريف الاحداث</value>
+  </data>
+  <data name="EventAdvancedSchedule" xml:space="preserve">
+    <value>تعريف جداول الاحداث</value>
+  </data>
+  <data name="LoginDate" xml:space="preserve">
+    <value>تاريخ الدخول :</value>
+  </data>
+  <data name="LoginTime" xml:space="preserve">
+    <value>وقت الدخول :</value>
+  </data>
+  <data name="LoginUser" xml:space="preserve">
+    <value>اسم المستخدم :</value>
+  </data>
+  <data name="DircetManager_EmpRequests" xml:space="preserve">
+    <value>طلبات الموظفين للمدير المباشر</value>
+  </data>
+  <data name="HumanResourceManager_EmpRequests" xml:space="preserve">
+    <value>طلبات الموظفين للموارد البشرية</value>
+  </data>
+  <data name="RecalculateTransactions" xml:space="preserve">
+    <value>حساب الحركات</value>
+  </data>
+  <data name="DateGreaterThanToday" xml:space="preserve">
+    <value>تاريخ الى يجب ان يكون اقل او يساوي من تاريخ اليوم</value>
+  </data>
+  <data name="ErrorInRecalculate" xml:space="preserve">
+    <value>خطأ في الحساب</value>
+  </data>
+  <data name="RecalculateDone" xml:space="preserve">
+    <value>تم الحساب</value>
+  </data>
+  <data name="SummaryDash" xml:space="preserve">
+    <value>لوحة قياس الملخصات</value>
+  </data>
+  <data name="DailyTransactions" xml:space="preserve">
+    <value>الحركات اليوميه</value>
+  </data>
+  <data name="EmployeeViolations" xml:space="preserve">
+    <value>تصحيح المخالفات</value>
+  </data>
+  <data name="ManagerNotifications" xml:space="preserve">
+    <value>اشعارات المدير</value>
+  </data>
+  <data name="AbsentDate" xml:space="preserve">
+    <value>تاريخ الغياب</value>
+  </data>
+  <data name="DelayDate" xml:space="preserve">
+    <value>تاريخ التأخير</value>
+  </data>
+  <data name="DelayDuration" xml:space="preserve">
+    <value>مدة التأخير</value>
+  </data>
+  <data name="EarlyOutDate" xml:space="preserve">
+    <value>تاريخ الخروج المبكر</value>
+  </data>
+  <data name="EarlyOutDuration" xml:space="preserve">
+    <value>مدة الخروج المبكر</value>
+  </data>
+  <data name="EmployeeArabicName" xml:space="preserve">
+    <value>إسم الموظف بالعربيه</value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>إسم الموظف</value>
+  </data>
+  <data name="LeaveDate" xml:space="preserve">
+    <value>تاريخ الاجازه</value>
+  </data>
+  <data name="LeavePeriod" xml:space="preserve">
+    <value>فترة الاجازه</value>
+  </data>
+  <data name="NoEmployeeEmail" xml:space="preserve">
+    <value>هذا الموظف لا يملك بريد الكتروني</value>
+  </data>
+  <data name="PermissionDate" xml:space="preserve">
+    <value>تاريخ المغادره</value>
+  </data>
+  <data name="PermissionPeriod" xml:space="preserve">
+    <value>فترة المغادره</value>
+  </data>
+  <data name="EmployeeNumber" xml:space="preserve">
+    <value>رقم الموظف</value>
+  </data>
+  <data name="CouldNotDeleteWorkLocation" xml:space="preserve">
+    <value>لايمكن اجراء التحديث على موقع العمل لانه مستخدم في النظام</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="ChangeForSysUser" xml:space="preserve">
+    <value>هذا الخاصية لمستخدمي النظام فقط و ليس لمستخدمي الدليل النشط</value>
+  </data>
+  <data name="SelectLeaveType" xml:space="preserve">
+    <value>الرجاء اختيار نوع الاجازة</value>
+  </data>
+  <data name="CouldnotDeleteRecord" xml:space="preserve">
+    <value>لايمكن الغاء السجل، لانه مستخدم في النظام</value>
+  </data>
+  <data name="LeaveBalanceRange" xml:space="preserve">
+    <value>اقصى مدة مسموح بها يجب ان تكون اقل من او يساوي الرصيد</value>
+  </data>
+  <data name="MaximumGrreaterMinimum" xml:space="preserve">
+    <value>يجب ان تكون اقصى مده اكبر من ادنى مده</value>
+  </data>
+  <data name="MaximumMinimumGrreaterMonthlyBalance" xml:space="preserve">
+    <value>الرصيد الشهري يجب ان يكون اكبر من اقصى مده و ادنى مده</value>
+  </data>
+  <data name="RamadnPeriodValidation" xml:space="preserve">
+    <value>فترة رمضان يجب ان تكون اما 29 يوم او 30 يوم</value>
+  </data>
+  <data name="WorkLocationSelect" xml:space="preserve">
+    <value>الرجاء اختيار موقع العمل</value>
+  </data>
+  <data name="ReligionSelect" xml:space="preserve">
+    <value>الرجاء اختيار ديانة</value>
+  </data>
+  <data name="Shift2GreaterthanShift1" xml:space="preserve">
+    <value>وقت بداية المناوبه 2 يجب ان يكون اكبر من وقت نهاية المناوبه 1 ل  </value>
+  </data>
+  <data name="EmpCardNoExist" xml:space="preserve">
+    <value>رقم بطاقة الموظف موجودة مسبقاً</value>
+  </data>
+  <data name="EmpCardNoAssinged" xml:space="preserve">
+    <value>رقم بطاقة الموظف محددة مسبقاً لموظف اخر</value>
+  </data>
+  <data name="EmpLeaveExist" xml:space="preserve">
+    <value>لايمكن حذف الموظف، الموظف لديه اجازات</value>
+  </data>
+  <data name="EmpPermissionExist" xml:space="preserve">
+    <value>لايمكن حذف الموظف، الموظف لديه مغادرات</value>
+  </data>
+  <data name="EmpMoveExist" xml:space="preserve">
+    <value>لايمكن حذف الموظف، الموظف لديه حركات</value>
+  </data>
+  <data name="BirthDateValidation" xml:space="preserve">
+    <value>تاريخ الولاد يجب ان يكون اقل من تاريخ اليوم</value>
+  </data>
+  <data name="BirthDateValidation2" xml:space="preserve">
+    <value>تاريخ الميلاد يجب ان يكون اقل من تاريخ بدء العمل</value>
+  </data>
+  <data name="WorkScheduleTiemRange" xml:space="preserve">
+    <value>الرجاء اختيار وقت المغادره حسب حدود وقت جدول العمل</value>
+  </data>
+  <data name="EmpDetails" xml:space="preserve">
+    <value>تفاصيل معلومات الموظف</value>
+  </data>
+  <data name="AllowedDurationAddSuccess" xml:space="preserve">
+    <value>تم اضافة اقصى مدات السماح بنجاح</value>
+  </data>
+  <data name="SelectPendingStatus" xml:space="preserve">
+    <value>لايمكنك حذف طلب تمت الموافقة عليه، الرجاء اختيار طلب قيد الدراسة حتى تتمكن من الحذف</value>
+  </data>
+  <data name="Notification_Exception" xml:space="preserve">
+    <value>استثناءات الاشعارات</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>ايام</value>
+  </data>
+  <data name="GeneraltMgrLeaveHeader" xml:space="preserve">
+    <value>قبول الاجازات من قبل المدير العام</value>
+  </data>
+  <data name="GeneralMgrPermitHeader" xml:space="preserve">
+    <value>قبول المغادرات من قبل المدير العام</value>
+  </data>
+  <data name="LeaveSufficient" xml:space="preserve">
+    <value>نوع الاجازه يسمح باجازه حتى لو كان الرصيد لا يكفي, هل تريد تطبيق الاجازه او الغاءها؟</value>
+  </data>
+  <data name="DevidedPermission" xml:space="preserve">
+    <value>الجزء العالوي يجب ان يكون مختلف عن الجزء السفلي</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>قيد الاتنظار....</value>
+  </data>
+  <data name="NoDataFound" xml:space="preserve">
+    <value>لم يتم العثور على بيانات</value>
+  </data>
+  <data name="ConsiderDays" xml:space="preserve">
+    <value>احتساب عدد ايام الدوام يجب ان تكون اكبر من صفر</value>
+  </data>
+  <data name="SelectAtLeastOneDay" xml:space="preserve">
+    <value>الرجاء اختيار ع الاقل يوم واحد</value>
+  </data>
+  <data name="DelayandEarlyOutInMin" xml:space="preserve">
+    <value>التأخير و الخروج المبكر بالدقائق</value>
+  </data>
+  <data name="EarlyOutInMin" xml:space="preserve">
+    <value>الخروج المبكر بالدقائق</value>
+  </data>
+  <data name="OneDayDelayandEarly" xml:space="preserve">
+    <value>فترة التأخير و الخروج المبكر في يوم واحد</value>
+  </data>
+  <data name="OneDayEarly" xml:space="preserve">
+    <value>فترة الخروج المبكر في يوم واحد</value>
+  </data>
+  <data name="PleaseDelayandEarlyOut" xml:space="preserve">
+    <value>الرجاء ادخال التأخير و الخروج المبكر بالدقائق</value>
+  </data>
+  <data name="PleaseEarlyOutInMin" xml:space="preserve">
+    <value>الرجاء ادخال الخروج المبكر بالدقائق</value>
+  </data>
+  <data name="PermissionTypeDurationLimit" xml:space="preserve">
+    <value>لا يمكنك تجاوز الحد المسموح به لنوع المغادرة</value>
+  </data>
+  <data name="PermissionTypeDurationLimitDevide" xml:space="preserve">
+    <value>لا يمكنك تجاوز الحد المسموح به لنوع المغادرة في المغادره المقسومه</value>
+  </data>
+  <data name="AutoApprovedPermissionBalance" xml:space="preserve">
+    <value>لا يوجد رصيد كافي لهذه المغادره</value>
+  </data>
+  <data name="DuplicateFile" xml:space="preserve">
+    <value>هذا الملف موجود مسبقا الرجاء حذفه او تغيير اسمه </value>
+  </data>
+  <data name="AutoApprovalPerm" xml:space="preserve">
+    <value>الموافقة التلقائيه...</value>
+  </data>
+  <data name="LeaveTypeDiffParentLeaveType" xml:space="preserve">
+    <value>الرجاء اختيار نوع اجازة مرتبطة مختلفة عن نوع الاجازة المختاره</value>
+  </data>
+  <data name="DelayEarlyOutPerPeriod" xml:space="preserve">
+    <value>تاخير او خروج مبكر خلال فترة</value>
+  </data>
+  <data name="MissingInMissingOutPerPeriod" xml:space="preserve">
+    <value>حركات الدخول المفقودة - حركات الخروج المفقودة خلال الفترة</value>
+  </data>
+  <data name="PleaseNoEarlyOutDays" xml:space="preserve">
+    <value>الرجاء ادخال عدد ايام الخروج المبكر</value>
+  </data>
+  <data name="ManualEntryMassUpdate" xml:space="preserve">
+    <value>التحديث الشامل للادخال اليدوي</value>
+  </data>
+  <data name="CardLayOut" xml:space="preserve">
+    <value>تصميم البطاقة</value>
+  </data>
+  <data name="ManagerReports" xml:space="preserve">
+    <value>تقارير المدير</value>
+  </data>
+  <data name="PleaseSelectReport" xml:space="preserve">
+    <value>الرجاء اختيار تقرير</value>
+  </data>
+  <data name="SucssesAttached" xml:space="preserve">
+    <value>تم الارفاق بنجاح</value>
+  </data>
+  <data name="HRNotifications" xml:space="preserve">
+    <value>اشعارات الموارد البشرية</value>
+  </data>
+  <data name="NoActiveOverTime" xml:space="preserve">
+    <value>لا يوجد وقت اضافي مفعل لهذا الموظف</value>
+  </data>
+  <data name="NotAllowedOverTime" xml:space="preserve">
+    <value>هذا الموظف غير مسموح الوقت الاضافي له</value>
+  </data>
+  <data name="MoreThan" xml:space="preserve">
+    <value>اكثر من</value>
+  </data>
+  <data name="UpTo" xml:space="preserve">
+    <value>حتى</value>
+  </data>
+  <data name="PleaseMoreThan" xml:space="preserve">
+    <value>الرجاء ادخال قيمة اكثر من</value>
+  </data>
+  <data name="PleaseUpTo" xml:space="preserve">
+    <value>الرجاء ادخال قيمة حتى</value>
+  </data>
+  <data name="DifferentRasons" xml:space="preserve">
+    <value>سبب استراحة الغداء يجب ان يكون مختلف عن سبب استراحة الصلاة</value>
+  </data>
+  <data name="EmployeeType" xml:space="preserve">
+    <value>نوع الموظف</value>
+  </data>
+  <data name="HRLeaveRequest" xml:space="preserve">
+    <value>طلب الاجازة من الموارد البشرية</value>
+  </data>
+  <data name="HR_PermissionRequest" xml:space="preserve">
+    <value>طلب المغادرة من الموارد البشرية</value>
+  </data>
+  <data name="HRManualEntry" xml:space="preserve">
+    <value>ادخال يدوي من الموارد البشرية</value>
+  </data>
+  <data name="HR_TAException" xml:space="preserve">
+    <value>استثناءات الحضور من الموارد البشرية</value>
+  </data>
+  <data name="HRLeaveRequestApproval" xml:space="preserve">
+    <value>الموافقة على طلبات الإجازات</value>
+  </data>
+  <data name="HRPermissionRequestApproval" xml:space="preserve">
+    <value>الموافقة على طلبات المغادرة</value>
+  </data>
+  <data name="HRManualEntryApproval" xml:space="preserve">
+    <value>الموافقة على طلبات الادخال اليدوي</value>
+  </data>
+  <data name="HR_TAExceptionApproval" xml:space="preserve">
+    <value>الموافقة على طلبات استثناءات الحضور</value>
+  </data>
+  <data name="CardRequest" xml:space="preserve">
+    <value>طلب بطاقة الموظف</value>
+  </data>
+  <data name="CardRequestApproval" xml:space="preserve">
+    <value>الموافقة على طلب طباعة بطاقة الموظف</value>
+  </data>
+  <data name="PrintRequestedEmpCard" xml:space="preserve">
+    <value>طباعة بطاقة الموظف المطلوبة</value>
+  </data>
+  <data name="ChangeEmpNo" xml:space="preserve">
+    <value>تغيير رقم الموظف</value>
+  </data>
+  <data name="EmpNoExist" xml:space="preserve">
+    <value>رقم الموظف موجود مسبقاً</value>
+  </data>
+  <data name="HRReports" xml:space="preserve">
+    <value>تقارير الموارد البشرية</value>
+  </data>
+  <data name="CannotChangeExternalNo" xml:space="preserve">
+    <value>لايمكن تغيير رقم الموظفين الخارجيين بسبب الاعدادات في اعدادات النظام</value>
+  </data>
+  <data name="CannotChangeInternalNo" xml:space="preserve">
+    <value>لايمكن تغيير رقم الموظفين الداخليين بسبب الاعدادات في اعدادات النظام</value>
+  </data>
+  <data name="WorkScheduleNotExist" xml:space="preserve">
+    <value>لايوجد جدول عمل</value>
+  </data>
+  <data name="ManualEntryRequest" xml:space="preserve">
+    <value>طلب الادخال اليدوي</value>
+  </data>
+  <data name="DirectMgrManualEntryHeader" xml:space="preserve">
+    <value>قبول المدير المباشر على طلب الادخال اليدوي</value>
+  </data>
+  <data name="HRManualEntryHeader" xml:space="preserve">
+    <value>قبول الادخال اليدوي من الموارد البشرية</value>
+  </data>
+  <data name="ApproveDeduction" xml:space="preserve">
+    <value>الموافقة على الخصومات الشهرية</value>
+  </data>
+  <data name="AllowedAfterDays" xml:space="preserve">
+    <value>نوع المغادرة التي قمت باختيارها لايمكن طلبها لتاريخ بعد</value>
+  </data>
+  <data name="AllwoedBeforeDays" xml:space="preserve">
+    <value>نوع المغادرة التي قمت باختيارها لايمكن طلبها لتاريخ قبل</value>
+  </data>
+  <data name="ScheduleGroup" xml:space="preserve">
+    <value>جدول المجموعات</value>
+  </data>
+  <data name="LeaveSubstitute" xml:space="preserve">
+    <value>تعويض اجازة الموظف</value>
+  </data>
+  <data name="AssignEmp_ScheduleGroup" xml:space="preserve">
+    <value>تعيين جدول مجموعة الموظف</value>
+  </data>
+  <data name="PleaseSelectRestDay" xml:space="preserve">
+    <value>هنالك مناوبة مسبقة في التاريخ الذي قمت بإختياره، الرجاء اختيار تاريخ يعتبر يوم راحة</value>
+  </data>
+  <data name="PleaseSelectSubstituteDate" xml:space="preserve">
+    <value>يوجد هنالك تعويض لإجازة الموظف في التاريخ الذي قمت بإختياره، الرجاء اختيار تاريخ لايحتوي تعويض لإجازة الموظف</value>
+  </data>
+  <data name="SelfNursingValidation" xml:space="preserve">
+    <value>هذا النوع من المغادرة يمكن تقديمه فقط للموظفات</value>
+  </data>
+  <data name="SelfNursePerm" xml:space="preserve">
+    <value>طلب مغادرة الرضاعة</value>
+  </data>
+  <data name="DirectMgrNurPermitHeader" xml:space="preserve">
+    <value>موافقة المدير المباشر على طلبات مغادرة الرضاعة</value>
+  </data>
+  <data name="HRNurPermitHeader" xml:space="preserve">
+    <value>قبول مغادرة الرضاعة من قبل الموارد البشرية</value>
+  </data>
+  <data name="GeneralMgrNurPermitHeader" xml:space="preserve">
+    <value>قبول مغادرة الرضاعة من قبل المدير العام</value>
+  </data>
+  <data name="Emp_StudyPermissionRequest" xml:space="preserve">
+    <value>طلب مغادرة الدراسة</value>
+  </data>
+  <data name="DirectMgrStudyPermitHeader" xml:space="preserve">
+    <value>قبول مغادرة الدراسة من قبل المدير المباشر</value>
+  </data>
+  <data name="HRStudyPermitApprove" xml:space="preserve">
+    <value>قبول مغادرة الدراسة من الموارد البشرية</value>
+  </data>
+  <data name="GeneralMgrStudyPermitHeader" xml:space="preserve">
+    <value>قبول مغادرة الدراسة من المدير العام</value>
+  </data>
+  <data name="GeneralMgrManualEntryHeader" xml:space="preserve">
+    <value>قبول الادخال اليدوي من المدير العام</value>
+  </data>
+  <data name="OutTime" xml:space="preserve">
+    <value>مدة الخروج</value>
+  </data>
+  <data name="EmployeeTypeSelect" xml:space="preserve">
+    <value>Please Select Employee Type</value>
+  </data>
+  <data name="ViolationExceptions" xml:space="preserve">
+    <value>استثناء المخالفات</value>
+  </data>
+  <data name="ChangeEmployeeEntity" xml:space="preserve">
+    <value>تغيير وحدة عمل الموظف</value>
+  </data>
+  <data name="EmployeeRoamers" xml:space="preserve">
+    <value>Employee Roamers</value>
+  </data>
+  <data name="LogicalGroupSelect" xml:space="preserve">
+    <value>الرجاء اختيار مجموعة وظيفية</value>
+  </data>
+  <data name="EmailConfigurations" xml:space="preserve">
+    <value>التهيئة البريد الإلكتروني</value>
+  </data>
+  <data name="ErrorDeleteRecourd" xml:space="preserve">
+    <value>الرجاء إختيار حقل وحد على الاقل</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>هل انت متأكد من الحذف ؟</value>
+  </data>
+  <data name="ClearDevice" xml:space="preserve">
+    <value>تم مسح معلومات جهاز المستخدم</value>
+  </data>
+  <data name="MobileWorkLocationExceedLicense" xml:space="preserve">
+    <value>عدد اجهزة المحمول المسموح بها لموقع العمل تجاوز الحد المسموح للرخصة، الرجاء تحديث الرخصة حتي تستطيع اضافة المزيد من اجهزة المحمول</value>
+  </data>
+  <data name="NoOfMobileExceed" xml:space="preserve">
+    <value>عدد اجهزة المحمول تجاوز العدد المسموح في الرخصة، الرجاء تحديث الرخصة حتى تستطيع اضافة اجهزة محمول اخرى</value>
+  </data>
+  <data name="ScheduleGroupManager" xml:space="preserve">
+    <value>المجموعة التي قمت باختيارها لاتحتوي على مدير</value>
+  </data>
+  <data name="AboutProduct" xml:space="preserve">
+    <value>حول المنتج</value>
+  </data>
+  <data name="DSNNotVerified" xml:space="preserve">
+    <value>رقم التحقق من التثبيت الذي ادخلته غير صالح</value>
+  </data>
+  <data name="BeaconNoExist" xml:space="preserve">
+    <value>رقم جهاز اللاسلكي موجود مسبقاً</value>
+  </data>
+  <data name="RenewSupportContract" xml:space="preserve">
+    <value>لقد انتهت صلاحية عقد الصيانة الخاص بالنظام، لن تستطيع القيام بتطبيق التحديثات على النظام، يرجى تحديث عقد الصيانة الخاص بالنظام. </value>
+  </data>
+  <data name="RejectedByDM" xml:space="preserve">
+    <value>مرفوض من قبل المدير</value>
+  </data>
+  <data name="RejectedByGM" xml:space="preserve">
+    <value>مرفوض من قبل المدير العام</value>
+  </data>
+  <data name="RejectedByHR" xml:space="preserve">
+    <value>مرفوض من قبل الموارد البشرية</value>
+  </data>
+  <data name="CreateDynamicReport" xml:space="preserve">
+    <value>انشاء تقارير ديناميكية</value>
+  </data>
+  <data name="DeviceFeedbackDashboard" xml:space="preserve">
+    <value>رأي الموظف</value>
+  </data>
+  <data name="ErrorDeleteDefaultSchedule" xml:space="preserve">
+    <value>الجدول الذي قمت باختياره لايمكن حذفه لانه جدول اولي</value>
+  </data>
+  <data name="SearchMethod" xml:space="preserve">
+    <value>بحث متقدم</value>
+  </data>
+  <data name="SkillsExist" xml:space="preserve">
+    <value>التصنيف الذي قمت باختياره لايمكن حذفه لانه يوجد مهارات متعلقة به، الرجاء حذف المهارات حتى تتمكن من الحذف</value>
+  </data>
+  <data name="EmployeeSkills" xml:space="preserve">
+    <value>مهارات الموظفين</value>
+  </data>
+  <data name="CoordinatorLeaveRequest" xml:space="preserve">
+    <value>طلب الاجازة من المنسق</value>
+  </data>
+  <data name="CoordinatorPermitRequest" xml:space="preserve">
+    <value>طلب المغادرة من المنسق</value>
+  </data>
+  <data name="IncorrectSkill" xml:space="preserve">
+    <value>المهارة التي تم ادخالها خاطئة او غير موجودة</value>
+  </data>
+  <data name="SkillExists" xml:space="preserve">
+    <value>مهارة الموظف موجودة مسبقاً</value>
+  </data>
+  <data name="CouldNotDeletePermissionRequest" xml:space="preserve">
+    <value>لايمكنك حذف المغادرة، المغادرة التي قمت باختيارها قيد الدراسة</value>
+  </data>
+  <data name="DefineProjects" xml:space="preserve">
+    <value>تعريف المشاريع</value>
+  </data>
+  <data name="ProjectTasks" xml:space="preserve">
+    <value>مهام المشاريع</value>
+  </data>
+  <data name="DefineResourceWork" xml:space="preserve">
+    <value>تعريف عمل المورد</value>
+  </data>
+  <data name="TaskDetails" xml:space="preserve">
+    <value>تفاصيل المهام</value>
+  </data>
+  <data name="AbsentToolTip" xml:space="preserve">
+    <value>من خلال تفعيل هذا الاختيار سيتم اعتبار ايام الغياب في الخصومات الشهرية</value>
+  </data>
+  <data name="DelayEarlyOut" xml:space="preserve">
+    <value>التأخير و الخروج المبكر</value>
+  </data>
+  <data name="DelayEarlyOutToolTip" xml:space="preserve">
+    <value>من خلال تفعيل هذا الاختيار سيتم اعتبار عدد مرات اقتطاعات مجموع مدة التأخير و الخروج المبكر في الخصومات الشهرية حسب القيم في الاسفل</value>
+  </data>
+  <data name="MissingIn" xml:space="preserve">
+    <value>عدم تسجيل دخول</value>
+  </data>
+  <data name="MissingInToolTip" xml:space="preserve">
+    <value>من خلال تفعيل هذا الاختيار سيتم اعتبار عدد مرات عدم تسجيل الدخول في الخصومات الشهرية</value>
+  </data>
+  <data name="MissingOut" xml:space="preserve">
+    <value>عدم تسجيل خروج</value>
+  </data>
+  <data name="MissingOutToolTip" xml:space="preserve">
+    <value>من خلال تفعيل هذا الاختيار سيتم اعتبار عدد مرات عدم تسجيل الخروج في الخصومات الشهرية</value>
+  </data>
+  <data name="NotCompleteWorkHours" xml:space="preserve">
+    <value>لم يستكمل ساعات العمل</value>
+  </data>
+  <data name="NotCompleteWorkHoursToolTip" xml:space="preserve">
+    <value>من خلال تفعيل هذا الاختيار سيتم اعتبار عدد مرات الايام التي لم يستكمل فيها عدد ساعات العمل في الاقتطاعات الشهرية</value>
+  </data>
+  <data name="ApproveInvalidAttempts" xml:space="preserve">
+    <value>الموافقة على الحركات الخاطئة</value>
+  </data>
+  <data name="InvalidTrans_Select" xml:space="preserve">
+    <value>الرجاء اختيار حركة من الجدول بالاسفل</value>
+  </data>
+  <data name="GoalsWeightNotAccurate" xml:space="preserve">
+    <value>مجموع وزن الاهداف يجب ان يكون 100 % حتى تتمكن من ارسال التقييم السنوي</value>
+  </data>
+  <data name="SelectCoordinatorType" xml:space="preserve">
+    <value>الرجاء اختيار نوع منسق واحد على الاقل من القائمة</value>
+  </data>
+  <data name="Manager_Summary" xml:space="preserve">
+    <value>ملخص المدير</value>
+  </data>
+  <data name="CoordinatorType" xml:space="preserve">
+    <value>انواع المنسق</value>
+  </data>
+  <data name="ShortNameExist" xml:space="preserve">
+    <value>الاسم المختصر موجود مسبقاً</value>
+  </data>
+  <data name="DefineSemesters" xml:space="preserve">
+    <value>تعريف الفصول</value>
+  </data>
+  <data name="EmpShiftsRequest" xml:space="preserve">
+    <value>طلب مناوبات الموظفين</value>
+  </data>
+  <data name="EmpShiftsApprove" xml:space="preserve">
+    <value>الموافقة على مناوبات الموظفين</value>
+  </data>
+  <data name="UpdateTransactionRequest" xml:space="preserve">
+    <value>طلب تحديث الحركة</value>
+  </data>
+  <data name="DirectMgrUpdateTransactionHeader" xml:space="preserve">
+    <value>قبول تعديل الحركات من المدير المباشر</value>
+  </data>
+  <data name="GeneralUpdateTransactionHeader" xml:space="preserve">
+    <value>قبول تعديل الحركات من المدير العام</value>
+  </data>
+  <data name="HRUpdateTransactionHeader" xml:space="preserve">
+    <value>قبول تعديل الحركات من الموارد البشرية</value>
+  </data>
+  <data name="HRUpdateTransactionApproval" xml:space="preserve">
+    <value>الموافقة على تعديل الحركات</value>
+  </data>
+  <data name="ImportTimeAttendance" xml:space="preserve">
+    <value>استيراد الحركات</value>
+  </data>
+  <data name="SelectEmployeeCard" xml:space="preserve">
+    <value>الرجاء اختيار موظف واحد حتى تتمكن من عرض البطاقة</value>
+  </data>
+  <data name="SendToPrinter" xml:space="preserve">
+    <value>البطاقات التي قمت باختيارها تم ارسالها الى الطابعة</value>
+  </data>
+  <data name="UploadImage" xml:space="preserve">
+    <value>الرجاء تحميل صورة</value>
+  </data>
+  <data name="SliderImages" xml:space="preserve">
+    <value>صور الاعلانات</value>
+  </data>
+  <data name="InsertValidImageType" xml:space="preserve">
+    <value>الرجاء ادخال نوع صور صحيح، نوع الصور المتاحة (jpg, png, jpeg, gif, bmp)</value>
+  </data>
+  <data name="LeaveGradeBalanceRange" xml:space="preserve">
+    <value>اقصى مدة مسموح بها يجب ان تكون اقل من او يساوي رصيد الدرجة الوظيفية</value>
+  </data>
+  <data name="ErrAddGradeBalance" xml:space="preserve">
+    <value>خطأ اثناء اضافة رصيد الدرجات الوظيفية</value>
+  </data>
+  <data name="GradeBalanceAddSuccess" xml:space="preserve">
+    <value>تم اضافة رصيد الدرجات الوظيفية بنجاح</value>
+  </data>
+  <data name="SummaryLinkReport" xml:space="preserve">
+    <value>تقارير الملخص مع الرابط</value>
+  </data>
+  <data name="CardTemplates" xml:space="preserve">
+    <value>نماذج البطاقات</value>
+  </data>
+  <data name="LoginToViewReport" xml:space="preserve">
+    <value>الرجاء تسجيل الدخول حتى تتمكن من الاطلاع على التقرير</value>
+  </data>
+  <data name="SelectCardTemplate" xml:space="preserve">
+    <value>الرجاء اختيار نموذج البطاقة لعرض بطاقة الموظف</value>
+  </data>
+  <data name="EmployeeNoInsert" xml:space="preserve">
+    <value>الرجاء ادخال رقم بطاقة الموظف</value>
+  </data>
+  <data name="EmployeeNoNotFound" xml:space="preserve">
+    <value>لم يتم العثور على الموظف، الرجاء ادخال رقم موظف صحيح</value>
+  </data>
+  <data name="StatusSummaryDashboard" xml:space="preserve">
+    <value>لوحة قياس ملخص الحالة</value>
+  </data>
+  <data name="OvertimeTypes" xml:space="preserve">
+    <value>انواع العمل الاضافي</value>
+  </data>
+  <data name="EmpOvertimeRequest" xml:space="preserve">
+    <value>طلب الوقت الاضافي</value>
+  </data>
+  <data name="StudentManualEntryMassUpdate" xml:space="preserve">
+    <value>حضور الطلاب</value>
+  </data>
+  <data name="TransactionAlreadyExists" xml:space="preserve">
+    <value>الحركة موجودة مسبقاً</value>
+  </data>
+  <data name="ScheduleVisit" xml:space="preserve">
+    <value>تسجيل الزيارة</value>
+  </data>
+  <data name="EmpAllowedGPS" xml:space="preserve">
+    <value>احداثيات المواقع المسموحة </value>
+  </data>
+  <data name="GPSCoordinateExists" xml:space="preserve">
+    <value>احداثيات الموقع موجودة مسبقاً</value>
+  </data>
+  <data name="DefineSurvey" xml:space="preserve">
+    <value>تعريف الاستبيان</value>
+  </data>
+  <data name="SurveyAssignment" xml:space="preserve">
+    <value>تعيين الاستبيان</value>
+  </data>
+  <data name="RemoteAttendance" xml:space="preserve">
+    <value>العمل عن بعد</value>
+  </data>
+  <data name="EmpShifts_Coordinators" xml:space="preserve">
+    <value>تحضير المناوبات للمنسقين</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>مدة تحضير المناوبات</value>
+  </data>
+  <data name="IdNumberExists" xml:space="preserve">
+    <value>رقم الهوية موجود مسبقاً</value>
+  </data>
+  <data name="BlackListVisitors" xml:space="preserve">
+    <value>قائمة الزوار المحظورين</value>
+  </data>
+  <data name="DefineUniversity" xml:space="preserve">
+    <value>الجامعات والكليات</value>
+  </data>
+  <data name="DefineCardType" xml:space="preserve">
+    <value>Define Card Type</value>
+  </data>
+  <data name="InsertRemarks" xml:space="preserve">
+    <value>الرجاء إدخال الملاحظات</value>
+  </data>
+  <data name="CardHistory" xml:space="preserve">
+    <value>تاريخ البطاقة</value>
+  </data>
+  <data name="CardsQueue" xml:space="preserve">
+    <value>قائمة انتظار بطاقة الموظف قيد الطباعة</value>
+  </data>
+  <data name="PleaseSelectStatus" xml:space="preserve">
+    <value>يرجى تحديد الحالة</value>
+  </data>
+  <data name="NoDesignation" xml:space="preserve">
+    <value>الموظف ليس لديه تعيين معين</value>
+  </data>
+  <data name="SendNotification" xml:space="preserve">
+    <value>إرسال الإخطار</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>أدخل البريد الإلكتروني</value>
+  </data>
+</root>

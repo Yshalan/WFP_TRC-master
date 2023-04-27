@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chkLstCompanyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkLstReligionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkLstWorkLocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkYearlyFixedResource1.Text" xml:space="preserve">
+    <value>ثابتة سنوياً</value>
+  </data>
+  <data name="chkYearlyFixedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CVDateResource1.ErrorMessage" xml:space="preserve">
+    <value>الى تاريخ يجب ان تكون اكبر او تساوي من تاريخ</value>
+  </data>
+  <data name="CVDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CVDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CVDayResource1.ErrorMessage" xml:space="preserve">
+    <value>الى يوم\شهر يجب ان تكون اكبر او تساوي من يوم\شهر</value>
+  </data>
+  <data name="CVDayResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CVDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnDeleteResource1.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="ibtnDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnRestResource1.Text" xml:space="preserve">
+    <value>مسح</value>
+  </data>
+  <data name="ibtnRestResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibtnSaveResource1.Text" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="ibtnSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>اسم العطلة باللغة الانجليزية</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>اسم العطلة باللغة العربية</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDateFrom0Resource1.Text" xml:space="preserve">
+    <value>من يوم \ شهر</value>
+  </data>
+  <data name="lblDateFrom0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDateFromResource1.Text" xml:space="preserve">
+    <value>من تاريخ</value>
+  </data>
+  <data name="lblDateFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDateTo0Resource1.Text" xml:space="preserve">
+    <value>الى يوم \ شهر</value>
+  </data>
+  <data name="lblDateTo0Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDateToResource1.Text" xml:space="preserve">
+    <value>الى تاريخ</value>
+  </data>
+  <data name="lblDateToResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Work Force Pro : : تعريف الاعياد والعطل الرسمية</value>
+  </data>
+  <data name="rbtnAllCompaniesResource1.Text" xml:space="preserve">
+    <value>كافة الشركات</value>
+  </data>
+  <data name="rbtnAllCompaniesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnAllReligionsResource1.Text" xml:space="preserve">
+    <value>كافة الاديان</value>
+  </data>
+  <data name="rbtnAllReligionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnSpecificCompanyResource1.Text" xml:space="preserve">
+    <value>شركة محددة</value>
+  </data>
+  <data name="rbtnSpecificCompanyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnSpecificReligionsResource1.Text" xml:space="preserve">
+    <value>ديانة محددة</value>
+  </data>
+  <data name="rbtnSpecificReligionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtnSpecificWorkLocationResource1.Text" xml:space="preserve">
+    <value>فرع عمل محدد</value>
+  </data>
+  <data name="rbtnSpecificWorkLocationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReqFVFromDateResource1.ErrorMessage" xml:space="preserve">
+    <value>اختيار من تاريخ</value>
+  </data>
+  <data name="ReqFVFromDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReqFVFromDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReqFVFromDayResource1.ErrorMessage" xml:space="preserve">
+    <value>اختيار من شهر و يوم</value>
+  </data>
+  <data name="ReqFVFromDayResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReqFVFromDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReqFVToDateResource1.ErrorMessage" xml:space="preserve">
+    <value>اختيار الى تاريخ</value>
+  </data>
+  <data name="ReqFVToDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReqFVToDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReqFVToDayResource1.ErrorMessage" xml:space="preserve">
+    <value>اختيار الى شهر و يوم</value>
+  </data>
+  <data name="ReqFVToDayResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReqFVToDayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqHolidayArNameResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء ادخال الاسم باللغة العربية</value>
+  </data>
+  <data name="reqHolidayArNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqHolidayArNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqHolidayEngNameResource1.ErrorMessage" xml:space="preserve">
+    <value>الرجاء ادخال الاسم باللغة الانجليزية</value>
+  </data>
+  <data name="reqHolidayEngNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqHolidayEngNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHolidayArabicResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHolidayArabicResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHolidayEnglishResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHolidayEnglishResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionEqualto" xml:space="preserve">
+    <value>يساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.AddExpressionToolTip" xml:space="preserve">
+    <value>اضافة مصطلح</value>
+  </data>
+  <data name="RadFilter1Resource1.AddGroupToolTip" xml:space="preserve">
+    <value>اضافة مجموعة</value>
+  </data>
+  <data name="RadFilter1Resource1.ApplyButtonText" xml:space="preserve">
+    <value>تطبيق </value>
+  </data>
+  <data name="RadFilter1Resource1.BetweenDelimeterText" xml:space="preserve">
+    <value>و</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionBetween" xml:space="preserve">
+    <value>بين</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionContains" xml:space="preserve">
+    <value>يحتوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionDoesNotContain" xml:space="preserve">
+    <value>لايحتوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionEndsWith" xml:space="preserve">
+    <value>ينتهي ب</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionGreaterThan" xml:space="preserve">
+    <value>اكبر من</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionGreaterThanOrEqualTo" xml:space="preserve">
+    <value>اكبر من او يساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionIsEmpty" xml:space="preserve">
+    <value>فارغ</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionIsNull" xml:space="preserve">
+    <value>لايوجد قيمة</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionLessThan" xml:space="preserve">
+    <value>اصغر من</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionLessThanOrEqualTo" xml:space="preserve">
+    <value>اصغر من او يساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotBetween" xml:space="preserve">
+    <value>ليس بين</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotEqualTo" xml:space="preserve">
+    <value>لايساوي</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotIsEmpty" xml:space="preserve">
+    <value>ليس فارغ</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionNotIsNull" xml:space="preserve">
+    <value>يوجد قيمة</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.FilterFunctionStartsWith" xml:space="preserve">
+    <value>يبدأ ب</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationAnd" xml:space="preserve">
+    <value>و</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationNotAnd" xml:space="preserve">
+    <value>وليس</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationNotOr" xml:space="preserve">
+    <value>او ليس</value>
+  </data>
+  <data name="RadFilter1Resource1.Localization.GroupOperationOr" xml:space="preserve">
+    <value>او</value>
+  </data>
+  <data name="RadFilter1Resource1.RemoveToolTip" xml:space="preserve">
+    <value>ازالة بند</value>
+  </data>
+  <data name="RadFilter1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBar1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.AccessKey" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Text" xml:space="preserve">
+    <value>تطبيق البحث</value>
+  </data>
+  <data name="RadToolBarButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadToolBarButtonResource1.Value" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.HeaderText" xml:space="preserve">
+    <value>تاريخ الانتهاء</value>
+  </data>
+  <data name="GridBoundColumnResource10.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource10.SortExpression" xml:space="preserve">
+    <value>EndDate</value>
+  </data>
+  <data name="GridBoundColumnResource7.HeaderText" xml:space="preserve">
+    <value>الاسم باللغة الانجليزية</value>
+  </data>
+  <data name="GridBoundColumnResource7.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource7.SortExpression" xml:space="preserve">
+    <value>HolidayName</value>
+  </data>
+  <data name="GridBoundColumnResource8.HeaderText" xml:space="preserve">
+    <value>الاسم باللغة العربية</value>
+  </data>
+  <data name="GridBoundColumnResource8.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource8.SortExpression" xml:space="preserve">
+    <value>HolidayArabicName</value>
+  </data>
+  <data name="GridBoundColumnResource9.HeaderText" xml:space="preserve">
+    <value>تاريخ البداية</value>
+  </data>
+  <data name="GridBoundColumnResource9.HeaderTooltip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GridBoundColumnResource9.SortExpression" xml:space="preserve">
+    <value>StartDate</value>
+  </data>
+  <data name="AllWorkLocations" xml:space="preserve">
+    <value>كافة فروع العمل</value>
+  </data>
+  <data name="rbtnAllEmployeeTypesResource1.Text" xml:space="preserve">
+    <value>جميع انواع الموظفين</value>
+  </data>
+  <data name="rbtnAllLogicalGroup.Text" xml:space="preserve">
+    <value>جميع المجموعات الوظيفية</value>
+  </data>
+  <data name="rbtnSpecificEmployeeTypesResource1.Text" xml:space="preserve">
+    <value>نوع موظف محدد</value>
+  </data>
+  <data name="rbtnSpecificLogicalGroup.Text" xml:space="preserve">
+    <value>مجموعة وظيفية محددة</value>
+  </data>
+  <data name="chkIsReligionRelatedResource1.Text" xml:space="preserve">
+    <value>عطلة دينية</value>
+  </data>
+  <data name="chkIsReligionRelatedResource1.ToolTip" xml:space="preserve">
+    <value>من خلال تحديد هذه الخاصية، يمكنك اعتبار هذا النوع من العطل في تعريف سياسة العمل الاضافي</value>
+  </data>
+</root>

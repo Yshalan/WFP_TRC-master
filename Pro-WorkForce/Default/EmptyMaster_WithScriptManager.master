@@ -1,0 +1,169 @@
+﻿<%@ Master Language="VB" CodeFile="EmptyMaster_WithScriptManager.master.vb" Inherits="Default_EmptyMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" id="head1">
+    <meta charset="utf-8" />
+    <title>Work Force Pro</title>
+    <meta content="" charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="../svassets/img/favicon.png" />
+    <!-- Favicon -->
+    <link href="Images/favicon.png" rel="icon" type="image/png" />
+
+    <!-- Smart Vision core CSS -->
+    <link href="../svassets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../svassets/css/font-awesome.min.css" />
+    <link href="../svassets/css/animations.css" rel="stylesheet" />
+    <link href="../svassets/css/simple-sidebar.css" rel="stylesheet" />
+    <link href="../svassets/css/component.css" rel="stylesheet" />
+    <link href="../svassets/css/hover.css" rel="stylesheet" />
+
+
+
+<%--      <link id="lnkDofDesign" runat="server" href="../svassets/css/custom-dof.css" type="text/css" title="styles1" media="screen" rel="stylesheet" />
+    <link id="lnkGreenDesign" runat="server" href="../svassets/css/custom.css" type="text/css" title="styles2" media="screen" rel="stylesheet" />
+    <link id="lnkRedDesign" runat="server" href="../svassets/css/custom-Red.css" type="text/css" title="styles3" media="screen" rel="stylesheet" />
+    <link id="lnkBlueDesign" runat="server" href="../svassets/css/custom-Blue.css" type="text/css" title="styles4" media="screen" rel="stylesheet" />
+    <link id="lnkVioletDesign" runat="server" href="../svassets/css/custom-Violet.css" type="text/css" title="styles5" media="screen" rel="stylesheet" />
+    <link id="lnkGoldDesign" runat="server" href="../svassets/css/custom-Gold.css" type="text/css" title="styles6" media="screen" rel="stylesheet" />
+    <link id="lnkADMDesign" runat="server" href="../svassets/css/custom-adm.css" type="text/css" title="styles7" media="screen" rel="stylesheet" />--%>
+
+
+    <link href="../Sait/css/custom.css" type="text/css" title="styles2" media="screen" rel="stylesheet" />
+    <link href="../Sait/css/custom-dof.css" type="text/css" title="styles1" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/custom-Red.css" type="text/css" title="styles3" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/custom-Blue.css" type="text/css" title="styles4" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/custom-Violet.css" type="text/css" title="styles5" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/custom-Gold.css" type="text/css" title="styles6" media="screen" rel="stylesheet" disabled="" />
+
+    <link href="../Sait/css/lightdefault.css" type="text/css" title="styles7" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/lightcustom-dof.css" type="text/css" title="styles8" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/lightcustom-Red.css" type="text/css" title="styles9" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/lightcustom-Gold.css" type="text/css" title="styles10" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/lightcustom-Blue.css" type="text/css" title="styles11" media="screen" rel="stylesheet" disabled="" />
+    <link href="../Sait/css/lightcustom-Violet.css" type="text/css" title="styles12" media="screen" rel="stylesheet" disabled="" />
+
+    <%--    Lobi Box ALert--%>
+    <%--<link href="../CSS/lobibox.min.css" rel="stylesheet" />--%>
+    <script type="text/javascript" src="../js/jquery.1.11.min.js"></script>
+    <script type="text/javascript" src="../js/Action.js"></script>
+    <script type="text/javascript" src="../js/lobibox.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script type="text/javascript" src="../svassets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="../svassets/js/html5shiv.min.js"></script>
+      <script type="text/javascript" src="../svassets/js/respond.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="../svassets/css/all-ie-only.css" />
+    <![endif]-->
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body dir="<%=dir %>" class="section1">
+    <form id="form1" runat="server">
+
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
+        </asp:ScriptManager>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <div class="clear"></div>
+
+        <div id="wrapper" class="active">
+
+
+
+
+
+            <!-- Page content -->
+
+
+
+            <div class="clear"></div>
+            <div class="container-fluid">
+                <div id="body">
+
+
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                </div>
+            </div>
+
+
+
+            <!-- Javascript -->
+
+
+            <!-- Bootstrap core JavaScript
+    ================================================== -->
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script type="text/javascript" src="../svassets/js/moment.js"></script>
+            <script src="../svassets/js/jquery.min.js"></script>
+            <script src="../svassets/js/bootstrap.min.js"></script>
+
+            <script src="../svassets/css/styleswitch.js"></script>
+            <%--        <script src="../svassets/js/jquery.carousel.fullscreen.js"></script>
+
+
+        <script src="../svassets/js/docs.min.js"></script>--%>
+            <script src="../svassets/js/svCustom.js"></script>
+
+
+            <script src="../Svassets/js/lib/jquery.min.js" type="text/javascript"></script>
+            <script src="../Svassets/js/lib/moment.min.js" type="text/javascript"></script>
+
+            <asp:ContentPlaceHolder ID="scripts" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <script>
+                $("#menu-toggle").click(function (e) {
+                    e.preventDefault();
+                    $("#wrapper").toggleClass("toggled");
+                });
+
+                function confirmDelete(gvName) {
+                    var Lang = '<%= Lang %>'
+                    var TargetBaseControl = null;
+                    try {
+                        //get target base control.
+                        TargetBaseControl = document.getElementById(gvName);
+
+                    }
+                    catch (err) {
+                        TargetBaseControl = null;
+                    }
+
+                    if (TargetBaseControl == null) {
+                        ShowMessage('No Data')
+                        return false;
+                    }
+                    //get all the control of the type INPUT in the base control.
+                    var Inputs = TargetBaseControl.getElementsByTagName("input");
+                    var TargetChildControl = "chk";
+                    for (var n = 0; n < Inputs.length; ++n) {
+                        if (Inputs[n].type == 'checkbox' && Inputs[n].checked && Inputs[n].id.indexOf(TargetChildControl, 0) >= 0) {
+                            return confirm('Are you sure you want to delete?');
+                        }
+
+                    }
+                    if (Lang == "en") {
+                        ShowMessage('Please select from the list');
+                    } else {
+                        ShowMessage('الرجاء الاختيار من القائمة')
+                    }
+                    return false;
+                }
+            </script>
+    </form>
+</body>
+</html>

@@ -1,0 +1,252 @@
+﻿Imports System.Data
+Imports System.Web.UI.DataVisualization.Charting
+Imports SmartV.UTILITIES
+Imports System.Drawing
+
+Partial Class Admin_UserControls_Home3dDash
+    Inherits System.Web.UI.UserControl
+    Private Lang As CtlCommon.Lang
+    Private ResourceManager As System.Resources.ResourceManager = New System.Resources.ResourceManager("Resources.Strings", System.Reflection.Assembly.Load("App_GlobalResources"))
+    Dim CultureInfo As System.Globalization.CultureInfo
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs)
+        If (SessionVariables.CultureInfo Is Nothing) Then
+            Response.Redirect("~/default/Login.aspx")
+        Else
+            Page.UICulture = SessionVariables.CultureInfo
+        End If
+        If SessionVariables.CultureInfo = "ar-JO" Then
+            Lang = CtlCommon.Lang.AR
+        Else
+            Lang = CtlCommon.Lang.EN
+        End If
+        SetChartTransparency(chrtbie, 200)
+        DoStairStackPie()
+
+    End Sub
+    Private _dt1 As DataTable
+    Private _dt2 As DataTable
+    Private _dt3 As DataTable
+#Region "Properties"
+    Public Property dt1() As DataTable
+        Get
+            Return _dt1
+        End Get
+        Set(ByVal value As DataTable)
+            _dt1 = value
+        End Set
+    End Property
+
+    Public Property dt2() As DataTable
+        Get
+            Return _dt2
+        End Get
+        Set(ByVal value As DataTable)
+            _dt2 = value
+        End Set
+    End Property
+
+    Public Property dt3() As DataTable
+        Get
+            Return _dt3
+        End Get
+        Set(ByVal value As DataTable)
+            _dt3 = value
+        End Set
+    End Property
+#End Region
+    Public Sub SetChartTransparency(ByVal chrtbie As Chart, ByVal alpha As Byte)
+        ' Apply palette colors so that they are populated into chart before being manipulated
+        chrtbie.ApplyPaletteColors()
+
+        ' Iterate through data points and set alpha values for each
+        For Each series As Series In chrtbie.Series
+            For Each point As DataPoint In series.Points
+                point.Color = Color.FromArgb(alpha, point.Color)
+            Next
+        Next
+    End Sub
+
+    Public Sub DoStairStackPie()
+        Dim rand As New Random()
+        Me.chrtbie.ChartAreas.Clear()
+        Me.chrtbie.Series.Clear()
+        CultureInfo = New System.Globalization.CultureInfo(SessionVariables.CultureInfo)
+
+        For i As Integer = 0 To 2
+
+            Me.chrtbie.ChartAreas.Add("Area" & i)
+            Me.chrtbie.Series.Add("Series" & i)
+            Me.chrtbie.Series(i).ChartType = SeriesChartType.Pie
+            Me.chrtbie.Series(i).ChartArea = "Area" & i
+
+        Next
+        ' Chart 1
+        Me.chrtbie.Series(0).Points.AddXY(0, dt1.Rows(0)(1))
+        Me.chrtbie.Series(0).Points.AddXY(1, dt1.Rows(1)(1))
+        Me.chrtbie.Series(0).Points(0).Name = "Absent"
+        Me.chrtbie.Series(0).Points(1).Name = "Employees"
+        'Me.chrtbie.Series(0).Points(0).Color = Drawing.Color.Red
+        Dim c As Drawing.ColorConverter = New Drawing.ColorConverter
+        Me.chrtbie.Series(0).Points(0).Color = c.ConvertFromString("#B0171F")
+        Me.chrtbie.Series(0).Points(1).Color = c.ConvertFromString("#0276FD")
+
+        ' Chart 2
+        Me.chrtbie.Series(1).Points.AddXY(0, dt2.Rows(0)(1))
+        Me.chrtbie.Series(1).Points.AddXY(1, dt2.Rows(1)(1))
+        Me.chrtbie.Series(1).Points(0).Name = "Delay"
+        Me.chrtbie.Series(1).Points(1).Name = "Employees"
+        'Me.chrtbie.Series(1).Points(0).Color = Drawing.Color.Yellow
+        'Me.chrtbie.Series(1).Points(1).Color = Drawing.Color.Navy
+        Me.chrtbie.Series(1).Points(0).Color = c.ConvertFromString("#FF7F24")
+        Me.chrtbie.Series(1).Points(1).Color = c.ConvertFromString("#8DB6CD")
+
+        ' Chart 3
+        Me.chrtbie.Series(2).Points.AddXY(0, dt3.Rows(0)(1))
+        Me.chrtbie.Series(2).Points.AddXY(1, dt3.Rows(1)(1))
+        Me.chrtbie.Series(2).Points(0).Name = "Early Out"
+        Me.chrtbie.Series(2).Points(1).Name = "Employees"
+        Me.chrtbie.Series(2).Points(0).Color = c.ConvertFromString("#46523C")
+        Me.chrtbie.Series(2).Points(1).Color = c.ConvertFromString("#6495ED")
+
+
+        ' Chart 1
+        Me.chrtbie.Series(0).Points(0).Label = ResourceManager.GetString("Absent", CultureInfo)
+        Me.chrtbie.Series(0).Points(1).Label = ResourceManager.GetString("Employees", CultureInfo)
+        ' Chart 2
+        Me.chrtbie.Series(1).Points(0).Label = ResourceManager.GetString("Delay", CultureInfo)
+        Me.chrtbie.Series(1).Points(1).Label = ResourceManager.GetString("Employees", CultureInfo)
+        ' Chart 3
+        Me.chrtbie.Series(2).Points(0).Label = ResourceManager.GetString("EarlyOut", CultureInfo)
+        Me.chrtbie.Series(2).Points(1).Label = ResourceManager.GetString("Employees", CultureInfo)
+
+        Dim ChartArea1 As ChartArea = Me.chrtbie.ChartAreas(0)
+        Dim ChartArea2 As ChartArea = Me.chrtbie.ChartAreas(1)
+        Dim ChartArea3 As ChartArea = Me.chrtbie.ChartAreas(2)
+
+        ChartArea1.Name = "Absent"
+        ' Chart Area 1
+        ChartArea1.Area3DStyle.IsClustered = True
+        ChartArea1.Area3DStyle.Enable3D = True
+        ChartArea1.Area3DStyle.Perspective = 10
+        ChartArea1.Area3DStyle.PointGapDepth = 900
+        ChartArea1.Area3DStyle.IsRightAngleAxes = False
+        ChartArea1.Area3DStyle.WallWidth = 25
+        ChartArea1.Area3DStyle.Rotation = 65
+        ChartArea1.Area3DStyle.Inclination = 70
+        ChartArea1.BackColor = System.Drawing.Color.Transparent
+        ChartArea1.BackSecondaryColor = System.Drawing.Color.Transparent
+        ChartArea1.InnerPlotPosition.Auto = False
+        ChartArea1.InnerPlotPosition.Height = 95.0F
+        ChartArea1.InnerPlotPosition.Width = 85.0F
+        ChartArea1.Position.Auto = False
+        ChartArea1.Position.Height = 70.0F
+        ChartArea1.Position.Width = 52.0F
+        ChartArea1.Position.X = 48.0F
+        ChartArea1.Position.Y = 30.0F
+
+        ' Chart Area 2
+        ChartArea2.Name = "Delay"
+        ChartArea2.Area3DStyle.IsClustered = True
+        ChartArea2.Area3DStyle.Enable3D = True
+        ChartArea2.Area3DStyle.Perspective = 10
+        ChartArea2.Area3DStyle.PointGapDepth = 900
+        ChartArea2.Area3DStyle.IsRightAngleAxes = False
+        ChartArea2.Area3DStyle.WallWidth = 25
+        ChartArea2.Area3DStyle.Rotation = 65
+        ChartArea2.Area3DStyle.Inclination = 70
+        ChartArea2.BackColor = System.Drawing.Color.Transparent
+        ChartArea2.BackSecondaryColor = System.Drawing.Color.Transparent
+        ChartArea2.InnerPlotPosition.Auto = False
+        ChartArea2.InnerPlotPosition.Height = 95.0F
+        ChartArea2.InnerPlotPosition.Width = 85.0F
+        ChartArea2.Position.Auto = False
+        ChartArea2.Position.Height = 70.0F
+        ChartArea2.Position.Width = 52.0F
+        ChartArea2.Position.X = 26.5F
+        ChartArea2.Position.Y = 15.0F
+
+        ' Chart Area 3
+        ChartArea3.Name = "Early Out"
+        ChartArea3.Area3DStyle.IsClustered = True
+        ChartArea3.Area3DStyle.Enable3D = True
+        ChartArea3.Area3DStyle.Perspective = 10
+        ChartArea3.Area3DStyle.PointGapDepth = 900
+        ChartArea3.Area3DStyle.IsRightAngleAxes = False
+        ChartArea3.Area3DStyle.WallWidth = 25
+        ChartArea3.Area3DStyle.Rotation = 65
+        ChartArea3.Area3DStyle.Inclination = 70
+        ChartArea3.BackColor = System.Drawing.Color.Transparent
+        ChartArea3.BackSecondaryColor = System.Drawing.Color.Transparent
+        ChartArea3.InnerPlotPosition.Auto = False
+        ChartArea3.InnerPlotPosition.Height = 95.0F
+        ChartArea3.InnerPlotPosition.Width = 85.0F
+        ChartArea3.Position.Auto = False
+        ChartArea3.Position.Height = 70.0F
+        ChartArea3.Position.Width = 52.0F
+        ChartArea3.Position.X = 5.0F
+
+        'chrtbie.Series(0).Points(0)("PieLabelStyle") = "Disabled"
+        'chrtbie.Series(0).Points(1)("PieLabelStyle") = "Disabled"
+        'chrtbie.Series(1).Points(0)("PieLabelStyle") = "Disabled"
+        'chrtbie.Series(1).Points(1)("PieLabelStyle") = "Disabled"
+        'chrtbie.Series(2).Points(0)("PieLabelStyle") = "Disabled"
+        'chrtbie.Series(2).Points(1)("PieLabelStyle") = "Disabled"
+
+
+        chrtbie.ApplyPaletteColors()
+        chrtbie.Series(1).Points(0).Color = Color.FromArgb(215, c.ConvertFromString("#A0171F"))
+        chrtbie.Series(1).Points(1).Color = Color.FromArgb(200, c.ConvertFromString("#99CCFF"))
+        chrtbie.Series(1).Palette = ChartColorPalette.SemiTransparent
+
+        chrtbie.Series(0).Points(0).Color = Color.FromArgb(180, c.ConvertFromString("#CC9933"))
+        chrtbie.Series(0).Points(1).Color = Color.FromArgb(140, c.ConvertFromString("#006633"))
+        chrtbie.Series(0).Palette = ChartColorPalette.SemiTransparent
+
+        chrtbie.Series(2).Points(0).Color = Color.FromArgb(215, c.ConvertFromString("#CC6633"))
+        chrtbie.Series(2).Points(1).Color = Color.FromArgb(180, c.ConvertFromString("#9999FF"))
+        chrtbie.Series(2).Palette = ChartColorPalette.SemiTransparent
+    End Sub
+
+    'Public Sub fill_chart(ByVal dtCAChart As DataTable, ByVal xmember As String, ByVal ymemeber As String, ByVal Title As String, ByVal chartid As Integer)
+
+    '    Try
+
+    '        chrtbie.Series(chartid).ToolTip = "#PERCENT"
+    '        chrtbie.Series(chartid).LegendToolTip = "#LEGENDTEXT"
+    '        chrtbie.Series(chartid).PostBackValue = "#INDEX"
+    '        chrtbie.Series(chartid).LegendPostBackValue = "#INDEX"
+
+
+    '        chrtbie.DataSource = dtCAChart
+    '        chrtbie.Series(chartid).XValueMember = xmember
+    '        chrtbie.Series(chartid).YValueMembers = ymemeber
+    '        chrtbie.DataBind()
+    '        '' Set Doughnut chart type
+    '        chrtbie.Series(chartid).ChartType = SeriesChartType.Pie
+    '        '' Set labels style
+    '        chrtbie.Series(chartid)("PieLabelStyle") = "Disabled"
+    '        '' Set Doughnut radius percentage
+    '        chrtbie.Series(chartid)("DoughnutRadius") = "30"
+    '        '' Explode data point 
+    '        chrtbie.Series(chartid).Points(0)("Exploded") = "true"
+    '        '' Enable 3D
+    '        'chrtbie.ChartAreas("ChartArea1").Area3DStyle.Enable3D = True
+
+    '        ' Disable the Legend
+    '        chrtbie.Legends(0).Enabled = True
+    '        'chrtbie.Titles.Add(Title)
+
+    '        DoStairStackPie(Me.chrtbie)
+
+
+    '        chrtbie.Series(chartid).Points.AddXY(0, dtCAChart(ymemeber))
+    '        chrtbie.Series(chartid).Points.AddXY(1, dtCAChart(ymemeber))
+
+    '    Catch ex As Exception
+
+
+    '    End Try
+    'End Sub
+End Class
+

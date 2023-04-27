@@ -1,0 +1,36 @@
+﻿
+
+body, td, p {
+    font-size: 10pt;
+   font-family: 'Open sans', "JF Flat Regular", Tahoma !important;
+}
+.header {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.btn-group, .btn-group-vertical  {
+top:5px !important;
+}
+.dialog 
+{
+}
+
+.dialog form
+{
+	margin: 0px;
+}
+
+.message_info 
+{
+	/*background-color: #dc143c; */
+	background-color: Green;
+	color: White;
+}
+
+.message_warn 
+{
+	color: White;
+	background-color: #dc143c;
+}
+

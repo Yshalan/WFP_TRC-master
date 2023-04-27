@@ -1,0 +1,5 @@
+Dear Mr. "Employee name"
+
+I kindly request you to work on deducting the “number of days” from the salary of Mr. “Employee name” due to the fact that he received special 
+departures amounting to the “number of hours of departures”, provided that the remainder of the departures are credited, noting that his leave balance
+for the year “year” is zero.

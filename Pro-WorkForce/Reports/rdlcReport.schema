@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="rdlcReport" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="rdlcReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Primary_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Alternate_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Molecular_Form" type="xs:string" minOccurs="0" />
+              <xs:element name="CAS_Number" type="xs:string" minOccurs="0" />
+              <xs:element name="Herbal" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Restrictions" type="xs:string" minOccurs="0" />
+              <xs:element name="Common" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Mineral" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Human_Only" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Vet_Only" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

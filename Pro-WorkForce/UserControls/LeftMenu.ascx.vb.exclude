@@ -1,0 +1,407 @@
+﻿Imports SmartV.UTILITIES
+Imports System.Data
+Imports SmartV.Version
+Imports TA.Employees
+Imports TA.Security
+Imports TA.Admin
+Imports STSupremeKeyValidation.STSupremeKeyValidation
+
+Partial Class UserControls_LeftMenu
+    Inherits System.Web.UI.UserControl
+
+#Region "Class Variables"
+
+    Private PageName As String
+    Shared SelectedPage As String
+    Private lang As String
+    Private objVersion As version
+    Dim objEmp_Managers As Employee_Manager
+    Dim objEmp_DeputyManager As Emp_DeputyManager
+    Dim objSys_Modules As SYSModules
+    Dim objSys_Forms As SYSForms
+    Dim objEmp_HR As Emp_HR
+    Private objEmployee As Employee
+
+#End Region
+
+#Region "Page Events"
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If Not IsPostBack Then
+            If SessionVariables.CultureInfo = "ar-JO" Then
+                lang = CtlCommon.Lang.AR
+            Else
+                lang = CtlCommon.Lang.EN
+            End If
+
+            BuildMenu()
+        End If
+
+    End Sub
+
+    Protected Sub Repeater1_ItemDataBound(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.RepeaterItemEventArgs) Handles Repeater1.ItemDataBound
+        'Dim quickLink As HyperLink = e.Item.FindControl("link")
+        'If quickLink.TabIndex.ToString = "4" Then
+        'quickLink.Target = "_blank"
+        'End If
+
+    End Sub
+
+#End Region
+
+#Region "Methods"
+
+    'Public Sub BuildMenu()
+
+    '    Dim VersionType As Integer
+    '    VersionType = version.GetVersionType()
+
+    '    Dim BuildMenu As New SmartV.Security.MENU.SYSMenuCreator
+
+
+    '    Dim ModuleDT As DataTable
+    '    Dim ModuleName As String
+
+    '    Dim FormsDT As DataTable
+    '    Dim ModuleID As Integer
+
+    '    Dim SubFormsDT As DataTable
+    '    Dim FormID As Integer
+
+    '    Dim subFormID As Integer
+    '    Dim AllowedPages As String = ","
+
+
+    '    ModuleDT = BuildMenu.BuildMenu(SessionVariables.LoginUser.GroupId, 0, 0, 1)
+
+    '    If ModuleDT.Select("ModuleId = 9").Length <= 0 Then
+
+    '        Dim emp_ManagerID As String = SessionVariables.LoginUser.FK_EmployeeId
+
+    '        objEmp_Managers = New Employee_Manager()
+    '        With objEmp_Managers
+    '            .FK_ManagerId = emp_ManagerID
+    '            objEmp_Managers = .GetEmployeeManagerByManagerID()
+    '        End With
+
+    '        objEmp_DeputyManager = New Emp_DeputyManager()
+    '        With objEmp_DeputyManager
+    '            .FK_DeputyManagerId = emp_ManagerID
+    '            objEmp_DeputyManager = .GetByDeputyManager()
+    '        End With
+
+    '        objEmp_HR = New Emp_HR()
+    '        With objEmp_HR
+    '            .HREmployeeId = emp_ManagerID
+    '            objEmp_HR = .GetByPK()
+    '        End With
+
+    '        If Not objEmp_Managers Is Nothing Then
+    '            objSys_Modules = New SYSModules()
+    '            With objSys_Modules
+    '                .ModuleID = 9
+    '                .GetByPK()
+    '                Dim newRow As DataRow = ModuleDT.NewRow()
+    '                newRow("ModuleID") = .ModuleID
+    '                newRow("Desc_Ar") = .ArabicName
+    '                newRow("Desc_En") = .EnglishName
+    '                newRow("icon") = .icon
+    '                ModuleDT.Rows.Add(newRow)
+    '            End With
+    '        ElseIf Not objEmp_DeputyManager Is Nothing Then
+    '            If (objEmp_DeputyManager.ToDate = DateTime.MinValue) Or (objEmp_DeputyManager.ToDate > DateTime.Now AndAlso objEmp_DeputyManager.FromDate < DateTime.Now) Then
+    '                objSys_Modules = New SYSModules()
+    '                With objSys_Modules
+    '                    .ModuleID = 9
+    '                    .GetByPK()
+    '                    Dim newRow As DataRow = ModuleDT.NewRow()
+    '                    newRow("ModuleID") = .ModuleID
+    '                    newRow("Desc_Ar") = .ArabicName
+    '                    newRow("Desc_En") = .EnglishName
+    '                    newRow("icon") = .icon
+    '                    ModuleDT.Rows.Add(newRow)
+    '                End With
+    '            End If
+    '        ElseIf Not objEmp_HR Is Nothing Then
+    '            objSys_Modules = New SYSModules()
+    '            With objSys_Modules
+    '                .ModuleID = 9
+    '                .GetByPK()
+    '                Dim newRow As DataRow = ModuleDT.NewRow()
+    '                newRow("ModuleID") = .ModuleID
+    '                newRow("Desc_Ar") = .ArabicName
+    '                newRow("Desc_En") = .EnglishName
+    '                newRow("icon") = .icon
+    '                ModuleDT.Rows.Add(newRow)
+    '            End With
+    '        End If
+
+    '    End If
+
+
+
+
+    '    Dim rows As DataRow()
+    '    rows = ModuleDT.Select("ModuleId=" & SessionVariables.UserModuleId)
+    '    If rows.Count > 0 Then
+    '        lblHead.Text = IIf(SessionVariables.CultureInfo = "en-US", rows(0)(2), rows(0)(2))
+
+    '    End If
+
+
+
+
+    '    Dim i As Integer
+    '    Dim j, k As Integer
+    '    j = 0
+
+    '    For Each row In rows
+    '        ModuleID = row("ModuleID")
+    '        If SessionVariables.CultureInfo = "en-US" Then
+    '            ModuleName = row("Desc_En")
+    '            lblHead.Text = row("Desc_En")
+    '        Else
+    '            ModuleName = row("Desc_Ar")
+    '            lblHead.Text = row("Desc_Ar")
+    '        End If
+
+    '        FormsDT = BuildMenu.BuildLeftMenu(SessionVariables.LoginUser.GroupId, ModuleID, 0, 2, VersionType)
+
+    '        If (Not objEmp_Managers Is Nothing) Or (Not objEmp_DeputyManager Is Nothing) Then
+    '            If FormsDT.Rows.Count <= 0 Then
+    '                objSys_Forms = New SYSForms()
+    '                Dim dtFormsByModuleID As DataTable = objSys_Forms.GetFormsByModuleID(9)
+    '                For Each rowFrom As DataRow In dtFormsByModuleID.Rows
+    '                    Dim newRow As DataRow = FormsDT.NewRow()
+    '                    'If (rowFrom("FormID") = 814) Or (rowFrom("FormID") = 815) Or (rowFrom("FormID") = 818) Or (rowFrom("FormID") = 855) Or (rowFrom("FormID") = 874) Then
+    '                    If (rowFrom("FormID") = 874 Or rowFrom("FormID") = 940) Then
+    '                        newRow("ModuleID") = rowFrom("ModuleID")
+    '                        newRow("GroupID") = SessionVariables.LoginUser.GroupId
+    '                        newRow("Desc_En") = rowFrom("Desc_En")
+    '                        newRow("Desc_Ar") = rowFrom("Desc_Ar")
+    '                        newRow("FormPath") = rowFrom("FormPath")
+    '                        newRow("FormID") = rowFrom("FormID")
+    '                        FormsDT.Rows.Add(newRow)
+    '                    End If
+    '                Next
+    '            End If
+    '        ElseIf Not objEmp_HR Is Nothing Then
+    '            If FormsDT.Rows.Count <= 0 Then
+    '                objSys_Forms = New SYSForms()
+    '                Dim dtFormsByModuleID As DataTable = objSys_Forms.GetFormsByModuleID(9)
+    '                For Each rowFrom As DataRow In dtFormsByModuleID.Rows
+    '                    Dim newRow As DataRow = FormsDT.NewRow()
+    '                    'If (rowFrom("FormID") = 816) Or (rowFrom("FormID") = 817) Or (rowFrom("FormID") = 819) Or (rowFrom("FormID") = 856) Then
+    '                    If (rowFrom("FormID") = 941) Then
+    '                        newRow("ModuleID") = rowFrom("ModuleID")
+    '                        newRow("GroupID") = SessionVariables.LoginUser.GroupId
+    '                        newRow("Desc_En") = rowFrom("Desc_En")
+    '                        newRow("Desc_Ar") = rowFrom("Desc_Ar")
+    '                        newRow("FormPath") = rowFrom("FormPath")
+    '                        newRow("FormID") = rowFrom("FormID")
+    '                        FormsDT.Rows.Add(newRow)
+    '                    End If
+    '                Next
+    '            End If
+    '        End If
+    '        HideNursingRequest(FormsDT, ModuleID)
+    '        Repeater1.DataSource = FormsDT
+    '        Repeater1.DataBind()
+    '        i = 0
+    '    Next
+
+    '    'Dim ModuleRadPanelItem_Password As New Telerik.Web.UI.RadPanelItem
+    '    'With ModuleRadPanelItem_Password
+    '    '    If SessionVariables.CultureInfo = "en-US" Then
+    '    '        .Text = "Change Password"
+    '    '    Else
+    '    '        .Text = "تغيير كلمة السر"
+    '    '    End If
+    '    '    .NavigateUrl = "../Security/ChangePassword.aspx"
+    '    '    .ImageUrl = "../Icons/password.png"
+    '    'End With
+
+    '    'RadPanelBar1.Items.Add(ModuleRadPanelItem_Password)
+    'End Sub
+
+    Private Sub HideNursingRequest(ByVal FormsDT As DataTable, ByVal ModuleId As Integer)
+        objEmployee = New Employee
+        With objEmployee
+            .EmployeeId = SessionVariables.LoginUser.FK_EmployeeId
+            .GetByPK()
+            If .Gender = "m" And ModuleId = 8 Then
+                If FormsDT.Select("FormID=928").Length > 0 Then
+                    FormsDT.Rows.Remove(FormsDT.Select("FormID=928")(0))
+                End If
+
+
+            End If
+        End With
+    End Sub
+
+    Public Sub BuildMenu()
+
+        Dim VersionType As Integer
+        VersionType = version.GetVersionType()
+        Dim BuildMenu As New SmartV.Security.MENU.SYSMenuCreator
+        Dim ModuleDT As DataTable
+        Dim ModuleName As String
+        Dim FormsDT As DataTable
+        Dim ModuleID As Integer
+        Dim AllowedPages As String = ","
+
+        ModuleDT = BuildMenu.BuildMenu(SessionVariables.LoginUser.GroupId, 0, 0, 1)
+
+        If ModuleDT.Select("ModuleId = 9").Length <= 0 Then
+
+            Dim emp_ManagerID As String = SessionVariables.LoginUser.FK_EmployeeId
+
+            objEmp_Managers = New Employee_Manager()
+            With objEmp_Managers
+                .FK_ManagerId = emp_ManagerID
+                objEmp_Managers = .GetEmployeeManagerByManagerID()
+            End With
+
+            objEmp_DeputyManager = New Emp_DeputyManager()
+            With objEmp_DeputyManager
+                .FK_DeputyManagerId = emp_ManagerID
+                objEmp_DeputyManager = .GetByDeputyManager()
+            End With
+
+            objEmp_HR = New Emp_HR()
+            With objEmp_HR
+                .HREmployeeId = emp_ManagerID
+                objEmp_HR = .GetByPK()
+            End With
+
+            If Not objEmp_Managers Is Nothing Then
+                objSys_Modules = New SYSModules()
+                With objSys_Modules
+                    .ModuleID = 9
+                    .GetByPK()
+                    Dim newRow As DataRow = ModuleDT.NewRow()
+                    newRow("ModuleID") = .ModuleID
+                    newRow("Desc_Ar") = .ArabicName
+                    newRow("Desc_En") = .EnglishName
+                    newRow("icon") = .icon
+                    ModuleDT.Rows.Add(newRow)
+                End With
+            ElseIf Not objEmp_DeputyManager Is Nothing Then
+                If (objEmp_DeputyManager.ToDate = DateTime.MinValue) Or (objEmp_DeputyManager.ToDate > DateTime.Now AndAlso objEmp_DeputyManager.FromDate < DateTime.Now) Then
+                    objSys_Modules = New SYSModules()
+                    With objSys_Modules
+                        .ModuleID = 9
+                        .GetByPK()
+                        Dim newRow As DataRow = ModuleDT.NewRow()
+                        newRow("ModuleID") = .ModuleID
+                        newRow("Desc_Ar") = .ArabicName
+                        newRow("Desc_En") = .EnglishName
+                        newRow("icon") = .icon
+                        ModuleDT.Rows.Add(newRow)
+                    End With
+                End If
+            ElseIf Not objEmp_HR Is Nothing Then
+                objSys_Modules = New SYSModules()
+                With objSys_Modules
+                    .ModuleID = 9
+                    .GetByPK()
+                    Dim newRow As DataRow = ModuleDT.NewRow()
+                    newRow("ModuleID") = .ModuleID
+                    newRow("Desc_Ar") = .ArabicName
+                    newRow("Desc_En") = .EnglishName
+                    newRow("icon") = .icon
+                    ModuleDT.Rows.Add(newRow)
+                End With
+            End If
+
+        End If
+
+        Dim rows As DataRow()
+        rows = ModuleDT.Select("ModuleId=" & SessionVariables.UserModuleId)
+        If rows.Count > 0 Then
+            lblHead.Text = IIf(SessionVariables.CultureInfo = "en-US", rows(0)(2), rows(0)(2))
+
+        End If
+
+        Dim i As Integer
+        Dim j, k As Integer
+        j = 0
+        '---------Split License Forms and return Forms as arraylist of string----------'
+        Dim strLicenseForms As String
+        strLicenseForms = (SessionVariables.LicenseDetails.FormIds)
+        Dim arrLicenseForms As New List(Of String)(strLicenseForms.Split(","c))
+
+        '---------Split License Forms and return Forms as arraylist of string----------'
+
+        For Each row In rows
+            ModuleID = row("ModuleID")
+            If SessionVariables.CultureInfo = "en-US" Then
+                ModuleName = row("Desc_En")
+                lblHead.Text = row("Desc_En")
+            Else
+                ModuleName = row("Desc_Ar")
+                lblHead.Text = row("Desc_Ar")
+            End If
+
+            FormsDT = BuildMenu.BuildLeftMenu(SessionVariables.LoginUser.GroupId, ModuleID, 0, 2, VersionType)
+
+            If (Not objEmp_Managers Is Nothing) Or (Not objEmp_DeputyManager Is Nothing) Then
+                If FormsDT.Rows.Count <= 0 Then
+                    objSys_Forms = New SYSForms()
+                    Dim dtFormsByModuleID As DataTable = objSys_Forms.GetFormsByModuleID(9)
+                    For Each rowFrom As DataRow In dtFormsByModuleID.Rows
+                        Dim newRow As DataRow = FormsDT.NewRow()
+                        'If (rowFrom("FormID") = 814) Or (rowFrom("FormID") = 815) Or (rowFrom("FormID") = 818) Or (rowFrom("FormID") = 855) Or (rowFrom("FormID") = 874) Then
+                        If (rowFrom("FormID") = 874 Or rowFrom("FormID") = 940) Then
+                            newRow("ModuleID") = rowFrom("ModuleID")
+                            newRow("GroupID") = SessionVariables.LoginUser.GroupId
+                            newRow("Desc_En") = rowFrom("Desc_En")
+                            newRow("Desc_Ar") = rowFrom("Desc_Ar")
+                            newRow("FormPath") = rowFrom("FormPath")
+                            newRow("FormID") = rowFrom("FormID")
+                            If arrLicenseForms.Contains(newRow("FormID")) Then
+                                FormsDT.Rows.Add(newRow)
+                            End If
+                        End If
+                    Next
+                End If
+            ElseIf Not objEmp_HR Is Nothing Then
+                If FormsDT.Rows.Count <= 0 Then
+                    objSys_Forms = New SYSForms()
+                    Dim dtFormsByModuleID As DataTable = objSys_Forms.GetFormsByModuleID(9)
+                    For Each rowFrom As DataRow In dtFormsByModuleID.Rows
+                        Dim newRow As DataRow = FormsDT.NewRow()
+                        'If (rowFrom("FormID") = 816) Or (rowFrom("FormID") = 817) Or (rowFrom("FormID") = 819) Or (rowFrom("FormID") = 856) Then
+                        If (rowFrom("FormID") = 941) Then
+                            newRow("ModuleID") = rowFrom("ModuleID")
+                            newRow("GroupID") = SessionVariables.LoginUser.GroupId
+                            newRow("Desc_En") = rowFrom("Desc_En")
+                            newRow("Desc_Ar") = rowFrom("Desc_Ar")
+                            newRow("FormPath") = rowFrom("FormPath")
+                            newRow("FormID") = rowFrom("FormID")
+                            If arrLicenseForms.Contains(newRow("FormID")) Then
+                                FormsDT.Rows.Add(newRow)
+                            End If
+                        End If
+                    Next
+                End If
+            End If
+
+            If FormsDT IsNot Nothing AndAlso FormsDT.Rows.Count > 0 Then
+                For Each FormDTRow As DataRow In FormsDT.Rows
+                    If Not arrLicenseForms.Contains(FormDTRow("FormID")) Then
+                        FormDTRow.Delete()
+                    End If
+                Next
+            End If
+            HideNursingRequest(FormsDT, ModuleID)
+            Repeater1.DataSource = FormsDT
+            Repeater1.DataBind()
+            i = 0
+        Next
+
+    End Sub
+
+
+#End Region
+
+End Class

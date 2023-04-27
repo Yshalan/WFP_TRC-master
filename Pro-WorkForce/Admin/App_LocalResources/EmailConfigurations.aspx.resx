@@ -1,0 +1,1008 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BrFromFileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageButton1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImageButton1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Customer Arabic Name</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label2Resource1.Text" xml:space="preserve">
+    <value>Customer English Short Name</value>
+  </data>
+  <data name="Label2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label3Resource1.Text" xml:space="preserve">
+    <value>Customer Arabic Short Name</value>
+  </data>
+  <data name="Label3Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label4Resource1.Text" xml:space="preserve">
+    <value>Employee No. Length</value>
+  </data>
+  <data name="Label4Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label5Resource1.Text" xml:space="preserve">
+    <value>Employee Card Length</value>
+  </data>
+  <data name="Label5Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label6Resource1.Text" xml:space="preserve">
+    <value>Manage default overtime rule by</value>
+  </data>
+  <data name="Label6Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label7Resource1.Text" xml:space="preserve">
+    <value>Manage default TA Exception by</value>
+  </data>
+  <data name="Label7Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label8Resource1.Text" xml:space="preserve">
+    <value>Manage default Leave by</value>
+  </data>
+  <data name="Label8Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Label9Resource1.Text" xml:space="preserve">
+    <value>In Consequence Transactions Consider</value>
+  </data>
+  <data name="Label9Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCompanyName1Resource1.Text" xml:space="preserve">
+    <value>Customer English Name</value>
+  </data>
+  <data name="lblCompanyName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGraceResource1.Text" xml:space="preserve">
+    <value>Grace Period By</value>
+  </data>
+  <data name="lblGraceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLogoResource1.Text" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="lblLogoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblManageOvertimeResource1.Text" xml:space="preserve">
+    <value>Manage Overtime</value>
+  </data>
+  <data name="lblManageOvertimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource10.Text" xml:space="preserve">
+    <value>Work Schedule</value>
+  </data>
+  <data name="ListItemResource10.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource11.Text" xml:space="preserve">
+    <value>Calculate Before Schedule</value>
+  </data>
+  <data name="ListItemResource11.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource12.Text" xml:space="preserve">
+    <value>Calculate After Schedule</value>
+  </data>
+  <data name="ListItemResource12.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource13.Text" xml:space="preserve">
+    <value>Calculate Before and After Schedule</value>
+  </data>
+  <data name="ListItemResource13.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ListItemResource14.Text" xml:space="preserve">
+    <value>Calculate Real Time In</value>
+  </data>
+  <data name="ListItemResource14.Value" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ListItemResource15.Text" xml:space="preserve">
+    <value>First In/ Last Out</value>
+  </data>
+  <data name="ListItemResource15.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource16.Text" xml:space="preserve">
+    <value>Last In/ First Out</value>
+  </data>
+  <data name="ListItemResource16.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource9.Text" xml:space="preserve">
+    <value>TA Policy</value>
+  </data>
+  <data name="ListItemResource9.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Work Force Pro : : TA App Settings</value>
+  </data>
+  <data name="rdbConsequenceTransactionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbGraceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbManageOvertimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnDesignationAlResource1.Text" xml:space="preserve">
+    <value>Designation</value>
+  </data>
+  <data name="rdbtnDesignationAlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnDesignationotResource1.Text" xml:space="preserve">
+    <value>Designation</value>
+  </data>
+  <data name="rdbtnDesignationotResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnDesignationTaexResource1.Text" xml:space="preserve">
+    <value>Designation</value>
+  </data>
+  <data name="rdbtnDesignationTaexResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnGradeAlResource1.Text" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="rdbtnGradeAlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnGradeotResource1.Text" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="rdbtnGradeotResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnGradeTaexResource1.Text" xml:space="preserve">
+    <value>Grade</value>
+  </data>
+  <data name="rdbtnGradeTaexResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqFirstCompanyNameResource1.ErrorMessage" xml:space="preserve">
+    <value>Please enter First Company Name</value>
+  </data>
+  <data name="reqFirstCompanyNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reqFirstCompanyNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ThumbnailResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ThumbnailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirstCompanyNameArabicResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirstCompanyNameArabicResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirstCompanyNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFirstCompanyNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecondCompanyNameArabicResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecondCompanyNameArabicResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecondCompanyNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSecondCompanyNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnNoneResource1.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="rdbtnNoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabCustomerInfoResource1.HeaderText" xml:space="preserve">
+    <value>Customer Information</value>
+  </data>
+  <data name="TASettingtab.HeaderText" xml:space="preserve">
+    <value>Time Attendance Settings</value>
+  </data>
+  <data name="lblLeaveApprovalResource1.Text" xml:space="preserve">
+    <value>Self Service Workflow Level(s)</value>
+  </data>
+  <data name="lblLeaveApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnBothResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnBothResource1.Text" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="rdbtnDirectmgrResource1.Text" xml:space="preserve">
+    <value>Direct Manager Only</value>
+  </data>
+  <data name="rdbtnDirectmgrResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rdbtnHROnlyResource1.Text" xml:space="preserve">
+    <value>Human Resource Only</value>
+  </data>
+  <data name="rdbtnHROnlyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabDomainUsers.HeaderText" xml:space="preserve">
+    <value>Domain Users Settings</value>
+  </data>
+  <data name="lblSystemUsersResource1.Text" xml:space="preserve">
+    <value>System Users</value>
+  </data>
+  <data name="RadDomainResource1.Text" xml:space="preserve">
+    <value>Domain Users</value>
+  </data>
+  <data name="RadSystemUsersResource1.Text" xml:space="preserve">
+    <value>Application Users</value>
+  </data>
+  <data name="btnImportResource1.Text" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="lblDefaultPrivGroupResource1.Text" xml:space="preserve">
+    <value>Default Privileges Group</value>
+  </data>
+  <data name="lblSchedulesResource1.Text" xml:space="preserve">
+    <value>Default Work Schedules</value>
+  </data>
+  <data name="lblEmailNotificationResource1.Text" xml:space="preserve">
+    <value>Email Notifications</value>
+  </data>
+  <data name="rdbtnSendToHREmployeeOnlyResource1.Text" xml:space="preserve">
+    <value>Send To HR Employee Only</value>
+  </data>
+  <data name="rdbtnSendToHRGroupHREmployeeResource1.Text" xml:space="preserve">
+    <value>Send To HR Group &amp; HR Employee</value>
+  </data>
+  <data name="rdbtnSendToHRGroupResource1.Text" xml:space="preserve">
+    <value>Send To HR Group</value>
+  </data>
+  <data name="lblHREmailResource1.Text" xml:space="preserve">
+    <value>HR Group Email</value>
+  </data>
+  <data name="revHREmailResource1.ErrorMessage" xml:space="preserve">
+    <value>Please enter correct email</value>
+  </data>
+  <data name="lblMintransactiontimeResource1.Text" xml:space="preserve">
+    <value>Minimum Time Between Two Transactions</value>
+  </data>
+  <data name="lblDomainPassResource1.Text" xml:space="preserve">
+    <value>Domain Password</value>
+  </data>
+  <data name="lblDomainUserNameResource1.Text" xml:space="preserve">
+    <value>Domain User Name</value>
+  </data>
+  <data name="lblWeekStartDayResource1.Text" xml:space="preserve">
+    <value>Week Start Day</value>
+  </data>
+  <data name="lblDomainNameResource1.Text" xml:space="preserve">
+    <value>Domain Name</value>
+  </data>
+  <data name="lblOvertimeResource1.Text" xml:space="preserve">
+    <value>Allow Edit Over Time</value>
+  </data>
+  <data name="lblOvertimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource17.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource17.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource18.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource18.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblConsiderAbsentResource1.Text" xml:space="preserve">
+    <value>Consider Absent After</value>
+  </data>
+  <data name="lblConsiderAbsentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDynamicReportResource1.Text" xml:space="preserve">
+    <value>Dynamic Report View</value>
+  </data>
+  <data name="lblEmailfromResource1.Text" xml:space="preserve">
+    <value>Email From</value>
+  </data>
+  <data name="lblEnableEmailServiceResource1.Text" xml:space="preserve">
+    <value>Enable Email Service</value>
+  </data>
+  <data name="lblLeaveApprovalFromResource1.Text" xml:space="preserve">
+    <value>Leave Approval From</value>
+  </data>
+  <data name="lblShowSTSupremeLogoResource1.Text" xml:space="preserve">
+    <value>Show Smart Time Logo</value>
+  </data>
+  <data name="lblSMTPConfirmPsswordResource1.Text" xml:space="preserve">
+    <value>SMTP Confirm Password</value>
+  </data>
+  <data name="lblSMTPPsswordResource1.Text" xml:space="preserve">
+    <value>SMTP Password</value>
+  </data>
+  <data name="lblSmtpServerResource1.Text" xml:space="preserve">
+    <value>SMTP Server</value>
+  </data>
+  <data name="lblSMTPUserNameResource1.Text" xml:space="preserve">
+    <value>SMTP User Name</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>System Users</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Domain</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>Mixed Mode</value>
+  </data>
+  <data name="regEmailFromResource1.ErrorMessage" xml:space="preserve">
+    <value>Please Enter Correct Email</value>
+  </data>
+  <data name="rfvEmailfromResource1.ErrorMessage" xml:space="preserve">
+    <value>Please Enter Email From</value>
+  </data>
+  <data name="rfvSmtpPasswordResource1.ErrorMessage" xml:space="preserve">
+    <value>Please enter SMTP Password</value>
+  </data>
+  <data name="rfvSmtpServerResource1.ErrorMessage" xml:space="preserve">
+    <value>Please Enter SMTP Server</value>
+  </data>
+  <data name="rfvSmtpUserNameResource1.ErrorMessage" xml:space="preserve">
+    <value>Please enter SMTP User Name</value>
+  </data>
+  <data name="tabEmailConfigurationsResource1.HeaderText" xml:space="preserve">
+    <value>Email Configurations</value>
+  </data>
+  <data name="valCompConfirmResource1.ErrorMessage" xml:space="preserve">
+    <value>Please Confirm the Password</value>
+  </data>
+  <data name="lblSendHRNotificationResource1.Text" xml:space="preserve">
+    <value>Send Notification To HR </value>
+  </data>
+  <data name="lblSendManagerNotificationResource1.Text" xml:space="preserve">
+    <value>Send Notification To Manager </value>
+  </data>
+  <data name="ListItemResource21.Text" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="ListItemResource22.Text" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="ListItemResource23.Text" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="rfvReportView.ErrorMessage" xml:space="preserve">
+    <value>Please Select Report View Method</value>
+  </data>
+  <data name="lblMinutesResource1.Text" xml:space="preserve">
+    <value>Minute(s)</value>
+  </data>
+  <data name="lblNoShiftShceduleResource1.Text" xml:space="preserve">
+    <value>Advance Schedule With no Shift</value>
+  </data>
+  <data name="ListItemResource24.Text" xml:space="preserve">
+    <value>Consider it Off Day</value>
+  </data>
+  <data name="ListItemResource25.Text" xml:space="preserve">
+    <value>Consider Default Schedule</value>
+  </data>
+  <data name="lblDaysResource1.Text" xml:space="preserve">
+    <value>Day(s)</value>
+  </data>
+  <data name="lblNursingDaysResource1.Text" xml:space="preserve">
+    <value>Nursing Days</value>
+  </data>
+  <data name="rdbtnDMHRGMResource1.Text" xml:space="preserve">
+    <value>DM,HR,GM</value>
+  </data>
+  <data name="RadComboBoxItemResource2.Text" xml:space="preserve">
+    <value>Application Settings</value>
+  </data>
+  <data name="RadComboBoxItemResource3.Text" xml:space="preserve">
+    <value>Leave Defintion</value>
+  </data>
+  <data name="lblConsiderDaysResource1.Text" xml:space="preserve">
+    <value>Consider Days</value>
+  </data>
+  <data name="reqConsiderDaysResource1.ErrorMessage" xml:space="preserve">
+    <value>Please enter Consider Days</value>
+  </data>
+  <data name="lblHasFullDayPermissionResource1.Text" xml:space="preserve">
+    <value>Has Full Day Permission</value>
+  </data>
+  <data name="lblEnableSMSServiceResource1.Text" xml:space="preserve">
+    <value>Enable SMS Service</value>
+  </data>
+  <data name="lblChangeNoResource1.Text" xml:space="preserve">
+    <value>Allow Change Employee No. for</value>
+  </data>
+  <data name="ListItemResource26.Text" xml:space="preserve">
+    <value>All Employees</value>
+  </data>
+  <data name="ListItemResource26.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListItemResource27.Text" xml:space="preserve">
+    <value>Internal Employees</value>
+  </data>
+  <data name="ListItemResource27.Value" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItemResource28.Text" xml:space="preserve">
+    <value>External Employees</value>
+  </data>
+  <data name="ListItemResource28.Value" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblAllowedManualResource1.Text" xml:space="preserve">
+    <value>Self Service Manual Entry Allowed Before</value>
+  </data>
+  <data name="lblAllowedManualResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStudyPermScheduleResource1.Text" xml:space="preserve">
+    <value>Study Permission Work Schedule</value>
+  </data>
+  <data name="lblStudyPermScheduleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNursingPermAttendResource1.Text" xml:space="preserve">
+    <value>Self Service Nursing Permission Allowed When Employee Attend To Work</value>
+  </data>
+  <data name="lblNursingPermAttendResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RadComboBoxItemResource4.Text" xml:space="preserve">
+    <value>Permission Definition</value>
+  </data>
+  <data name="lblPermissionApprovalFromResource1.Text" xml:space="preserve">
+    <value>Permission Approval From</value>
+  </data>
+  <data name="lblPermissionApprovalFromResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNoManualEntryResource1.Text" xml:space="preserve">
+    <value>No. Of Allowed Entry Requests Per Day</value>
+  </data>
+  <data name="lblNoManualEntryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMinOutViolation.Text" xml:space="preserve">
+    <value>Minimum Out Duration To Be Shown In Violation Correction</value>
+  </data>
+  <data name="lblMinOutViolation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimesResource1.Text" xml:space="preserve">
+    <value>Time(s)</value>
+  </data>
+  <data name="lblTimesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHREmailFormatResource1.Text" xml:space="preserve">
+    <value>HR Report Format</value>
+  </data>
+  <data name="lblHREmailFormatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMgrEmailFormatResource1.Text" xml:space="preserve">
+    <value>Manager Report Format</value>
+  </data>
+  <data name="lblMgrEmailFormatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource29.Text" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="ListItemResource30.Text" xml:space="preserve">
+    <value>Email Template</value>
+  </data>
+  <data name="lblManagerLevelResource1.Text" xml:space="preserve">
+    <value>Manager Level Required For Self Service Manual Entry Request(s) Approval</value>
+  </data>
+  <data name="lblManagerLevelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHasEmailApprovalResource1.Text" xml:space="preserve">
+    <value>Has Email Approval</value>
+  </data>
+  <data name="lblHasEmailApprovalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblShowLoginFormResource1.Text" xml:space="preserve">
+    <value>Show Login Form</value>
+  </data>
+  <data name="lblShowViolationCorrectionResource1.Text" xml:space="preserve">
+    <value>Show Violation Correction</value>
+  </data>
+  <data name="lblMaternityLeaveTypeResource1.Text" xml:space="preserve">
+    <value>Maternity Leave Type</value>
+  </data>
+  <data name="lblNursingRequireMaternityResource1.Text" xml:space="preserve">
+    <value>Must have Maternity Leave to apply for Nursing Permission</value>
+  </data>
+  <data name="lblPersonalPermissionTypeResource1.Text" xml:space="preserve">
+    <value>Personal Permission Type</value>
+  </data>
+  <data name="lblEarlyOutNotificationsResource1.Text" xml:space="preserve">
+    <value>Early Out Notification to be Sent After</value>
+  </data>
+  <data name="lblEmployeeRequestsResource1.Text" xml:space="preserve">
+    <value>List Of Requests to Appeare in Requests Pages</value>
+  </data>
+  <data name="lblPermissionReminderResource1.Text" xml:space="preserve">
+    <value>Reminder Permissions Requests For Manager after</value>
+  </data>
+  <data name="lblHasFlexibleNursingPermissionResource1.Text" xml:space="preserve">
+    <value>Has Flexible Nursing Permission</value>
+  </data>
+  <data name="lblHasFlexiblePermissionResource1.Text" xml:space="preserve">
+    <value>Has Flexible Study Permission</value>
+  </data>
+  <data name="lblHasPermissionForPeriodResource1.Text" xml:space="preserve">
+    <value>Has Permission For Period</value>
+  </data>
+  <data name="lblShowAbsentInViolationCorrectionResource1.Text" xml:space="preserve">
+    <value>Show Absent In Violation Correction</value>
+  </data>
+  <data name="HoursResource1.Text" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="lblConsiderPermissionBalanceResource1.Text" xml:space="preserve">
+    <value>Consider Permission Balance In</value>
+  </data>
+  <data name="MinutesResource1.Text" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="lblDurationTotalsToAppearResource1.Text" xml:space="preserve">
+    <value>Employee Summary Page</value>
+  </data>
+  <data name="lblShowThemeToUsersResource1.Text" xml:space="preserve">
+    <value>Show Themes To Users</value>
+  </data>
+  <data name="lblAttachmentIsMandatoryPermissionResource1.Text" xml:space="preserve">
+    <value>Attachment Is Mandatory For Nursing &amp; Study Permission</value>
+  </data>
+  <data name="FilterItemResource17.Text" xml:space="preserve">
+    <value>Filter Page</value>
+  </data>
+  <data name="lblIsFirstGridResource1.Text" xml:space="preserve">
+    <value>In Self Service Request First Page to Show</value>
+  </data>
+  <data name="RequestItemResource18.Text" xml:space="preserve">
+    <value>Request Page</value>
+  </data>
+  <data name="tabPermissionsAndLeavesResource1.HeaderText" xml:space="preserve">
+    <value>Permissions And Leaves</value>
+  </data>
+  <data name="lblDefaultStudyPermissionTimeResource1.Text" xml:space="preserve">
+    <value>Default Study Permission Time</value>
+  </data>
+  <data name="lblDivideTwoPermissionResource1.Text" xml:space="preserve">
+    <value>Show Divide Two Permission</value>
+  </data>
+  <data name="lblFromTimeResource1.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="lblShowAnnouncementResource1.Text" xml:space="preserve">
+    <value>Show Announcement on Home Page</value>
+  </data>
+  <data name="lblStudyPermissionFlexibleTimeResource1.Text" xml:space="preserve">
+    <value>Default Study Permission Flexible Time</value>
+  </data>
+  <data name="lblToTimeResource1.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="lblMaternityLeaveDurationResource1.Text" xml:space="preserve">
+    <value>Maternity Leave Duration</value>
+  </data>
+  <data name="lblMonthsResource1.Text" xml:space="preserve">
+    <value>Month(s)</value>
+  </data>
+  <data name="lblNursingPermissionApprovalResource1.Text" xml:space="preserve">
+    <value>Nursing Permission Workflow Level(s)</value>
+  </data>
+  <data name="lblStudyPermissionApprovalResource1.Text" xml:space="preserve">
+    <value>Study Permission Workflow Level(s)</value>
+  </data>
+  <data name="rdbtnNursingBothResource1.Text" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="rdbtnNursingDirectmgrResource1.Text" xml:space="preserve">
+    <value>Direct Manager Only</value>
+  </data>
+  <data name="rdbtnNursingDMHRGMResource1.Text" xml:space="preserve">
+    <value>DM,HR,GM</value>
+  </data>
+  <data name="rdbtnNursingHROnlyResource1.Text" xml:space="preserve">
+    <value>Human Resource Only</value>
+  </data>
+  <data name="rdbtnStudyBothResource1.Text" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="rdbtnStudyDirectmgrResource1.Text" xml:space="preserve">
+    <value>Direct Manager Only</value>
+  </data>
+  <data name="rdbtnStudyDMHRGMResource1.Text" xml:space="preserve">
+    <value>DM,HR,GM</value>
+  </data>
+  <data name="rdbtnStudyHROnlyResource1.Text" xml:space="preserve">
+    <value>Human Resource Only</value>
+  </data>
+  <data name="lblMaxStudyDurationResource1.Text" xml:space="preserve">
+    <value>Maximum Duration of Study Permission</value>
+  </data>
+  <data name="lblNursingGeneralGuideArResource1.Text" xml:space="preserve">
+    <value>Arabic General Guide for Nursing Permission</value>
+  </data>
+  <data name="lblNursingGeneralGuideResource1.Text" xml:space="preserve">
+    <value>General Guide for Nursing Permission</value>
+  </data>
+  <data name="lblStudyGeneralGuideArResource1.Text" xml:space="preserve">
+    <value>Arabic General Guide for Study Permission</value>
+  </data>
+  <data name="lblStudyGeneralGuideResource1.Text" xml:space="preserve">
+    <value>General Guide for Study Permission</value>
+  </data>
+  <data name="lblAllowMoreOneManualEntryResource1.Text" xml:space="preserve">
+    <value>Allow More One Request Manual Entry</value>
+  </data>
+  <data name="lblShowAnnouncementSelfSeviceResource1.Text" xml:space="preserve">
+    <value>Show Announcement on Self Service</value>
+  </data>
+  <data name="lblOnCallScheduleResource1.Text" xml:space="preserve">
+    <value>Employee On Call Work Schedule</value>
+  </data>
+  <data name="lblAllowNursingPermissionInRamadanResource1.Text" xml:space="preserve">
+    <value>Allow Nursing Permission In Rmadan</value>
+  </data>
+  <data name="lblShowEmployeeListResource1.Text" xml:space="preserve">
+    <value>Show Employee Filter List</value>
+  </data>
+  <data name="lblAbsentResource1.Text" xml:space="preserve">
+    <value>Absent Report For</value>
+  </data>
+  <data name="lblViolationResource1.Text" xml:space="preserve">
+    <value>Violations Report For</value>
+  </data>
+  <data name="ListItemMonth.Text" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="ListItemWeek.Text" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="ListItemYear.Text" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="ListItemAbsent.Text" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="ListItemLogicalAbsent.Text" xml:space="preserve">
+    <value>Logical Absent</value>
+  </data>
+  <data name="lblReminderAbsentAfter.Text" xml:space="preserve">
+    <value>Reminder Absent After</value>
+  </data>
+  <data name="lblDailyResource1.Text" xml:space="preserve">
+    <value>Daily Report For</value>
+  </data>
+  <data name="lblDetailedResource1.Text" xml:space="preserve">
+    <value>Detailed Report For</value>
+  </data>
+  <data name="lblSummaryResource1.Text" xml:space="preserve">
+    <value>Summary Report For</value>
+  </data>
+  <data name="ListItemNone.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="lblConsiderAbsentEvenIfAttendResource1.Text" xml:space="preserve">
+    <value>Consider Absent Even If Attend</value>
+  </data>
+  <data name="ExcelResource3.Text" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="lblDefaultReportFormatResource1.Text" xml:space="preserve">
+    <value>Default Report Format</value>
+  </data>
+  <data name="PDFResource1.Text" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="WordResource2.Text" xml:space="preserve">
+    <value>Word</value>
+  </data>
+  <data name="lblHasMultiApprovalResource1.Text" xml:space="preserve">
+    <value>Has Multi Approval</value>
+  </data>
+  <data name="DirectItemResource17.Text" xml:space="preserve">
+    <value>Show Only Direct Reported Employees</value>
+  </data>
+  <data name="IndirectItemResource18.Text" xml:space="preserve">
+    <value>Show Direct and Indirect reported Employees</value>
+  </data>
+  <data name="lblEmployeeManagerFilterResource.Text" xml:space="preserve">
+    <value>Manager Reports Filter</value>
+  </data>
+  <data name="ColoredReport" xml:space="preserve">
+    <value>Colored Report</value>
+  </data>
+  <data name="NormalReport" xml:space="preserve">
+    <value>Normal Report</value>
+  </data>
+  <data name="lblReminderAbsentAfterResource1.Text" xml:space="preserve">
+    <value>Reminder Absent After</value>
+  </data>
+  <data name="lblIncompleteWorkingHrsResource1.Text" xml:space="preserve">
+    <value>Notify If Not Complete Working Hours</value>
+  </data>
+  <data name="lblSendEmployeeNotificationResource1.Text" xml:space="preserve">
+    <value>Send To Employee Notification</value>
+  </data>
+  <data name="lblSendEntityMgrNotificationResource1.Text" xml:space="preserve">
+    <value>Send To Entity Manager Notification</value>
+  </data>
+  <data name="lblIncludeNotifications_CoordinatorTypesResource1.Text" xml:space="preserve">
+    <value>Include Coordinator Types In Notifications</value>
+  </data>
+  <data name="ListItemNoResource1.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemYesResource1.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="chkYearlyReportFromYearBeginingResource1.Text" xml:space="preserve">
+    <value>Yearly Report From Beginning Of Year</value>
+  </data>
+  <data name="lblEmployeeAbsentResource1.Text" xml:space="preserve">
+    <value>Absent Report For</value>
+  </data>
+  <data name="lblEmployeeDetailedAbsentResource1.Text" xml:space="preserve">
+    <value>Detailed Absent Report For</value>
+  </data>
+  <data name="lblEmployeeLostTimeDetailsResource1.Text" xml:space="preserve">
+    <value>Lost Time Details Report For</value>
+  </data>
+  <data name="lblMgrEmpSummaryAttendanceResource1.Text" xml:space="preserve">
+    <value>Employee Summary Attendance Report For</value>
+  </data>
+  <data name="lblEmployeeEmpDeductionResource1.Text" xml:space="preserve">
+    <value>Monthly Deduction Report For</value>
+  </data>
+  <data name="lblEmployeeEmpDeductionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEntityManagerEmpDeductionResource1.Text" xml:space="preserve">
+    <value>Monthly Deduction Report For</value>
+  </data>
+  <data name="lblEntityManagerEmpDeductionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHrEmpDeductionResource1.Text" xml:space="preserve">
+    <value>Monthly Deduction Report For</value>
+  </data>
+  <data name="lblHrEmpDeductionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMgrEmpDeductionResource1.Text" xml:space="preserve">
+    <value>Monthly Deduction Report For</value>
+  </data>
+  <data name="lblMgrEmpDeductionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeductionEmailFormatResource1.Text" xml:space="preserve">
+    <value>Approved Deduction Notification Format</value>
+  </data>
+  <data name="lblDeductionEmailFormatResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmployeeSummaryResource1.Text" xml:space="preserve">
+    <value>Summary Report For</value>
+  </data>
+  <data name="lblEmployeeSummaryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEntityManagerMaxAbsentResource1.Text" xml:space="preserve">
+    <value>Max Abesent Employee(s) Report For</value>
+  </data>
+  <data name="lblEntityManagerMaxAbsentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEntityManagerMaxDelayResource1.Text" xml:space="preserve">
+    <value>Max Delay Employee(s) Report For</value>
+  </data>
+  <data name="lblEntityManagerMaxDelayResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSendDaily_AbsentDelay_EntityMgrResource1.Text" xml:space="preserve">
+    <value>Send Entity Manager(s) Daily Summary Report</value>
+  </data>
+  <data name="lblDeductionPerPolicy_ValueResource1.Text" xml:space="preserve">
+    <value>Deduction Report Per Policy Value To Be Considered</value>
+  </data>
+  <data name="lblDeductionPerPolicy_ValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmployeeDeductionPerPolicyResource1.Text" xml:space="preserve">
+    <value>Deduction Per Policy Report For</value>
+  </data>
+  <data name="lblEmployeeDeductionPerPolicyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEntityManagerDeductionPerPolicyResource1.Text" xml:space="preserve">
+    <value>Deduction Per Policy Report For</value>
+  </data>
+  <data name="lblEntityManagerDeductionPerPolicyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHRDeductionPerPolicyResource1.Text" xml:space="preserve">
+    <value>Deduction Per Policy Report For</value>
+  </data>
+  <data name="lblHRDeductionPerPolicyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMgrDeductionPerPolicyResource1.Text" xml:space="preserve">
+    <value>Deduction Per Policy Report For</value>
+  </data>
+  <data name="lblMgrDeductionPerPolicyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

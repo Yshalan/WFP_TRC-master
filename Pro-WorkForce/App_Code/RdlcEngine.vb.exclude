@@ -1,0 +1,187 @@
+﻿Imports Microsoft.VisualBasic
+Imports System.Collections.Generic
+Imports System.Text
+Imports System.Xml
+Imports System.Collections
+Imports System.Data
+Imports System.Web
+Imports System.Windows.Forms
+Imports System.Configuration
+
+Namespace DATAC_Reporting
+    ''' <summary>    
+    ''' Summary description for RdlcEngine    
+    ''' </summary>    
+    ''' 
+
+    Public Class RdlcEngine
+        '            
+        ' TODO: Add constructor logic here            
+        '        
+        Public Sub New()
+        End Sub
+
+#Region "bind control"
+
+        Public Shared Sub BindControl(ByVal rv As Microsoft.Reporting.WebForms.ReportViewer, ByVal data As DataSet, ByVal Title As String)
+            Dim name As String = "rdlcReport"
+            Dim virtualRldc As String = RdlcEngine.BuildRDLC(data, name, Title)
+            BindControl(rv, data, name, virtualRldc)
+        End Sub
+        Public Shared Sub BindControl(ByVal rv As Microsoft.Reporting.WebForms.ReportViewer, ByVal data As DataSet, ByVal name As String, ByVal virtualRldc As String)
+            rv.ProcessingMode = Microsoft.Reporting.WebForms.ProcessingMode.Local
+            Dim rds As New Microsoft.Reporting.WebForms.ReportDataSource()
+            rds.Name = name & "_Table"
+            rds.Value = data.Tables(0)
+            rv.Reset()
+            Dim r As Microsoft.Reporting.WebForms.LocalReport = rv.LocalReport
+            r.ReportPath = virtualRldc
+            r.DataSources.Clear()
+            r.DataSources.Add(rds)
+        End Sub
+#End Region
+
+#Region "RDLC"
+        ''' <summary>        
+        ''' constructs a simple report RDLC file based on a DataSet        
+        ''' </summary>        
+        ''' <param name="data"></param>        
+        ''' <param name="name"></param>        
+        ''' <returns></returns>        
+        ''' 
+        Public Shared Function BuildRDLC(ByVal data As DataSet, ByVal name As String, ByVal Title As String) As String
+            ' establish some file names        
+
+
+            Dim virtualXslt As String = ConfigurationManager.AppSettings("rdlcpath").ToString() & "\rdlc.xsl"
+
+            Dim virtualRdlc As String = ConfigurationManager.AppSettings("rdlcpath").ToString() & "\" & name & ".rdlc"
+            Dim virtualSchema As String = ConfigurationManager.AppSettings("rdlcpath").ToString() & "\" & name & ".schema"
+            ' set the NAME on the DataSet            
+            ' this may or may not be necessary, but the RDLC and DataSet            
+            ' will both have the same name if this is done.            
+            data.DataSetName = name
+            ' write the DataSet Schema to a file            
+            ' we should be passing a DataSet with only one DataTable            
+            ' the rdlc.xsl does not account for multiple DataTables            
+            Dim physicalSchema As String = virtualSchema
+            data.WriteXmlSchema(physicalSchema)
+            ' load the DataSet schema in a DOM            
+            Dim xmlDomSchema As New XmlDocument()
+            xmlDomSchema.Load(physicalSchema)
+            ' append the NAME to the schema DOM             
+            ' this is so we can pick it up in the rdlc.xsl            
+            ' and use it            
+            xmlDomSchema.DocumentElement.SetAttribute("Name", name & "_Table")
+            'Dim space As Double = 0
+            'If ((Screen.PrimaryScreen.Bounds.Width * 0.010416667) - (data.Tables(0).Columns.Count)) > 0 Then
+            '    space = ((Screen.PrimaryScreen.Bounds.Width * 0.010416667) - (data.Tables(0).Columns.Count)) / 2
+            'End Ife
+
+            'Dim space2 As Double = 0
+            'If ((Screen.PrimaryScreen.Bounds.Width * 0.010416667) - (3) > 0) Then
+            '    space2 = ((Screen.PrimaryScreen.Bounds.Width * 0.010416667) - (3)) / 2
+            'End If
+
+            xmlDomSchema.DocumentElement.SetAttribute("Left", 0 & "in")
+            xmlDomSchema.DocumentElement.SetAttribute("Left2", 2 & "in")
+            xmlDomSchema.DocumentElement.SetAttribute("Title", Title)
+            ' transform the Schema Xml with rdlc.xsl            
+            Dim physicalXslt As String = virtualXslt
+            Dim xml As String = TransformXml(xmlDomSchema.OuterXml, physicalXslt)
+            ' save off the resultng RDLC file            
+            Dim physicalRdlc As String = virtualRdlc
+            Dim xmlDomRdlc As New XmlDocument()
+            xmlDomRdlc.LoadXml(xml)
+            xmlDomRdlc.Save(physicalRdlc)
+            ' return the virtual path of the RDLC file            
+            ' this is needed by the asp:ReportViewer            
+            Return virtualRdlc
+        End Function
+#End Region
+
+#Region "Render"
+        Public Shared Function RenderReport(ByVal data As DataSet, ByVal name As String, ByVal type As String) As Byte()
+            Dim rds As New Microsoft.Reporting.WebForms.ReportDataSource()
+            rds.Name = name & "_Table"
+            rds.Value = data.Tables(0)
+            Dim virtualRdlc As String = BuildRDLC(data, name, "")
+            Dim lr As New Microsoft.Reporting.WebForms.LocalReport()
+            lr.ReportPath = virtualRdlc
+            lr.DataSources.Add(rds)
+            Return RenderReport(lr, name, type)
+        End Function
+        Public Shared Function RenderReport(ByVal lr As Microsoft.Reporting.WebForms.LocalReport, ByVal name As String, ByVal type As String) As Byte()
+            Dim extension As String = String.Empty
+            Dim mimeType As String = String.Empty
+            Select Case type
+                Case "PDF"
+                    extension = "pdf"
+                    mimeType = "application/pdf"
+                    Exit Select
+                Case "Excel"
+                    extension = "xls"
+                    mimeType = "application/vnd.excel"
+                    Exit Select
+                Case "Image"
+                    extension = "emf"
+                    mimeType = "application/image"
+                    Exit Select
+                Case Else
+                    Throw New Exception("Unrecognized type: " & type & ".  Type must be PDF, Excel or Image.")
+            End Select
+            'The DeviceInfo settings should be changed based on the reportType            
+            'http://msdn2.microsoft.com/en-us/library/ms155397.aspx            
+            Dim sb As New System.Text.StringBuilder()
+            sb.Append("<DeviceInfo>")
+            sb.Append("<OutputFormat>")
+            sb.Append(type)
+            sb.Append("</OutputFormat>")
+            sb.Append("<PageWidth>11in</PageWidth>")
+            sb.Append("<PageHeight>8.5in</PageHeight>")
+            sb.Append("<MarginTop>1in</MarginTop>")
+            sb.Append("<MarginLeft>1in</MarginLeft>")
+            sb.Append("<MarginRight>1in</MarginRight>")
+            sb.Append("<MarginBottom>1in</MarginBottom>")
+            sb.Append("</DeviceInfo>")
+            Dim deviceInfo As String = sb.ToString()
+            Dim encoding As String
+            Dim warnings As Microsoft.Reporting.WebForms.Warning()
+            Dim streams As String()
+            Dim result As Byte()
+            'Render the report            
+            result = lr.Render(type, deviceInfo, mimeType, encoding, extension, streams, _
+             warnings)
+            HttpContext.Current.Response.Clear()
+            HttpContext.Current.Response.ContentType = mimeType
+            HttpContext.Current.Response.AddHeader("content-disposition", "attachment; filename=" & name & "." & extension)
+
+            HttpContext.Current.Response.BinaryWrite(result)
+            HttpContext.Current.Response.[End]()
+            Return result
+        End Function
+#End Region
+
+        Public Shared Function TransformXml(ByVal xml As String, ByVal xslFile As String) As String
+            Dim result As String = String.Empty
+            Try
+
+                Using memory As New System.IO.MemoryStream(System.Text.Encoding.UTF8.GetBytes(xml))
+                    Dim transform As New System.Xml.Xsl.XslCompiledTransform()
+                    transform.Load(xslFile)
+                    Dim xpathDoc As New System.Xml.XPath.XPathDocument(memory)
+                    Dim sb As New System.Text.StringBuilder()
+                    Dim sw As New System.IO.StringWriter(sb)
+                    transform.Transform(xpathDoc, Nothing, sw)
+                    '.Replace("_x0020_", "_");
+                    result = sb.ToString()
+                End Using
+                Return result
+            Catch ex As Exception
+                Return result
+            End Try
+
+        End Function
+    End Class
+
+End Namespace

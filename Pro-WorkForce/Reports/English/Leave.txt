@@ -1,0 +1,4 @@
+Dear Mr. "Employee Name"
+
+I kindly request you to work on deducting the “number of days” from the salary of Mr. “Employee Name” because he took leave on the “date of the leave”, 
+noting that his leave balance for the year “year” is zero.
