@@ -218,17 +218,17 @@ Namespace SmartV.Version
                     intCountCompny = dtUsersCount.Rows(0)("CompaniesCount").ToString
                 End If
 
-                If Not SessionVariables.LicenseDetails.Employees = -1 Then
-                    If CInt(SessionVariables.LicenseDetails.Employees) < intCountEmployees Then
-                        ' If 30000 < intCountEmployees Then
-                        If SessionVariables.CultureInfo = "ar-JO" Then
-                            strErrorMessage = "الر جاء تحديث رخصة النظام، عدد الموظفين تجاوز رخصة النظام. الرقم المتسلسل : " + strMACAddress.ToString()
-                        Else
-                            strErrorMessage = "Please Update Your License Key, Number of Employees Exceeded License Limit. Serial No is: " + strMACAddress.ToString()
-                        End If
-                        Exit Try
-                    End If
-                End If
+                'If Not SessionVariables.LicenseDetails.Employees = -1 Then
+                '    If CInt(SessionVariables.LicenseDetails.Employees) < intCountEmployees Then
+                '        ' If 30000 < intCountEmployees Then
+                '        If SessionVariables.CultureInfo = "ar-JO" Then
+                '            strErrorMessage = "الر جاء تحديث رخصة النظام، عدد الموظفين تجاوز رخصة النظام. الرقم المتسلسل : " + strMACAddress.ToString()
+                '        Else
+                '            strErrorMessage = "Please Update Your License Key, Number of Employees Exceeded License Limit. Serial No is: " + strMACAddress.ToString()
+                '        End If
+                '        Exit Try
+                '    End If
+                'End If
 
                 If CInt(SessionVariables.LicenseDetails.NoOfCompanies) < intCountCompny Then
                     If SessionVariables.CultureInfo = "ar-JO" Then
@@ -250,16 +250,16 @@ Namespace SmartV.Version
                     Exit Try
                 End If
 
-                If Not SessionVariables.LicenseDetails.Users = -1 Then
-                    If CInt(SessionVariables.LicenseDetails.Users) < intCountUsers Then
-                        If SessionVariables.CultureInfo = "ar-JO" Then
-                            strErrorMessage = "الر جاء تحديث رخصة النظام، عدد المستخدمين تجاوز رخصة النظام. الرقم المتسلسل :" + strMACAddress.ToString()
-                        Else
-                            strErrorMessage = "Please Update Your License Key, Number of Users Exceeded License Limit. Serial No is: " + strMACAddress.ToString()
-                        End If
-                        Exit Try
-                    End If
-                End If
+                'If Not SessionVariables.LicenseDetails.Users = -1 Then
+                '    If CInt(SessionVariables.LicenseDetails.Users) < intCountUsers Then
+                '        If SessionVariables.CultureInfo = "ar-JO" Then
+                '            strErrorMessage = "الر جاء تحديث رخصة النظام، عدد المستخدمين تجاوز رخصة النظام. الرقم المتسلسل :" + strMACAddress.ToString()
+                '        Else
+                '            strErrorMessage = "Please Update Your License Key, Number of Users Exceeded License Limit. Serial No is: " + strMACAddress.ToString()
+                '        End If
+                '        Exit Try
+                '    End If
+                'End If
 
             Catch ex As Exception
                 If SessionVariables.CultureInfo = "ar-JO" Then

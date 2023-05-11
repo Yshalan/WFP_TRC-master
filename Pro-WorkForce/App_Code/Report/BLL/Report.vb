@@ -1,7 +1,4 @@
-﻿Imports System
-Imports System.Collections.Generic
-Imports System.Text
-Imports System.Data
+﻿Imports System.Data
 
 Namespace TA.Reports
 
@@ -10,6 +7,7 @@ Namespace TA.Reports
         Private _EmployeeNo As String
         Private _FROM_DATE As DateTime?
         Private _TO_DATE As DateTime?
+        Private _LimitDays As Integer
         Private _LeaveTypeId As Integer
         Private _CompanyId As Integer
         Private _EntityId As Integer
@@ -143,6 +141,14 @@ Namespace TA.Reports
             End Set
             Get
                 Return (_FROM_DATE)
+            End Get
+        End Property
+        Public Property LimitDays() As Integer
+            Set(ByVal value As Integer)
+                _LimitDays = value
+            End Set
+            Get
+                Return (_LimitDays)
             End Get
         End Property
         Public Property TO_DATE() As DateTime
@@ -1133,7 +1139,7 @@ Namespace TA.Reports
             Return objDALReports.Get_SummaryEventsLog(_EmployeeId, _FROM_DATE, _TO_DATE, _CompanyId, _EntityId, _WorkLocationId, _LogicalGroupId, _DirectStaffOnly)
         End Function
         Public Function GetSub_LeavesDetails() As DataTable
-            Return objDALReports.GetSub_LeavesDetails(_EmployeeId, _FROM_DATE, _TO_DATE)
+            Return objDALReports.GetSub_LeavesDetails(_EmployeeId, _FROM_DATE, _TO_DATE, LimitDays)
         End Function
         Public Function GetSummary_ByMonth() As DataTable
             Return objDALReports.GetSummary_ByMonth(_EmployeeId, _FROM_DATE, _TO_DATE, _CompanyId, _EntityId, _WorkLocationId, _LogicalGroupId, _DirectStaffOnly)

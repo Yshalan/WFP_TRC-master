@@ -11,7 +11,7 @@ Imports System.Resources
 Imports System.IO
 Imports Telerik.Web.UI
 Imports TA.Definitions
-Imports TA.Lookup
+Imports TA.LookUp
 
 Partial Class Reports_SelfServices_LeavesAndPermissionsReports
     Inherits System.Web.UI.Page
@@ -405,7 +405,7 @@ Partial Class Reports_SelfServices_LeavesAndPermissionsReports
             dvDetailedStudyPemission.Visible = False
             dvLeaveStatus.Visible = False
             dvDelayPermissions.Visible = False
-            Else
+        Else
             dvDeductionPolicy.Visible = False
             rfvDeductionPolicy.Enabled = False
             trPermissionPerType.Visible = False
@@ -553,6 +553,9 @@ Partial Class Reports_SelfServices_LeavesAndPermissionsReports
 
     Private Sub SetReportName(ByVal rpttid As String)
         Dim rptObj As New Report
+        If Not String.IsNullOrEmpty(txtGreaterthan.Text) Then
+            rptObj.LimitDays = Integer.Parse(txtGreaterthan.Text) 'ID: M01 || Date: 11-05-2023 || By: Yahia shalan || Defining new variable to the new stored procedure parameter to filter based on the limit days'
+        End If
         If Not RadDatePicker1.SelectedDate Is Nothing Then
             rptObj.FROM_DATE = RadDatePicker1.DbSelectedDate
         End If

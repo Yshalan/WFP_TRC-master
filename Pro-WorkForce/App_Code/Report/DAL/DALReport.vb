@@ -3018,7 +3018,7 @@ Namespace TA.Reports
 
         End Function
 
-        Public Function GetSub_LeavesDetails(ByVal EmployeeId As Integer, ByVal FROM_DATE As DateTime?, ByVal TO_DATE As DateTime?) As DataTable
+        Public Function GetSub_LeavesDetails(ByVal EmployeeId As Integer, ByVal FROM_DATE As DateTime?, ByVal TO_DATE As DateTime?, LimitDays As Integer) As DataTable
 
             objDac = DAC.getDAC()
             Dim objColl As DataTable
@@ -3026,7 +3026,8 @@ Namespace TA.Reports
                 objColl = objDac.GetDataTable(rpt_Sub_Detailed_Transactions_With_MonthlyAllowance,
                 New SqlParameter("@EmployeeId", EmployeeId),
                 New SqlParameter("@FROM_DATE", FROM_DATE),
-                New SqlParameter("@TO_DATE", TO_DATE))
+                New SqlParameter("@TO_DATE", TO_DATE),
+                New SqlParameter("@LimitDays", LimitDays))
             Catch ex As Exception
                 errNo = -11
                 CtlCommon.CreateErrorLog(logPath, ex.Message, MethodBase.GetCurrentMethod.ReflectedType.FullName & "." & MethodBase.GetCurrentMethod.Name)

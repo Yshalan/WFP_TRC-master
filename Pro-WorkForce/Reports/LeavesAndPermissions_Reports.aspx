@@ -117,7 +117,7 @@
                         ></asp:Label>
                 </div>
                 <div class="col-md-4">
-                  <telerik:RadNumericTextBox ID="txtGreaterthan" MinValue="0" 
+                  <telerik:RadNumericTextBox ID="txtGreaterthan" Value="0" 
                             Skin="Vista" runat="server" Culture="en-US" >
 
                          <NumberFormat DecimalDigits="0" GroupSeparator="" />
