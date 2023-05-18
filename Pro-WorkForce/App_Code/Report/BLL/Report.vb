@@ -737,6 +737,9 @@ Namespace TA.Reports
         Public Function GetFilterdDetEmpMove() As DataTable
             Return objDALReports.GetFilterdDetEmpMove(_EmployeeId, _FROM_DATE, _TO_DATE, _CompanyId, _EntityId, _WorkLocationId, _LogicalGroupId, _DirectStaffOnly)
         End Function
+        Public Function GetTotalDeductedPermissionsBalance() As DataTable 'ID: M01 || Date: 15-05-2023 || By: Yahia shalan || Description: Defining a new report (Total Deducted Permissions Balance)'
+            Return objDALReports.GetEmpDeductedBalance(_EmployeeId)
+        End Function
         Public Function GetFilterdDetEmpMove_SP() As DataTable
             Return objDALReports.GetFilterdDetEmpMove_SP(_EmployeeId, _FROM_DATE, _TO_DATE, _CompanyId, _EntityId, _WorkLocationId, _LogicalGroupId)
         End Function

@@ -15,6 +15,7 @@ Namespace TA.Reports
 
 
         Private strConn As String
+        Private RptEmpDeductedBalance As String = "GetTotalDeductedPermissionsBalance" 'ID: M01 || Date: 15-05-2023 || By: Yahia shalan || Description: Defining a new report (Total Deducted Permissions Balance)'
         Private RptEmpMove As String = "RptEmpMove"
         Private RptEmployeeList As String = "rptEmployeeList"
         Private RptDetEmpMove As String = "RptDetEmpMove"
@@ -1139,6 +1140,20 @@ Namespace TA.Reports
                 New SqlParameter("@WorkLocationId", WorkLocationId),
                 New SqlParameter("@LogicalGroupId", LogicalGroupId),
                 New SqlParameter("@DirectStaffOnly", DirectStaffOnly))
+            Catch ex As Exception
+                errNo = -11
+                CtlCommon.CreateErrorLog(logPath, ex.Message, MethodBase.GetCurrentMethod.ReflectedType.FullName & "." & MethodBase.GetCurrentMethod.Name)
+            End Try
+            Return objColl
+
+        End Function
+
+        Public Function GetEmpDeductedBalance(ByVal EmployeeId As Integer) As DataTable 'ID: M01 || Date: 15-05-2023 || By: Yahia shalan || Description: Defining a new report (Total Deducted Permissions Balance)'
+
+            objDac = DAC.getDAC()
+            Dim objColl As DataTable
+            Try
+                objColl = objDac.GetDataTable(RptEmpDeductedBalance, New SqlParameter("@EmployeeID", EmployeeId))
             Catch ex As Exception
                 errNo = -11
                 CtlCommon.CreateErrorLog(logPath, ex.Message, MethodBase.GetCurrentMethod.ReflectedType.FullName & "." & MethodBase.GetCurrentMethod.Name)

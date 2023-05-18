@@ -29,6 +29,7 @@ Partial Class Reports_SelfServices_SelfServices_Reports
     Private objUser As Employee
 
 
+    Private TotalDeductedPermissionsBalance As String = "Total Deducted Permissions Balance" 'ID: M01 || Date: 15-05-2023 || By: Yahia shalan || Description: Defining a new report (Total Deducted Permissions Balance)'
     Private EmployeeDailyReport As String = "Employee Daily Report"
     Private EmployeeAbsentReport As String = "Employee Absent Report"
     Private EmployeeExtraHourReport As String = "Employee Extra Hour Report"
@@ -540,7 +541,11 @@ Partial Class Reports_SelfServices_SelfServices_Reports
             IS_EXIST = True
             rptObj.EmployeeId = EmployeeId
             ' rpttid = IIf(rpttid = 0, 3, rpttid)
-            Select Case rpttid
+            Select Case rpttid 'ID: M01 || Date: 15-05-2023 || By: Yahia shalan || Description: Defining a new report (Total Deducted Permissions Balance)'
+                Case TotalDeductedPermissionsBalance
+                    RPTName = "TotalDeductedPermissionsBalance.rpt"
+                    DT = rptObj.GetTotalDeductedPermissionsBalance()
+
                 Case EmployeeDailyReport
                     If (IsDailyReportWithColor) Then
                         RPTName = "rptEmpMoveColored.rpt"
